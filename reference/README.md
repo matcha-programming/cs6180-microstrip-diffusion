@@ -1,6 +1,6 @@
-# Background reading
+# References
 
-The seven readings below are the course proposal's list. Links were checked against primary publication or arXiv records. Readings motivate experiments; they do not establish that diffusion will outperform regression on this dataset.
+Background literature for the regression and diffusion experiments. The seven papers below follow the course reading list.
 
 | Reading | Role in this project | Links |
 | --- | --- | --- |
@@ -12,17 +12,17 @@ The seven readings below are the course proposal's list. Links were checked agai
 | Tancik et al. Fourier Features Let Networks Learn High Frequency Functions in Low Dimensional Domains. NeurIPS 2020. | Fourier coordinate encoding for the trunk; measure trace-edge changes. | [Record](https://arxiv.org/abs/2006.10739), [PDF](https://arxiv.org/pdf/2006.10739) |
 | Ronneberger, Fischer, Brox. U-Net: Convolutional Networks for Biomedical Image Segmentation. MICCAI 2015. | Encoder-decoder architecture for the denoiser; adapt inputs and output to field/noise prediction. | [Record](https://arxiv.org/abs/1505.04597), [PDF](https://arxiv.org/pdf/1505.04597) |
 
-The DeepONet preprint has a different title/version history from the 2021 journal article. The CorrDiff entry follows the brief's 2023 preprint citation; a later journal version also exists. Preserve version details when citing experiments.
+The DeepONet preprint has a different title/version history from the 2021 journal article. The CorrDiff entry follows the brief's 2023 preprint citation; a later journal version also exists. Cite the version used in the final report.
 
-Suggested order: DeepONet and Fourier Features for the regression work; DDPM, U-Net, then DDIM for direct diffusion; CorrDiff and PDE-Refiner for residual and fine-detail experiments. For each reading, record the equation or design choice used, deviations from the paper, and the ablation that tests it.
+Suggested order: DeepONet and Fourier Features for the regression work; DDPM, U-Net, then DDIM for direct diffusion; CorrDiff and PDE-Refiner for residual and fine-detail experiments. Record the model choices and ablations informed by each paper in the experiment notes.
 
-The original course brief and searchable extraction are included here. Downloaded reading PDFs, if available, are under `papers/`; the manifest records download status. Check each paper's license before redistributing copies in a public repository.
+The [course brief](project-proposal.pdf) and its [text version](project-proposal.txt) are included here. Paper copies are in `papers/`; `papers/manifest.json` records their source URLs.
 
-## Local reading copies
+## Paper copies
 
 - [ddpm](papers/ddpm.pdf)
 - [ddim](papers/ddim.pdf)
-- [corrdiff (external PDF; exceeds GitHub web upload limit)](https://arxiv.org/pdf/2309.15214)
+- [CorrDiff (PDF)](https://arxiv.org/pdf/2309.15214)
 - [pde-refiner](papers/pde-refiner.pdf)
 - [deeponet-preprint](papers/deeponet-preprint.pdf)
 - [fourier-features](papers/fourier-features.pdf)

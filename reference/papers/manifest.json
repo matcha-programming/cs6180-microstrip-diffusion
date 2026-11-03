@@ -1,0 +1,43 @@
+[
+  {
+    "file": "papers/ddpm.pdf",
+    "url": "https://arxiv.org/pdf/2006.11239",
+    "status": "downloaded",
+    "bytes": 10267274
+  },
+  {
+    "file": "papers/ddim.pdf",
+    "url": "https://arxiv.org/pdf/2010.02502",
+    "status": "downloaded",
+    "bytes": 10857218
+  },
+  {
+    "file": "papers/corrdiff.pdf",
+    "url": "https://arxiv.org/pdf/2309.15214",
+    "status": "external link only; exceeds GitHub web upload limit"
+  },
+  {
+    "file": "papers/pde-refiner.pdf",
+    "url": "https://arxiv.org/pdf/2308.05732",
+    "status": "downloaded",
+    "bytes": 3323561
+  },
+  {
+    "file": "papers/deeponet-preprint.pdf",
+    "url": "https://arxiv.org/pdf/1910.03193",
+    "status": "downloaded",
+    "bytes": 757987
+  },
+  {
+    "file": "papers/fourier-features.pdf",
+    "url": "https://arxiv.org/pdf/2006.10739",
+    "status": "downloaded",
+    "bytes": 9922740
+  },
+  {
+    "file": "papers/unet.pdf",
+    "url": "https://arxiv.org/pdf/1505.04597",
+    "status": "downloaded",
+    "bytes": 1648684
+  }
+]

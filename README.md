@@ -21,4 +21,9 @@ Given four design parameters, each model predicts a two-channel, peak-normalized
 
 ## Status
 
-Project planning and background reading. Training code and benchmark results are not yet available.
+The first plain DeepONet run completed on Explorer with a Tesla P100 GPU. Mean relative L2 error was 17.75% on the test split and 18.39% on the extrapolation split.
+
+- [Results, checkpoint, and predictions](results/deeponet_plain/11597463/)
+- [Training code and submission instructions](experiments/deeponet_plain/)
+
+The staff PCA + GP baseline, Fourier-feature DeepONet, and diffusion experiments remain to be run.

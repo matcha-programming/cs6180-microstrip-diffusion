@@ -1,14 +1,14 @@
 # Dataset and HPC notes
 
-All dataset facts below come from the supplied course proposal. Remote contents have not yet been verified: Discovery rejected the available noninteractive SSH authentication.
+Dataset specifications and compute estimates follow the [course brief](../reference/project-proposal.pdf). Confirm the file contents and cluster environment before the first run.
 
-## Provided resources
+## Cluster resources
 
 - Dataset: `/courses/CS6180.202710/shared/final_proj/em2d_task.h5` (approximately 0.63 GB)
 - Staff baseline: `/courses/CS6180.202710/shared/final_proj/pca_gp.py`
-- GPU partition named in the proposal: `courses-gpu`
+- GPU partition: `courses-gpu`
 - Baseline dependencies: numpy, scipy, h5py, scikit-learn
-- Staff estimate: baseline about 25 minutes on 8 CPUs; each model a few GPU-hours. These are estimates, not measured project results.
+- Staff estimate: baseline about 25 minutes on 8 CPUs; each model a few GPU-hours. Actual runtimes will be recorded with the experiments.
 
 ## HDF5 schema
 
@@ -31,12 +31,12 @@ Each design's target is divided by its own peak. Predict field shape, not the or
 
 The normalized z grid is shared across designs. The y grid depends on w/h, spanning +/-(w/h/2 + 6). The mask lies in rows 31-33, with design-dependent extent. Coordinates can be nonuniform; do not assume equal physical spacing from pixel spacing.
 
-## Next cluster checks
+## Setup checks
 
-After signing into your authorized Discovery account:
+On Discovery:
 
 ```sh
 ls -lah /courses/CS6180.202710/shared/final_proj
 ```
 
-Inspect the baseline's usage and dependency versions before running it. Verify HDF5 keys, shapes, split counts, disjoint splits, mask convention, and finite values. Record any additional staff README or environment instructions found there. Request compute through the school's scheduler; confirm current allocation and account options rather than guessing them. Keep the dataset and generated checkpoints outside Git.
+Inspect the baseline's usage and dependency versions before running it. Verify HDF5 keys, shapes, split counts, disjoint splits, mask convention, and finite values. Follow any staff environment instructions in the shared directory. Submit jobs through the cluster scheduler using the appropriate course allocation. Keep the dataset and generated checkpoints outside Git.

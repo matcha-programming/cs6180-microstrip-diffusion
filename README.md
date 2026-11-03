@@ -1,13 +1,24 @@
-# CS 6180: Microstrip Field Diffusion
+# Microstrip Field Diffusion
 
-Compare regression and conditional diffusion for predicting a normalized electric-field image from four microstrip design parameters. The research question is whether diffusion improves sharp field details enough to justify its training and inference cost. No experiments or results are claimed yet.
+CS 6180 final project comparing DeepONet regression with conditional diffusion for microstrip electric-field prediction.
 
-## Start here
+Given four design parameters, each model predicts a two-channel, peak-normalized field on a 64 × 128 grid. We will compare overall accuracy, trace-edge detail, and computational cost on the fixed course dataset of 9,789 simulated designs.
 
-- [Original course proposal](reference/project-proposal.pdf) and [searchable text](reference/project-proposal.txt)
-- [Project scope and experiment plan](docs/project-plan.md)
-- [Dataset and HPC notes](docs/data-and-hpc.md)
-- [Background reading](reference/README.md)
-- [Team feedback and source notes](docs/source-notes.md)
+## Approach
 
-This documentation was prepared from the supplied course brief and screenshots on November 2, 2026. Model choices below are proposed starting points, pending team agreement.
+- Establish the staff PCA + Gaussian-process baseline.
+- Train DeepONet with plain and Fourier-feature coordinate encodings.
+- Train conditional DDPM with DDIM sampling.
+- Evaluate residual diffusion as an extension, subject to the compute budget.
+
+## Documentation
+
+- [Course project brief](reference/project-proposal.pdf) · [Text version](reference/project-proposal.txt)
+- [Experiment plan](docs/project-plan.md)
+- [Dataset and cluster setup](docs/data-and-hpc.md)
+- [References and reading guide](reference/README.md)
+- [Project context](docs/source-notes.md)
+
+## Status
+
+Project planning and background reading. Training code and benchmark results are not yet available.

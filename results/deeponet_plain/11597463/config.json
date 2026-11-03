@@ -1,0 +1,30 @@
+{
+  "data": "/courses/CS6180.202710/shared/final_proj/em2d_task.h5",
+  "output": "runs/deeponet_plain_11597463",
+  "epochs": 100,
+  "patience": 15,
+  "batch_size": 16,
+  "pixels": 1024,
+  "width": 128,
+  "rank": 64,
+  "lr": 0.001,
+  "seed": 6180,
+  "device": "cuda",
+  "smoke": false,
+  "model": "DeepONet, plain SiLU coordinate trunk, no Fourier features",
+  "parameters": 67074,
+  "torch_version": "2.5.1+cu124",
+  "numpy_version": "2.2.6",
+  "h5py_version": "3.16.0",
+  "hostname": "c2193",
+  "slurm_job_id": "11597463",
+  "device_name": "Tesla P100-PCIE-12GB",
+  "script_sha256": "32ca458eb54f3060fd9abf99625f6c7d9bf2e746b19250333d423dc3568e25b4",
+  "split_sizes": {
+    "train": 7048,
+    "val": 881,
+    "test": 881,
+    "test_extrap": 979
+  },
+  "metric_convention": "Per-design relative norms; Euclidean 3-pixel edge band; forward physical-coordinate gradients with valid endpoints"
+}

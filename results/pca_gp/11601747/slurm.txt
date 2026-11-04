@@ -1,0 +1,5 @@
+JobID             State ExitCode    Elapsed     MaxRSS
+------------ ---------- -------- ---------- ----------
+11601747      COMPLETED      0:0   00:24:12
+11601747.ba+  COMPLETED      0:0   00:24:12  16604004K
+11601747.ex+  COMPLETED      0:0   00:24:12       256K

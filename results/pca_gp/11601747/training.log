@@ -1,0 +1,236 @@
+DATA_AUDIT_PASSED
+loaded 9789 designs (3 s)
+PCA done (122 s); variance explained by 32: 0.988921
+PCA floors done (133 s)
+  coefficient  0: 0.661**2 * RBF(length_scale=[1.63, 0.0609, 8.22, 12]) + WhiteKernel(noise_level=0.00915) (169 s)
+  coefficient  1: 0.71**2 * RBF(length_scale=[0.967, 0.0708, 6.1, 33.8]) + WhiteKernel(noise_level=0.00701) (201 s)
+  coefficient  2: 0.738**2 * RBF(length_scale=[1.12, 0.0548, 5.97, 7.98]) + WhiteKernel(noise_level=0.0222) (232 s)
+  coefficient  3: 0.909**2 * RBF(length_scale=[0.932, 0.053, 3.18, 18.2]) + WhiteKernel(noise_level=0.0539) (262 s)
+  coefficient  4: 0.833**2 * RBF(length_scale=[0.256, 0.327, 0.482, 9.15]) + WhiteKernel(noise_level=0.109) (294 s)
+  coefficient  5: 0.782**2 * RBF(length_scale=[0.546, 0.0513, 1.22, 5.25]) + WhiteKernel(noise_level=0.0642) (333 s)
+/shared/centos7/anaconda3/2022.05/lib/python3.9/site-packages/sklearn/gaussian_process/kernels.py:420: ConvergenceWarning: The optimal value found for dimension 1 of parameter k1__k2__length_scale is close to the specified lower bound 0.05. Decreasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  coefficient  6: 0.882**2 * RBF(length_scale=[0.532, 0.05, 1.57, 10.5]) + WhiteKernel(noise_level=0.09) (371 s)
+/shared/centos7/anaconda3/2022.05/lib/python3.9/site-packages/sklearn/gaussian_process/kernels.py:420: ConvergenceWarning: The optimal value found for dimension 1 of parameter k1__k2__length_scale is close to the specified lower bound 0.05. Decreasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  coefficient  7: 0.993**2 * RBF(length_scale=[0.582, 0.05, 1.65, 5.14]) + WhiteKernel(noise_level=0.122) (400 s)
+/shared/centos7/anaconda3/2022.05/lib/python3.9/site-packages/sklearn/gaussian_process/kernels.py:420: ConvergenceWarning: The optimal value found for dimension 1 of parameter k1__k2__length_scale is close to the specified lower bound 0.05. Decreasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  coefficient  8: 1.01**2 * RBF(length_scale=[0.692, 0.05, 2.7, 26.9]) + WhiteKernel(noise_level=0.0776) (434 s)
+/shared/centos7/anaconda3/2022.05/lib/python3.9/site-packages/sklearn/gaussian_process/kernels.py:420: ConvergenceWarning: The optimal value found for dimension 1 of parameter k1__k2__length_scale is close to the specified lower bound 0.05. Decreasing the bound and calling fit again may find a better value.
+  warnings.warn(
+/shared/centos7/anaconda3/2022.05/lib/python3.9/site-packages/sklearn/gaussian_process/kernels.py:430: ConvergenceWarning: The optimal value found for dimension 2 of parameter k1__k2__length_scale is close to the specified upper bound 50.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+/shared/centos7/anaconda3/2022.05/lib/python3.9/site-packages/sklearn/gaussian_process/kernels.py:430: ConvergenceWarning: The optimal value found for dimension 3 of parameter k1__k2__length_scale is close to the specified upper bound 50.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  coefficient  9: 4.28**2 * RBF(length_scale=[35.5, 0.05, 50, 50]) + WhiteKernel(noise_level=0.0471) (466 s)
+  coefficient 10: 0.784**2 * RBF(length_scale=[0.195, 0.558, 0.36, 38.1]) + WhiteKernel(noise_level=0.0912) (502 s)
+/shared/centos7/anaconda3/2022.05/lib/python3.9/site-packages/sklearn/gaussian_process/kernels.py:420: ConvergenceWarning: The optimal value found for dimension 1 of parameter k1__k2__length_scale is close to the specified lower bound 0.05. Decreasing the bound and calling fit again may find a better value.
+  warnings.warn(
+/shared/centos7/anaconda3/2022.05/lib/python3.9/site-packages/sklearn/gaussian_process/kernels.py:430: ConvergenceWarning: The optimal value found for dimension 2 of parameter k1__k2__length_scale is close to the specified upper bound 50.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  coefficient 11: 3.52**2 * RBF(length_scale=[33, 0.05, 50, 40.1]) + WhiteKernel(noise_level=0.0759) (535 s)
+/shared/centos7/anaconda3/2022.05/lib/python3.9/site-packages/sklearn/gaussian_process/kernels.py:420: ConvergenceWarning: The optimal value found for dimension 1 of parameter k1__k2__length_scale is close to the specified lower bound 0.05. Decreasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  coefficient 12: 3.2**2 * RBF(length_scale=[2.7, 0.05, 49.7, 26.9]) + WhiteKernel(noise_level=0.0867) (572 s)
+  coefficient 13: 0.858**2 * RBF(length_scale=[0.314, 0.0554, 0.774, 4.74]) + WhiteKernel(noise_level=0.12) (606 s)
+  coefficient 14: 1.99**2 * RBF(length_scale=[0.498, 0.706, 1.28, 3.13]) + WhiteKernel(noise_level=0.183) (638 s)
+/shared/centos7/anaconda3/2022.05/lib/python3.9/site-packages/sklearn/gaussian_process/kernels.py:420: ConvergenceWarning: The optimal value found for dimension 1 of parameter k1__k2__length_scale is close to the specified lower bound 0.05. Decreasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  coefficient 15: 0.862**2 * RBF(length_scale=[0.623, 0.05, 1.64, 11]) + WhiteKernel(noise_level=0.315) (668 s)
+/shared/centos7/anaconda3/2022.05/lib/python3.9/site-packages/sklearn/gaussian_process/kernels.py:420: ConvergenceWarning: The optimal value found for dimension 1 of parameter k1__k2__length_scale is close to the specified lower bound 0.05. Decreasing the bound and calling fit again may find a better value.
+  warnings.warn(
+/shared/centos7/anaconda3/2022.05/lib/python3.9/site-packages/sklearn/gaussian_process/kernels.py:430: ConvergenceWarning: The optimal value found for dimension 3 of parameter k1__k2__length_scale is close to the specified upper bound 50.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  coefficient 16: 0.752**2 * RBF(length_scale=[0.613, 0.05, 0.982, 50]) + WhiteKernel(noise_level=0.367) (703 s)
+/shared/centos7/anaconda3/2022.05/lib/python3.9/site-packages/sklearn/gaussian_process/kernels.py:420: ConvergenceWarning: The optimal value found for dimension 1 of parameter k1__k2__length_scale is close to the specified lower bound 0.05. Decreasing the bound and calling fit again may find a better value.
+  warnings.warn(
+/shared/centos7/anaconda3/2022.05/lib/python3.9/site-packages/sklearn/gaussian_process/kernels.py:430: ConvergenceWarning: The optimal value found for dimension 3 of parameter k1__k2__length_scale is close to the specified upper bound 50.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  coefficient 17: 0.602**2 * RBF(length_scale=[0.556, 0.05, 1.68, 50]) + WhiteKernel(noise_level=0.701) (754 s)
+/shared/centos7/anaconda3/2022.05/lib/python3.9/site-packages/sklearn/gaussian_process/kernels.py:420: ConvergenceWarning: The optimal value found for dimension 1 of parameter k1__k2__length_scale is close to the specified lower bound 0.05. Decreasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  coefficient 18: 0.962**2 * RBF(length_scale=[1.51, 0.05, 2.89, 4.11]) + WhiteKernel(noise_level=0.601) (794 s)
+  coefficient 19: 1.31**2 * RBF(length_scale=[0.777, 0.329, 2.63, 2.34]) + WhiteKernel(noise_level=0.525) (827 s)
+/shared/centos7/anaconda3/2022.05/lib/python3.9/site-packages/sklearn/gaussian_process/kernels.py:420: ConvergenceWarning: The optimal value found for dimension 1 of parameter k1__k2__length_scale is close to the specified lower bound 0.05. Decreasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  coefficient 20: 0.474**2 * RBF(length_scale=[0.387, 0.05, 0.838, 0.742]) + WhiteKernel(noise_level=0.683) (872 s)
+  coefficient 21: 1.34**2 * RBF(length_scale=[0.61, 0.246, 1.58, 3.23]) + WhiteKernel(noise_level=0.382) (906 s)
+/shared/centos7/anaconda3/2022.05/lib/python3.9/site-packages/sklearn/gaussian_process/kernels.py:430: ConvergenceWarning: The optimal value found for dimension 3 of parameter k1__k2__length_scale is close to the specified upper bound 50.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  coefficient 22: 0.649**2 * RBF(length_scale=[0.488, 0.0612, 1.5, 50]) + WhiteKernel(noise_level=0.693) (955 s)
+  coefficient 23: 0.543**2 * RBF(length_scale=[0.696, 0.0559, 1.21, 8.75]) + WhiteKernel(noise_level=0.779) (999 s)
+/shared/centos7/anaconda3/2022.05/lib/python3.9/site-packages/sklearn/gaussian_process/kernels.py:430: ConvergenceWarning: The optimal value found for dimension 3 of parameter k1__k2__length_scale is close to the specified upper bound 50.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  coefficient 24: 0.662**2 * RBF(length_scale=[0.837, 0.0635, 1.64, 50]) + WhiteKernel(noise_level=0.693) (1052 s)
+  coefficient 25: 1.02**2 * RBF(length_scale=[0.0623, 0.0763, 0.338, 0.0851]) + WhiteKernel(noise_level=3.22e-07) (1105 s)
+/shared/centos7/anaconda3/2022.05/lib/python3.9/site-packages/sklearn/gaussian_process/kernels.py:420: ConvergenceWarning: The optimal value found for dimension 1 of parameter k1__k2__length_scale is close to the specified lower bound 0.05. Decreasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  coefficient 26: 0.656**2 * RBF(length_scale=[0.57, 0.05, 1.67, 22.9]) + WhiteKernel(noise_level=0.769) (1153 s)
+  coefficient 27: 0.748**2 * RBF(length_scale=[0.547, 0.0514, 1.6, 2.87]) + WhiteKernel(noise_level=0.712) (1199 s)
+/shared/centos7/anaconda3/2022.05/lib/python3.9/site-packages/sklearn/gaussian_process/kernels.py:420: ConvergenceWarning: The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified lower bound 0.05. Decreasing the bound and calling fit again may find a better value.
+  warnings.warn(
+/shared/centos7/anaconda3/2022.05/lib/python3.9/site-packages/sklearn/gaussian_process/kernels.py:420: ConvergenceWarning: The optimal value found for dimension 1 of parameter k1__k2__length_scale is close to the specified lower bound 0.05. Decreasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  coefficient 28: 0.976**2 * RBF(length_scale=[0.05, 0.05, 0.106, 0.062]) + WhiteKernel(noise_level=1.09e-06) (1260 s)
+/shared/centos7/anaconda3/2022.05/lib/python3.9/site-packages/sklearn/gaussian_process/kernels.py:420: ConvergenceWarning: The optimal value found for dimension 1 of parameter k1__k2__length_scale is close to the specified lower bound 0.05. Decreasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  coefficient 29: 0.818**2 * RBF(length_scale=[0.289, 0.05, 0.918, 2.04]) + WhiteKernel(noise_level=0.511) (1294 s)
+  coefficient 30: 0.706**2 * RBF(length_scale=[0.336, 0.206, 1.11, 5.24]) + WhiteKernel(noise_level=0.761) (1351 s)
+/shared/centos7/anaconda3/2022.05/lib/python3.9/site-packages/sklearn/gaussian_process/kernels.py:420: ConvergenceWarning: The optimal value found for dimension 1 of parameter k1__k2__length_scale is close to the specified lower bound 0.05. Decreasing the bound and calling fit again may find a better value.
+  warnings.warn(
+/shared/centos7/anaconda3/2022.05/lib/python3.9/site-packages/sklearn/gaussian_process/kernels.py:430: ConvergenceWarning: The optimal value found for dimension 3 of parameter k1__k2__length_scale is close to the specified upper bound 50.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  coefficient 31: 0.773**2 * RBF(length_scale=[0.577, 0.05, 1.13, 50]) + WhiteKernel(noise_level=0.558) (1388 s)
+COMPARISON_METRICS val {'relative_l2': {'mean': 0.0389639573382865, 'median': 0.026361110029416587, 'std': 0.041685629308102295}, 'edge_relative_l2': {'mean': 0.07170172247805794, 'median': 0.048657424142225826, 'std': 0.06780212112257367}, 'gradient_relative_l2': {'mean': 0.40341250663461886, 'median': 0.33630231687264434, 'std': 0.18369880209258843}, 'masked_mse': {'mean': 3.425550706711995e-05, 'median': 7.687221236581128e-06, 'std': 0.00014733566577180171}, 'designs': 881}
+COMPARISON_METRICS test {'relative_l2': {'mean': 0.03666351864091419, 'median': 0.02621996587451012, 'std': 0.034787777826154304}, 'edge_relative_l2': {'mean': 0.06889425043998627, 'median': 0.048978603573694816, 'std': 0.05894300153744809}, 'gradient_relative_l2': {'mean': 0.39823054829200644, 'median': 0.3388859114739591, 'std': 0.175773768477475}, 'masked_mse': {'mean': 2.6819284630266346e-05, 'median': 8.101071366327054e-06, 'std': 0.00010438535961556341}, 'designs': 881}
+COMPARISON_METRICS test_extrap {'relative_l2': {'mean': 0.025133087704225607, 'median': 0.02344386610848678, 'std': 0.007579107712578537}, 'edge_relative_l2': {'mean': 0.0519853673146046, 'median': 0.04778516810508557, 'std': 0.018040746767473293}, 'gradient_relative_l2': {'mean': 0.2505908063453392, 'median': 0.24347097629016973, 'std': 0.058851118635406416}, 'masked_mse': {'mean': 7.461637551907369e-06, 'median': 5.611090575331963e-06, 'std': 5.639474672061245e-06}, 'designs': 979}
+{
+ "pca_gp": {
+  "val": {
+   "rel_l2": {
+    "mean": 0.0389639573382865,
+    "median": 0.026361110029416587,
+    "p90": 0.07407250538180264
+   },
+   "rel_l2_edge": {
+    "mean": 0.06956077202673344,
+    "median": 0.04756790196850668,
+    "p90": 0.13112146764451835
+   },
+   "rel_grad": {
+    "mean": 0.3002324928490783,
+    "median": 0.23583639255066122,
+    "p90": 0.5849521886285737
+   },
+   "ms_per_design": 11.684983055383205
+  },
+  "test": {
+   "rel_l2": {
+    "mean": 0.03666351864091419,
+    "median": 0.026219965874510115,
+    "p90": 0.0705187384431982
+   },
+   "rel_l2_edge": {
+    "mean": 0.06682347852224382,
+    "median": 0.04789750628286144,
+    "p90": 0.12322532697176533
+   },
+   "rel_grad": {
+    "mean": 0.2966162443757616,
+    "median": 0.23932106230935038,
+    "p90": 0.5528947358007383
+   },
+   "ms_per_design": 12.047971688659183
+  },
+  "test_extrap": {
+   "rel_l2": {
+    "mean": 0.025133087704225607,
+    "median": 0.023443866108486786,
+    "p90": 0.035125221587426765
+   },
+   "rel_l2_edge": {
+    "mean": 0.05075029859774762,
+    "median": 0.04694405276739466,
+    "p90": 0.07040726307321149
+   },
+   "rel_grad": {
+    "mean": 0.22029531063535449,
+    "median": 0.2088385578793453,
+    "p90": 0.290485057297935
+   },
+   "ms_per_design": 12.029612758429957
+  }
+ },
+ "knn5": {
+  "val": {
+   "rel_l2": {
+    "mean": 0.0632283899759989,
+    "median": 0.05485432647659055,
+    "p90": 0.10433727161739235
+   },
+   "rel_l2_edge": {
+    "mean": 0.11114552389348874,
+    "median": 0.09597482185926517,
+    "p90": 0.19126500244393033
+   },
+   "rel_grad": {
+    "mean": 0.4028721865467684,
+    "median": 0.3699439602707817,
+    "p90": 0.7034837816221262
+   }
+  },
+  "test": {
+   "rel_l2": {
+    "mean": 0.06196095074868507,
+    "median": 0.054521989672111595,
+    "p90": 0.10315058206762664
+   },
+   "rel_l2_edge": {
+    "mean": 0.10974982927113151,
+    "median": 0.09834414938499211,
+    "p90": 0.1960456260989211
+   },
+   "rel_grad": {
+    "mean": 0.40344953515202947,
+    "median": 0.3790650126341576,
+    "p90": 0.7035071065670065
+   }
+  },
+  "test_extrap": {
+   "rel_l2": {
+    "mean": 0.05489692832279104,
+    "median": 0.052645431107657056,
+    "p90": 0.08747699176733438
+   },
+   "rel_l2_edge": {
+    "mean": 0.10002049644093976,
+    "median": 0.0972833820773423,
+    "p90": 0.16187610969855676
+   },
+   "rel_grad": {
+    "mean": 0.35252424610218436,
+    "median": 0.3323386098111544,
+    "p90": 0.5803451035713084
+   }
+  }
+ },
+ "pca_floor": {
+  "test": {
+   "rel_l2": {
+    "mean": 0.023860255442078225,
+    "median": 0.016900166769546632,
+    "p90": 0.047288132175612826
+   },
+   "rel_l2_edge": {
+    "mean": 0.04030745825164637,
+    "median": 0.031691224121997694,
+    "p90": 0.06700904257314771
+   },
+   "rel_grad": {
+    "mean": 0.23362373349055784,
+    "median": 0.18982655971549897,
+    "p90": 0.4300621902484733
+   }
+  },
+  "test_extrap": {
+   "rel_l2": {
+    "mean": 0.015202191416909795,
+    "median": 0.014745518396866502,
+    "p90": 0.018024483325005846
+   },
+   "rel_l2_edge": {
+    "mean": 0.03302646297448245,
+    "median": 0.031637246550058694,
+    "p90": 0.04305403431911688
+   },
+   "rel_grad": {
+    "mean": 0.17677719868024167,
+    "median": 0.16821025492165936,
+    "p90": 0.2376253425863782
+   }
+  }
+ }
+}
+wrote runs/pca_gp_11601747/staff-results.json (1443 s)
+BASELINE_COMPLETE

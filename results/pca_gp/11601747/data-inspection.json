@@ -1,0 +1,57 @@
+{
+  "shapes": {
+    "x": [
+      9789,
+      4
+    ],
+    "u": [
+      9789,
+      2,
+      64,
+      128
+    ],
+    "mask": [
+      9789,
+      64,
+      128
+    ],
+    "y_over_h": [
+      9789,
+      128
+    ],
+    "z_over_h": [
+      9789,
+      64
+    ]
+  },
+  "splits": {
+    "train": {
+      "count": 7048,
+      "indices_sha256": "bbfcb30ec079e64d2a1c28a6117a923e7b19ba748a284b9615f98b2d7cb79dec"
+    },
+    "val": {
+      "count": 881,
+      "indices_sha256": "3eb7d13970aa039b8d2f4d0301e0f757aa9e7ab3123f573c77d7b404551b8aa9"
+    },
+    "test": {
+      "count": 881,
+      "indices_sha256": "0e5366614d373d06b867f9d44cf12b26c96edd1aa424efb34f181dbadb4a6bae"
+    },
+    "test_extrap": {
+      "count": 979,
+      "indices_sha256": "f01ca59624cc3861f3d5ccc193a7ec94ea2e6ecba92c6f3525caeacebcd0a408"
+    }
+  },
+  "finite": true,
+  "masked_targets_zero": true,
+  "increasing_coordinates": true,
+  "masked_pixels_per_design": {
+    "min": 6,
+    "max": 72
+  },
+  "normalized_peak_magnitude": {
+    "min": 0.9999999403953552,
+    "max": 1.0
+  },
+  "y_grid_varies_between_designs": true
+}

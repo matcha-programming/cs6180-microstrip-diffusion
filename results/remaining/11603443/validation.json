@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "jobs": [
+    "11603443",
+    "11604740"
+  ],
+  "per_design_files": 52,
+  "per_design_records": 48360,
+  "example_files": 52,
+  "checks": [
+    "completed full-data status",
+    "exact fixed split IDs and order",
+    "aggregate means, medians and standard deviations",
+    "finite examples; masked diffusion and 4R predictions are zero",
+    "example truth and grids match original HDF5",
+    "example errors recomputed using original metric code",
+    "sampling choices use validation scores",
+    "matching actual initialization hashes and parameter counts for 4R pair",
+    "source hashes match the published implementations"
+  ],
+  "paired_initial_model_sha256": "df1aadd4588324c5d3b041c76b139f5cad2a910beaac70ee8ceb9775d29ed090",
+  "checkpoint_replay": {
+    "status": "passed",
+    "cpu_replay_of_fixed_examples": {
+      "fourier_test_max_absolute_difference": 4.76837158203125e-07,
+      "4R_test_max_absolute_difference": 5.960464477539062e-07,
+      "fourier_test_extrap_max_absolute_difference": 4.76837158203125e-07,
+      "4R_test_extrap_max_absolute_difference": 1.1920928955078125e-06
+    },
+    "absolute_tolerance": 0.0001
+  },
+  "transfer": {
+    "archive": "remaining-results-11603443.zip",
+    "download_sha256": "480bea049cf5580d2fc22588105370a866f397f193ddd5f6cff22ee286c4b87e",
+    "remote_checksum_verified": false
+  },
+  "visual_review": "Reviewed paired edge comparisons, learning curves, and direct-DDIM field/error plots; labels and color scales readable."
+}

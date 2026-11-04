@@ -1,0 +1,93 @@
+{
+  "experiment": 3,
+  "smoke_test_only": false,
+  "candidates": [
+    {
+      "scale": 0.5,
+      "validation_masked_mse": 5.232522727728132e-05,
+      "best_epoch": 91,
+      "train_seconds": 167.52475044503808,
+      "checkpoint": "/scratch/he.zit/cs6180-microstrip-experiments/remaining-20261103/runs/11603443/fourier/scale_0.5/best.pt"
+    },
+    {
+      "scale": 1.0,
+      "validation_masked_mse": 4.839953534562956e-05,
+      "best_epoch": 91,
+      "train_seconds": 170.55265215598047,
+      "checkpoint": "/scratch/he.zit/cs6180-microstrip-experiments/remaining-20261103/runs/11603443/fourier/scale_1/best.pt"
+    },
+    {
+      "scale": 2.0,
+      "validation_masked_mse": 4.7253927260168086e-05,
+      "best_epoch": 91,
+      "train_seconds": 168.4766256287694,
+      "checkpoint": "/scratch/he.zit/cs6180-microstrip-experiments/remaining-20261103/runs/11603443/fourier/scale_2/best.pt"
+    }
+  ],
+  "selected_scale": 2.0,
+  "best_validation_masked_mse": 4.7253927260168086e-05,
+  "total_search_train_seconds": 506.55402822978795,
+  "torch_version": "2.5.1+cu124",
+  "numpy_version": "2.2.6",
+  "hostname": "d1004",
+  "slurm_job_id": "11603443",
+  "gpu": "Tesla V100-SXM2-32GB",
+  "source_sha256": {
+    "common.py": "d07ff65dc8c52eb766194bf69b1454281f03ced42782f8f3b697904f312050f5",
+    "diffusion.py": "2b74f81dac6a714fb5090caefcbc1e01d34ad16206a809afb5bcd9121dbad005",
+    "fourier.py": "e6ba5eeeb3471590b80a49bb018222e61a41a4f788aee1f93266895526f85860",
+    "models.py": "20f12aa865ea5df055c579c30fd1669486b73f0ac1e31917cb76fb3d755a1172",
+    "run_pipeline.py": "e0130e196cc483f1e7548efa1a74b75289592639e27c705d94702273f7358d5e",
+    "test_methods.py": "54841c932b3a8653299ee12edaec8b25d8ed63cf3363444c3d328edce369bd38"
+  },
+  "metric_convention": "Identical to run 11597463: per-design valid-pixel norms, Euclidean 3-pixel edge band, forward coordinate gradients with valid endpoints",
+  "test": {
+    "relative_l2": {
+      "mean": 0.04930546136613127,
+      "median": 0.04035872966051102,
+      "std": 0.03584638719669938
+    },
+    "edge_relative_l2": {
+      "mean": 0.07822935851280251,
+      "median": 0.06067182123661041,
+      "std": 0.05879290847782559
+    },
+    "gradient_relative_l2": {
+      "mean": 0.4192456177496071,
+      "median": 0.36274588108062744,
+      "std": 0.17452762875807204
+    },
+    "masked_mse": {
+      "mean": 4.0339083354966234e-05,
+      "median": 1.740912011882756e-05,
+      "std": 0.00012194198904310472
+    },
+    "designs": 881
+  },
+  "test_extrap": {
+    "relative_l2": {
+      "mean": 0.038102080166507304,
+      "median": 0.0360216461122036,
+      "std": 0.010250637859230114
+    },
+    "edge_relative_l2": {
+      "mean": 0.059501969043367124,
+      "median": 0.05950425937771797,
+      "std": 0.014979393552098347
+    },
+    "gradient_relative_l2": {
+      "mean": 0.27340661674220423,
+      "median": 0.27322161197662354,
+      "std": 0.05771222367644782
+    },
+    "masked_mse": {
+      "mean": 1.7914715155769346e-05,
+      "median": 1.2588043318828568e-05,
+      "std": 1.5609727026241095e-05
+    },
+    "designs": 979
+  },
+  "batch_one_prediction_seconds": 0.0003964788280427456,
+  "frozen_regressor_kind": "fourier",
+  "frozen_regressor_sha256": "131263244fb6b90dd65f0c29be13a8566e4f83818b2c80bbf64775c86e9d2438"
+}

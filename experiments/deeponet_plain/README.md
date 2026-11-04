@@ -1,4 +1,4 @@
-# Experiment 01: plain DeepONet
+# Experiment 2: plain DeepONet
 
 Regression baseline with separate branch and coordinate networks. Each is a two-hidden-layer MLP of width 128 with SiLU activations. Rank is 64 per field channel; total parameter count is 67,074. Pixel coordinates in units of h are divided by 8 before the trunk. No Fourier features are used.
 

@@ -1,15 +1,41 @@
 # Microstrip Field Diffusion
 
-CS 6180 final project comparing DeepONet regression with conditional diffusion for microstrip electric-field prediction.
+CS 6180 final project comparing regression with conditional diffusion for microstrip electric-field prediction.
 
-Given four design parameters, each model predicts a two-channel, peak-normalized field on a 64 × 128 grid. We will compare overall accuracy, trace-edge detail, and computational cost on the fixed course dataset of 9,789 simulated designs.
+Given four design parameters, each model predicts a two-channel, peak-normalized field on a 64 × 128 grid. The experiments use the fixed course dataset of 9,789 designs and measure field accuracy, trace-edge detail, spatial gradients, and compute cost.
 
-## Approach
+## Results
 
-- Establish the staff PCA + Gaussian-process baseline.
-- Train DeepONet with plain and Fourier-feature coordinate encodings.
-- Train conditional DDPM with DDIM sampling.
-- Evaluate residual diffusion as an extension, subject to the compute budget.
+All experiments are complete. The table reports mean per-design relative L2 over valid pixels. Diffusion entries average single-draw errors for seeds 6180–6182; three-draw ensembles and their extra cost are reported separately.
+
+| Experiment | Model | Test error | Extrapolation error | Results |
+|---|---|---:|---:|---|
+| 1 | Staff PCA-32 + Gaussian process | 3.67% | 2.51% | [11601747](results/pca_gp/11601747/) |
+| 2 | Plain DeepONet | 17.75% | 18.39% | [11597463](results/deeponet_plain/11597463/) |
+| 3 | Fourier DeepONet | 4.93% | 3.81% | [11603443](results/remaining/11603443/) |
+| 4–5 | Direct DDPM, DDIM-20 | 6.32% | 4.48% | [11603443](results/remaining/11603443/) |
+| 4R | Deterministic U-Net | **2.87%** | **1.15%** | [11604740](results/unet_regression/11604740/) |
+| 4, matched to 4R | Position-conditioned DDPM, DDIM-50 | 7.56% | 5.81% | [11604740](results/unet_regression/11604740/) |
+| 6 | Residual DDPM, DDIM-50 | 7.99% | 6.50% | [11603443](results/remaining/11603443/) |
+
+The deterministic U-Net has the lowest overall field and edge errors in these runs. Against its matched diffusion control on the same P100, it needs about 10 ms per prediction versus 586 ms per diffusion draw. Averaging three diffusion draws improves accuracy but adds cost and does not close the field-error gap. Residual diffusion's three-draw average slightly improves extrapolation gradient error; the complete reports retain this tradeoff.
+
+These are single-training-seed, budgeted results. The paired diffusion model reached its two-hour training limit, while 4R stopped early. The comparison does not establish that longer or differently tuned diffusion training cannot improve performance. PCA/GP timing used a CPU; the original diffusion runs used a V100. Only the 4R pair provides a comparison with the same backbone, position inputs, initial weights, and GPU.
+
+## Reports and artifacts
+
+- [Original Fourier, direct diffusion, DDIM, and residual experiments](results/remaining/11603443/)
+- [4R and its matched diffusion control](results/unet_regression/11604740/)
+- [PCA/GP and plain DeepONet comparison](results/pca_gp/11601747/)
+
+Reports include per-design metrics, configurations, source hashes, learning curves, fixed field/error examples, edge zooms, sampler settings, sample variation, and selected checkpoints. Test and extrapolation results remain separate. Validation selects models and sampling steps; PCA, GP, and normalization fitting use training data only.
+
+## Reproduction
+
+- [Experiment 1: PCA-32 + GP](experiments/pca_gp/)
+- [Experiment 2: plain DeepONet](experiments/deeponet_plain/)
+- [Experiments 3–6: Fourier features and diffusion](experiments/remaining/)
+- [Experiment 4R and matched DDPM](experiments/unet_regression/)
 
 ## Documentation
 
@@ -18,22 +44,3 @@ Given four design parameters, each model predicts a two-channel, peak-normalized
 - [Dataset and cluster setup](docs/data-and-hpc.md)
 - [References and reading guide](reference/README.md)
 - [Project context](docs/source-notes.md)
-
-## Results
-
-Both baselines use the fixed course splits. PCA and GP fitting use training data only. The reported errors are mean relative L2 over unmasked pixels.
-
-| Experiment | Model | Test error | Extrapolation error | Results |
-| --- | --- | ---: | ---: | --- |
-| 1 | Staff PCA-32 + Gaussian process | 3.67% | 2.51% | [Run 11601747](results/pca_gp/11601747/) |
-| 2 | Plain DeepONet | 17.75% | 18.39% | [Run 11597463](results/deeponet_plain/11597463/) |
-
-The staff baseline has lower field, trace-edge, and gradient errors than this plain DeepONet run. The [comparison report](results/pca_gp/11601747/) includes matched metric definitions, timing details, fixed example predictions, and edge zooms. CPU and GPU inference timings use different hardware.
-
-## Reproduction
-
-- [Experiment 1: PCA-32 + GP](experiments/pca_gp/)
-- [Experiment 2: plain DeepONet](experiments/deeponet_plain/)
-- [Experiments 3–6: Fourier features, DDPM/DDIM, and residual diffusion](experiments/remaining/)
-
-Experiments 3–6 are running on Explorer as job `11603443` on a Tesla V100 (32 GB). The pipeline selects Fourier frequency scale and DDIM sampling steps on validation data, then evaluates the fixed test and extrapolation splits. Each diffusion model has a two-hour training budget; sampling and evaluation run afterward. Results will be added after verification.

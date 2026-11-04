@@ -1,0 +1,35 @@
+{
+  "experiments": [
+    "4R",
+    "4-position-paired"
+  ],
+  "parameters_each": 5602322,
+  "same_initial_weights": true,
+  "same_position_planes": true,
+  "smoke_test_only": false,
+  "torch_version": "2.5.1+cu124",
+  "numpy_version": "2.2.6",
+  "hostname": "c2194",
+  "slurm_job_id": "11604740",
+  "gpu": "Tesla P100-PCIE-12GB",
+  "source_sha256": {
+    "build_report.py": "0019da93c99ab0d751442746a51f25b8bdf4f520c66693d6b3a4dca1bea1e51b",
+    "common.py": "d07ff65dc8c52eb766194bf69b1454281f03ced42782f8f3b697904f312050f5",
+    "diffusion.py": "2b74f81dac6a714fb5090caefcbc1e01d34ad16206a809afb5bcd9121dbad005",
+    "fourier.py": "e6ba5eeeb3471590b80a49bb018222e61a41a4f788aee1f93266895526f85860",
+    "models.py": "20f12aa865ea5df055c579c30fd1669486b73f0ac1e31917cb76fb3d755a1172",
+    "run_pipeline.py": "e0130e196cc483f1e7548efa1a74b75289592639e27c705d94702273f7358d5e",
+    "test_methods.py": "54841c932b3a8653299ee12edaec8b25d8ed63cf3363444c3d328edce369bd38"
+  },
+  "metric_convention": "Identical to run 11597463: per-design valid-pixel norms, Euclidean 3-pixel edge band, forward coordinate gradients with valid endpoints",
+  "paired_source_sha256": {
+    "paired_model.py": "798c3755c463f4bd1b92cd9d78e498374d2f1bcc4abc936aa88d310578fc6f9a",
+    "run_diffusion.py": "cc80cac846e0c5676bc8123f14da6442361f82c6e505a81de5b9ed5161eb9bc8",
+    "run_pair.py": "6100f8cfc56043ebb0295b35662e980103314ece8ad9b3a055e7b0d2ca4640e7",
+    "test_pair.py": "def454968136a3ddda95a4a8efd95f8e0d2fb25bfd07d74f4a77422164448893",
+    "train.py": "396fb7a101a92100f10e380e680f402b7bcea0ba824ff4981451be84d15555bc"
+  },
+  "initial_model_sha256": "df1aadd4588324c5d3b041c76b139f5cad2a910beaac70ee8ceb9775d29ed090",
+  "plan_commit": "e5419728dc08888c17624ea9452dce53b65e99cc",
+  "position_conditioning": "fixed row and column index planes in [-1,1]; identical for 4R and paired 4; not physical coordinate planes"
+}

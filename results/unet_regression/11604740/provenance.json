@@ -1,0 +1,23 @@
+{
+  "job_id": 11604740,
+  "remote_root": "/scratch/he.zit/cs6180-microstrip-experiments/paired-4r-20261103-v2",
+  "package_sha256": "6890bf5d402f63479b3e8ee23cea9c5e8be2ec5713aa6d762923fb4ed5ce9f27",
+  "plan_commit": "e5419728dc08888c17624ea9452dce53b65e99cc",
+  "source_commit": "88a48627ea4d0e06003ff0121c567aa45a3a28a1",
+  "initial_model_sha256": "df1aadd4588324c5d3b041c76b139f5cad2a910beaac70ee8ceb9775d29ed090",
+  "node": "c2194",
+  "gpu": "Tesla P100-PCIE-12GB",
+  "scheduler_final": {
+    "state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed": "03:04:47",
+    "verified_at": "2026-11-04T07:24:28.370Z"
+  },
+  "results_archive": {
+    "remote_path": "/scratch/he.zit/cs6180-microstrip-experiments/paired-4r-20261103-v2/paired-results-11604740.zip",
+    "sha256": "ee3a90c43651cb9d10533004fd3aca0473f6815979d053b69e7512f31a340795",
+    "downloaded": true
+  },
+  "original_comparison_job": 11603443,
+  "excluded_superseded_job": 11604640
+}

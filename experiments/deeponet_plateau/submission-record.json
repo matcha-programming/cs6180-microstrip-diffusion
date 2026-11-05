@@ -1,15 +1,15 @@
 {
-  "state": "submitted",
+  "state": "hpc_complete_awaiting_download_validation",
   "job_ids": [
     "11638570"
   ],
-  "last_observed_job_state": "PENDING",
-  "pending_reason": "Priority",
-  "observed_utc": "2026-11-05T07:28:44.002978+00:00",
+  "last_observed_job_state": "COMPLETED",
+  "pending_reason": null,
+  "observed_utc": "2026-11-05T18:25:45.156394+00:00",
   "hpc_campaign_root": "/scratch/he.zit/cs6180-microstrip-experiments/plain-plateau-20261104",
   "output": "runs/plain-plateau",
   "requested_gpu": "v100-sxm2",
-  "actual_gpu": null,
+  "actual_gpu": "Tesla V100-SXM2-32GB",
   "source_commit": "7c1de959df78a3a914879dce0eaed801f897f011",
   "package_sha256": "5ad61385f6c7616241dedb4c6291247052d7c2a21f597a0ae434570eabbdbcba",
   "dataset_sha256": "7670297247077ee223a572b724e45236a6970a1f38da02f9a96e074ca0215af2",
@@ -27,5 +27,21 @@
   "resume_policy": "After inspecting scheduler and status, resume last.pt if segment limit reached without a validation plateau. Never submit a duplicate active or pending segment.",
   "tests": "Two stopping-rule tests and an end-to-end CPU smoke test passed; segmented resume reproduced uninterrupted model weights exactly. Smoke metrics are not results.",
   "trial_reference": "Separate-machine screenshot reports validation MSE 7.6e-5, 4.5546 times lower than published original; not an achieved result of this run.",
-  "results_destination": "results/deeponet_plateau/11638570"
+  "results_destination": "results/deeponet_plateau/11638570",
+  "publication_state": "Not published; browser transfers have not succeeded.",
+  "exit_code": "0:0",
+  "scheduler_elapsed": "00:27:44",
+  "stop_reason": "validation_plateau",
+  "final_epoch": 1145,
+  "best_epoch": 1140,
+  "new_epochs": 1050,
+  "training_seconds": 1597.2645411603153,
+  "best_validation_masked_mse": 5.539944842597798e-05,
+  "consecutive_low_gain_windows": 2,
+  "last_window_relative_gain": 0.0070425548122350695,
+  "download_archive": {
+    "file": "plain-results-11638570.tar.gz",
+    "sha256": "f0770d452a28fc322ab799718099ee4a1fb7cbba27ae7527483d7b3348f9392d"
+  },
+  "validation_status": "HPC status and evaluation completion inspected; per-design output and checkpoint still await local verification."
 }

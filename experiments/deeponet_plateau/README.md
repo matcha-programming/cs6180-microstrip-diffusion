@@ -9,3 +9,5 @@ After each additional 50 epochs, measure the relative decrease in the best full-
 Each scheduled segment requests one V100, four CPUs, 16 GB memory and eight hours. It checkpoints and pauses after seven training hours if the plateau has not been reached. Such a pause must be resumed after inspecting the scheduler; it must not be labeled convergence. A process lock prevents concurrent workers writing the same run. The launch script recognizes last.pt and resumes it. Do not submit while a prior segment is pending or running.
 
 Submit from the isolated extracted campaign root with `sbatch experiments/deeponet_plateau/run.sbatch`. Outputs are under `runs/plain-plateau/`. Publish the final selected checkpoint, full history, configuration, status, metrics, per-design records and examples; retain last.pt for recovery outside GitHub.
+
+Verified initial submission: **11638570**, pending for scheduler priority at the recorded observation. See [submission record](submission-record.json). No continuation results have been produced yet.

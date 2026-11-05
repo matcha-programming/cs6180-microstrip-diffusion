@@ -1,0 +1,31 @@
+{
+  "state": "submitted",
+  "job_ids": [
+    "11638570"
+  ],
+  "last_observed_job_state": "PENDING",
+  "pending_reason": "Priority",
+  "observed_utc": "2026-11-05T07:28:44.002978+00:00",
+  "hpc_campaign_root": "/scratch/he.zit/cs6180-microstrip-experiments/plain-plateau-20261104",
+  "output": "runs/plain-plateau",
+  "requested_gpu": "v100-sxm2",
+  "actual_gpu": null,
+  "source_commit": "7c1de959df78a3a914879dce0eaed801f897f011",
+  "package_sha256": "5ad61385f6c7616241dedb4c6291247052d7c2a21f597a0ae434570eabbdbcba",
+  "dataset_sha256": "7670297247077ee223a572b724e45236a6970a1f38da02f9a96e074ca0215af2",
+  "initial_checkpoint_sha256": "b3870986a8f8243c6b22cde2686abd865ce611ca5b361542dc29f90c8bab6fe7",
+  "initial_epoch": 95,
+  "initial_published_validation_mse": 0.0003461483816569465,
+  "plateau": {
+    "window_epochs": 50,
+    "relative_improvement_threshold": 0.01,
+    "consecutive_windows": 2,
+    "epoch_cap": null
+  },
+  "segment_training_hours": 7,
+  "scheduler_hours": 8,
+  "resume_policy": "After inspecting scheduler and status, resume last.pt if segment limit reached without a validation plateau. Never submit a duplicate active or pending segment.",
+  "tests": "Two stopping-rule tests and an end-to-end CPU smoke test passed; segmented resume reproduced uninterrupted model weights exactly. Smoke metrics are not results.",
+  "trial_reference": "Separate-machine screenshot reports validation MSE 7.6e-5, 4.5546 times lower than published original; not an achieved result of this run.",
+  "results_destination": "results/deeponet_plateau/11638570"
+}

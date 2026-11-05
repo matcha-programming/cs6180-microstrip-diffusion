@@ -1,0 +1,116 @@
+{
+  "dataset_sha256": "7670297247077ee223a572b724e45236a6970a1f38da02f9a96e074ca0215af2",
+  "uses_field_targets": false,
+  "hypothesis": "Scale invariance of peak-normalized electrostatics under common length scaling; not a verified description of the staff solver.",
+  "limitations": "Convex-hull membership measures geometric support, not density, interpolation accuracy, or proof of the physical hypothesis. The official h-held-out split remains unchanged and separately labeled.",
+  "spaces": {
+    "original_4d": {
+      "fit": {
+        "training_min": [
+          -0.9998859763145447,
+          -0.9994171261787415,
+          -0.9999086260795593,
+          -0.999836802482605
+        ],
+        "training_max": [
+          0.7923922538757324,
+          0.999891459941864,
+          0.999899685382843,
+          0.9999011754989624
+        ],
+        "training_leave_one_out_nn_p95": 0.10682195542195844
+      },
+      "splits": {
+        "train": {
+          "count": 7048,
+          "raw_h_min_mm": 0.05004275958053768,
+          "raw_h_max_mm": 0.7221470861230046,
+          "within_training_bounds_fraction": 1.0,
+          "inside_training_convex_hull_fraction": 1.0,
+          "nearest_training_distance_median": 0.0,
+          "nearest_training_distance_p95": 0.0
+        },
+        "val": {
+          "count": 881,
+          "raw_h_min_mm": 0.05092358724214137,
+          "raw_h_max_mm": 0.7221221967600286,
+          "within_training_bounds_fraction": 1.0,
+          "inside_training_convex_hull_fraction": 0.9318955732122588,
+          "nearest_training_distance_median": 0.07924724970671085,
+          "nearest_training_distance_p95": 0.10704259876452968
+        },
+        "test": {
+          "count": 881,
+          "raw_h_min_mm": 0.05304278871044517,
+          "raw_h_max_mm": 0.7212753318715841,
+          "within_training_bounds_fraction": 0.9988649262202043,
+          "inside_training_convex_hull_fraction": 0.9398410896708286,
+          "nearest_training_distance_median": 0.07888537518908587,
+          "nearest_training_distance_p95": 0.10682018381435156
+        },
+        "test_extrap": {
+          "count": 979,
+          "raw_h_min_mm": 0.7222267987206579,
+          "raw_h_max_mm": 0.799982133274898,
+          "within_training_bounds_fraction": 0.0,
+          "inside_training_convex_hull_fraction": 0.0,
+          "nearest_training_distance_median": 0.11640568305166808,
+          "nearest_training_distance_p95": 0.1712473037897208
+        }
+      }
+    },
+    "quasistatic_3d": {
+      "fit": {
+        "training_min": [
+          -0.6926249706850521,
+          -4.083947638162159,
+          2.800138732139021
+        ],
+        "training_max": [
+          1.0985150481609258,
+          -0.6938634302545987,
+          4.499916015006602
+        ],
+        "training_leave_one_out_nn_p95": 0.04991047797427692
+      },
+      "splits": {
+        "train": {
+          "count": 7048,
+          "raw_h_min_mm": 0.05004275958053768,
+          "raw_h_max_mm": 0.7221470861230046,
+          "within_training_bounds_fraction": 1.0,
+          "inside_training_convex_hull_fraction": 1.0,
+          "nearest_training_distance_median": 0.0,
+          "nearest_training_distance_p95": 0.0
+        },
+        "val": {
+          "count": 881,
+          "raw_h_min_mm": 0.05092358724214137,
+          "raw_h_max_mm": 0.7221221967600286,
+          "within_training_bounds_fraction": 1.0,
+          "inside_training_convex_hull_fraction": 0.9772985244040863,
+          "nearest_training_distance_median": 0.027712664111366626,
+          "nearest_training_distance_p95": 0.05050109675079861
+        },
+        "test": {
+          "count": 881,
+          "raw_h_min_mm": 0.05304278871044517,
+          "raw_h_max_mm": 0.7212753318715841,
+          "within_training_bounds_fraction": 0.9988649262202043,
+          "inside_training_convex_hull_fraction": 0.981838819523269,
+          "nearest_training_distance_median": 0.0268337876438269,
+          "nearest_training_distance_p95": 0.05029635523580377
+        },
+        "test_extrap": {
+          "count": 979,
+          "raw_h_min_mm": 0.7222267987206579,
+          "raw_h_max_mm": 0.799982133274898,
+          "within_training_bounds_fraction": 0.965270684371808,
+          "inside_training_convex_hull_fraction": 0.9254341164453525,
+          "nearest_training_distance_median": 0.02797143985421711,
+          "nearest_training_distance_p95": 0.06428860892435763
+        }
+      }
+    }
+  }
+}

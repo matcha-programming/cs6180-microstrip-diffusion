@@ -16,11 +16,10 @@ The eight-hour scheduler limit is a safety bound for each task. Scientific train
 
 A dependent GPU job runs only after every array task succeeds. It freezes the checkpoint and DDIM steps using all 881 validation designs, then evaluates the selected configuration on the unchanged test and `test_extrap` splits with one and three draws. It never changes choices based on those held-out errors. The report includes all learning-rate and loss-weighting trials, including unsuccessful ones. Independent training seeds remain necessary before a claim about either method category.
 
-Run from the extracted campaign root on Explorer:
+Submit from the extracted campaign root on Explorer. The preflight imports CUDA-enabled PyTorch and loads a full optimizer checkpoint, so it runs on a scheduled CPU node with 16 GB RAM rather than on the memory-limited login node:
 
 ```sh
-/scratch/he.zit/envs/meep-gpu/bin/python experiments/followup/campaign.py preflight
-/scratch/he.zit/envs/meep-gpu/bin/python experiments/followup/campaign.py submit
+sbatch experiments/followup/submit_cpu.sbatch
 ```
 
 `source-manifest.json` is generated during packaging from the committed source and is required on HPC. `submission.json` records actual scheduler IDs; do not infer successful submission from these instructions. A partial or unknown submission outcome requires inspecting that journal and `squeue` before recovery. The original runs and optimizer checkpoints are read only.
@@ -36,3 +35,5 @@ python -m unittest discover -s experiments/followup -p 'test_*.py' -v
 The kNN implementation reads field targets for training and validation only. Its global masked validation MSE selects between original inputs and proposed similarity coordinates, and between 1, 5 and 15 neighbors. These are validation results; no held-out kNN score is reported or implied.
 
 The [next-step plan](../../docs/next-steps-20261104.md) covers solver validation and broader geometries after this launch.
+
+`physics-pilot.json` freezes eight metadata-selected training/validation designs and 32 solver configurations. It is a prepared pilot, not a simulation result. Palace was not found on Explorer's default PATH or in `module -t avail palace` during launch preparation.

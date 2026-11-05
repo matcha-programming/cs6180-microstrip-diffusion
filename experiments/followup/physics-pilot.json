@@ -1,0 +1,130 @@
+{
+  "dataset_sha256": "7670297247077ee223a572b724e45236a6970a1f38da02f9a96e074ca0215af2",
+  "source_branch_commit": "f8d7df46d8201ef995b4d2b8efb985cb10d0af3e",
+  "selection": "Metadata-only t/h quantiles, four train and four val; no model scores or held-out target reads",
+  "designs": [
+    {
+      "split": "train",
+      "quantile": 0.1,
+      "row": 4605,
+      "sample_id": 4703,
+      "params_raw": [
+        0.5764356064144522,
+        2.4841907480736243,
+        0.017400598797015845,
+        4.458133667614311
+      ]
+    },
+    {
+      "split": "train",
+      "quantile": 0.35,
+      "row": 5010,
+      "sample_id": 5117,
+      "params_raw": [
+        0.3364909686613828,
+        2.394809061211348,
+        0.016195010478608312,
+        3.612999745085835
+      ]
+    },
+    {
+      "split": "train",
+      "quantile": 0.65,
+      "row": 5226,
+      "sample_id": 5337,
+      "params_raw": [
+        0.16017763544805347,
+        1.2656378528720842,
+        0.01292550067882985,
+        4.301743312459439
+      ]
+    },
+    {
+      "split": "train",
+      "quantile": 0.9,
+      "row": 1630,
+      "sample_id": 1665,
+      "params_raw": [
+        0.12583891856484114,
+        2.2582258330929927,
+        0.023392103806138043,
+        3.8898141677491367
+      ]
+    },
+    {
+      "split": "val",
+      "quantile": 0.1,
+      "row": 8208,
+      "sample_id": 8387,
+      "params_raw": [
+        0.631794872879982,
+        1.6407514362620468,
+        0.017705497836694124,
+        3.44737913897261
+      ]
+    },
+    {
+      "split": "val",
+      "quantile": 0.35,
+      "row": 6987,
+      "sample_id": 7139,
+      "params_raw": [
+        0.6502787260804326,
+        1.7911202006177893,
+        0.0313977398602292,
+        3.9290057935751976
+      ]
+    },
+    {
+      "split": "val",
+      "quantile": 0.65,
+      "row": 3108,
+      "sample_id": 3173,
+      "params_raw": [
+        0.31701852097176014,
+        2.199432814751297,
+        0.025620114288292826,
+        3.599562860187143
+      ]
+    },
+    {
+      "split": "val",
+      "quantile": 0.9,
+      "row": 2644,
+      "sample_id": 2702,
+      "params_raw": [
+        0.09179112985730171,
+        1.0087812478040123,
+        0.016988544003106655,
+        2.8626950857229527
+      ]
+    }
+  ],
+  "solves": [
+    {
+      "problem": "electrostatic",
+      "order": 1,
+      "uniform": 1.0,
+      "save": 1
+    },
+    {
+      "problem": "electrostatic",
+      "order": 3,
+      "ref": 1.0,
+      "save": 1
+    },
+    {
+      "problem": "electrostatic",
+      "order": 3,
+      "ref": 0.5,
+      "save": 1
+    },
+    {
+      "problem": "electrostatic",
+      "order": 3,
+      "ref": 0.25,
+      "save": 1
+    }
+  ],
+  "status": "Prepared; not simulated. Palace was absent from default PATH and module -t avail palace returned no entry on Explorer."
+}

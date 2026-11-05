@@ -18,7 +18,7 @@ Retain field-selected and noise-selected checkpoints separately. Use full valida
 
 The new campaign requests V100 GPUs and keeps the paired FP32 policy. Historical P100-versus-V100 timing is not a speed comparison. Re-measure regression and diffusion on the same device before reporting latency ratios for the new campaign. More sampling draws measure an accuracy/cost curve, not extra independent training evidence or calibrated physical uncertainty.
 
-DeepONet retraining and Fourier tuning remain with the teammate already running them. Preserve their branch and avoid launching duplicate jobs under this campaign.
+The teammate’s DeepONet retraining and Fourier tuning remain separate. At the user’s subsequent request, an independent [plain DeepONet continuation](../experiments/deeponet_plateau/README.md) starts from the published epoch-95 model and optimizer and runs to a measured validation plateau. It does not resume or claim the separate-machine trial’s results. Preserve the teammate’s branch and runs.
 
 ### Check split support and baseline strength
 

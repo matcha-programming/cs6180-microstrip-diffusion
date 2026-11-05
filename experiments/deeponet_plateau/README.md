@@ -10,4 +10,4 @@ Each scheduled segment requests one V100, four CPUs, 16 GB memory and eight hour
 
 Submit from the isolated extracted campaign root with `sbatch experiments/deeponet_plateau/run.sbatch`. Outputs are under `runs/plain-plateau/`. Publish the final selected checkpoint, full history, configuration, status, metrics, per-design records and examples; retain last.pt for recovery outside GitHub.
 
-Verified initial submission: **11638570**, pending for scheduler priority at the recorded observation. See [submission record](submission-record.json). No continuation results have been produced yet.
+Job **11638570** completed with exit code 0:0 and met the plateau rule at epoch 1145. The [verified report and artifacts](../../results/deeponet_plateau/11638570/) include full CPU reproduction of all validation and held-out designs.

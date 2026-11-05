@@ -9,5 +9,6 @@
   "recovery_checkpoint_retained": "HPC and local full archive; excluded from publication",
   "audit_source": "experiments/deeponet_plateau/audit_results.py",
   "figures_source": "experiments/deeponet_plateau/build_report.py",
-  "audited_utc": "2026-11-05T18:36:57.348319+00:00"
+  "audited_utc": "2026-11-05T18:36:57.348319+00:00",
+  "text_format_note": "Published slurm.txt trims trailing spaces; the original scheduler text remains in the full downloaded archive. Training outputs and config.json are unchanged."
 }

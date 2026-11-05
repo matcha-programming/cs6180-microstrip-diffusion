@@ -129,7 +129,7 @@ def main():
                    ("Fourier DeepONet, round one", ROOT / "results/remaining/11603443/fourier-metrics.json"),
                    ("4R PositionUNet", ROOT / "results/unet_regression/11604740/regression-metrics.json")]
     with (args.output / "comparison.csv").open("w") as out:
-        writer = csv.DictWriter(out, fieldnames=["method", "split", *keys])
+        writer = csv.DictWriter(out, fieldnames=["method", "split", *keys], lineterminator="\n")
         writer.writeheader()
         for name, path in comparisons:
             m = json.loads(path.read_text())

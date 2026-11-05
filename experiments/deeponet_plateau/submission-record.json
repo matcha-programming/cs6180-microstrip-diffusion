@@ -1,5 +1,5 @@
 {
-  "state": "locally_verified_ready_to_publish",
+  "state": "published_verified",
   "job_ids": [
     "11638570"
   ],
@@ -28,7 +28,7 @@
   "tests": "Two stopping-rule tests and an end-to-end CPU smoke test passed; segmented resume reproduced uninterrupted model weights exactly. Smoke metrics are not results.",
   "trial_reference": "Separate-machine screenshot reports validation MSE 7.6e-5, 4.5546 times lower than published original; not an achieved result of this run.",
   "results_destination": "results/deeponet_plateau/11638570",
-  "publication_state": "Ready to publish verified report",
+  "publication_state": "Verified in GitHub PR branch",
   "exit_code": "0:0",
   "scheduler_elapsed": "00:27:44",
   "stop_reason": "validation_plateau",
@@ -45,5 +45,9 @@
   },
   "validation_status": "Passed full CPU reproduction for all 2741 validation/test/holdout designs, split IDs, all 1860 held-out per-design metric records, aggregates, masks/grids/truth, source/checkpoint hashes and plateau stopping history.",
   "download_zip_sha256": "925b1ea4f6ab7a97f2eeda9eda5dfd658b2abc7c50f59427ff4f3e84a7d4a10b",
-  "report_path": "results/deeponet_plateau/11638570"
+  "report_path": "results/deeponet_plateau/11638570",
+  "published_commit": "5160f0db0c896f99aa887e5c3b40a83257d1bff4",
+  "published_commit_url": "https://github.com/matcha-programming/cs6180-microstrip-diffusion/commit/5160f0db0c896f99aa887e5c3b40a83257d1bff4",
+  "published_report_url": "https://github.com/matcha-programming/cs6180-microstrip-diffusion/tree/codex/feedback-followup/results/deeponet_plateau/11638570",
+  "remote_blob_verification": "All 28 report, overview and source blobs matched the committed local files."
 }

@@ -1,0 +1,74 @@
+{
+  "state": "submitted",
+  "observed_utc": "2026-11-05T07:14:49.086505+00:00",
+  "source_commit": "78149ff9237f00ea8f1d27a2e20cfdc6763f13fc",
+  "hpc_campaign_root": "/scratch/he.zit/cs6180-microstrip-experiments/next-phase-20261104",
+  "hpc_submission_journal": "submission.json",
+  "cpu_launcher_job_id": "11638337",
+  "cpu_launcher_state": "COMPLETED",
+  "cpu_launcher_exit_code": "0:0",
+  "cpu_launcher_elapsed": "00:00:18",
+  "array_job_id": "11638349",
+  "array_tasks": 7,
+  "parallel_limit": 2,
+  "array_last_observed_state": "PENDING",
+  "array_pending_reason": "Resources",
+  "final_job_id": "11638350",
+  "final_dependency": "afterok:11638349",
+  "final_last_observed_state": "PENDING",
+  "final_pending_reason": "Dependency",
+  "scheduler_start_estimate": null,
+  "requested_gpu": "v100-sxm2",
+  "actual_gpu": null,
+  "dataset_sha256": "7670297247077ee223a572b724e45236a6970a1f38da02f9a96e074ca0215af2",
+  "resume_sha256": "6c851ca0c63917baeef515ad04a1705dcaad0d6dbbe66942d07e578e89dfd7f1",
+  "resume_epoch": 159,
+  "resume_elapsed_seconds": 7201.513021629304,
+  "torch": "2.5.1+cu124",
+  "torch_cuda": "12.4",
+  "packages": [
+    {
+      "file": "microstrip-next-20261104.tar.gz",
+      "sha256": "a0141e5801179c9cc77273af9de7f78201afa5af5f33375f8d5c382ad707e288"
+    },
+    {
+      "file": "microstrip-next-source-78149ff.tar.gz",
+      "sha256": "341a32ee76a7fa7653afb24bf633bbb39f5da7e1fe6487f3b91199c9c5b620c5"
+    }
+  ],
+  "tasks": [
+    [
+      "draws",
+      0
+    ],
+    [
+      "draws",
+      1
+    ],
+    [
+      "continue",
+      0
+    ],
+    [
+      "lr",
+      0
+    ],
+    [
+      "lr",
+      1
+    ],
+    [
+      "lr",
+      2
+    ],
+    [
+      "min-snr",
+      0
+    ]
+  ],
+  "preflight": "Passed all packaged source hashes, course dataset hash, CUDA-enabled PyTorch, full optimizer checkpoint and continuation migration checks on a scheduled CPU node.",
+  "results_destination": "results/round2/11638349",
+  "physics_pilot_state": "Prepared only; Palace absent from queried PATH and module list.",
+  "pull_request": "https://github.com/matcha-programming/cs6180-microstrip-diffusion/pull/1",
+  "recovery": "Inspect HPC submission.json, sacct and logs before any retry. Do not duplicate jobs or modify prior runs."
+}

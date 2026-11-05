@@ -24,6 +24,8 @@ sbatch experiments/followup/submit_cpu.sbatch
 
 `source-manifest.json` is generated during packaging from the committed source and is required on HPC. `submission.json` records actual scheduler IDs; do not infer successful submission from these instructions. A partial or unknown submission outcome requires inspecting that journal and `squeue` before recovery. The original runs and optimizer checkpoints are read only.
 
+Verified submission: CPU launcher **11638337** completed with exit code 0:0; GPU array **11638349** and dependent evaluation **11638350** were accepted. At the recorded observation, the array was waiting for resources and evaluation for its dependency; the scheduler supplied no start estimate. See [the submission record](submission-record.json) for hashes and provenance. No new GPU results are claimed yet.
+
 ## Local reproduction
 
 ```sh

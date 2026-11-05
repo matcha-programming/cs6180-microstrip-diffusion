@@ -6,23 +6,26 @@ Given four design parameters, each model predicts a two-channel, peak-normalized
 
 ## Results
 
-All experiments are complete. The table reports mean per-design relative L2 over valid pixels. Diffusion entries average single-draw errors for seeds 6180–6182; three-draw ensembles and their extra cost are reported separately.
+The initial experiments and the plain DeepONet continuation are complete and verified. Round 2 diffusion has completed on HPC; its artifacts are awaiting download and verification. The table reports mean per-design relative L2 over valid pixels. Diffusion entries average single-draw errors for seeds 6180–6182; three-draw ensembles and their extra cost are reported separately.
 
 | Experiment | Model | Test error | Extrapolation error | Results |
 |---|---|---:|---:|---|
 | 1 | Staff PCA-32 + Gaussian process | 3.67% | 2.51% | [11601747](results/pca_gp/11601747/) |
-| 2 | Plain DeepONet | 17.75% | 18.39% | [11597463](results/deeponet_plain/11597463/) |
+| 2, original | Plain DeepONet (100-epoch run) | 17.75% | 18.39% | [11597463](results/deeponet_plain/11597463/) |
+| 2, continuation | Plain DeepONet to validation plateau | 5.76% | 4.75% | [11638570](results/deeponet_plateau/11638570/) |
 | 3 | Fourier DeepONet | 4.93% | 3.81% | [11603443](results/remaining/11603443/) |
 | 4–5 | Direct DDPM, DDIM-20 | 6.32% | 4.48% | [11603443](results/remaining/11603443/) |
 | 4R | Deterministic U-Net | **2.87%** | **1.15%** | [11604740](results/unet_regression/11604740/) |
 | 4, matched to 4R | Position-conditioned DDPM, DDIM-50 | 7.56% | 5.81% | [11604740](results/unet_regression/11604740/) |
 | 6 | Residual DDPM, DDIM-50 | 7.99% | 6.50% | [11603443](results/remaining/11603443/) |
 
-The deterministic U-Net has the lowest overall field and edge errors in these runs. Against its matched diffusion control on the same P100, it needs about 10 ms per prediction versus 586 ms per diffusion draw. Averaging three diffusion draws improves accuracy but adds cost and does not close the field-error gap. Residual diffusion's three-draw average slightly improves extrapolation gradient error; the complete reports retain this tradeoff.
+Among the verified results in this table, the deterministic U-Net has the lowest overall field and edge errors. The plain DeepONet continuation reduced its original test error from 17.75% to 5.76%, showing that the original 100-epoch cutoff understated its performance. Against its matched diffusion control on the same P100, it needs about 10 ms per prediction versus 586 ms per diffusion draw. Averaging three diffusion draws improves accuracy but adds cost and does not close the field-error gap. Residual diffusion's three-draw average slightly improves extrapolation gradient error; the complete reports retain this tradeoff.
 
 These are single-training-seed, budgeted results. The paired diffusion model reached its two-hour training limit, while 4R stopped early. The comparison does not establish that longer or differently tuned diffusion training cannot improve performance. PCA/GP timing used a CPU; the original diffusion runs used a V100. Only the 4R pair provides a comparison with the same backbone, position inputs, initial weights, and GPU.
 
 ## Reports and artifacts
+
+- [Plain DeepONet trained to a validation plateau](results/deeponet_plateau/11638570/)
 
 - [Original Fourier, direct diffusion, DDIM, and residual experiments](results/remaining/11603443/)
 - [4R and its matched diffusion control](results/unet_regression/11604740/)
@@ -33,7 +36,7 @@ Reports include per-design metrics, configurations, source hashes, learning curv
 ## Reproduction
 
 - [Experiment 1: PCA-32 + GP](experiments/pca_gp/)
-- [Experiment 2: plain DeepONet](experiments/deeponet_plain/)
+- [Experiment 2: plain DeepONet](experiments/deeponet_plain/) · [Continuation to a plateau](experiments/deeponet_plateau/)
 - [Experiments 3–6: Fourier features and diffusion](experiments/remaining/)
 - [Experiment 4R and matched DDPM](experiments/unet_regression/)
 

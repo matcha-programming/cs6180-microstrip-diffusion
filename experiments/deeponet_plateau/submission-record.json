@@ -1,5 +1,5 @@
 {
-  "state": "hpc_complete_awaiting_download_validation",
+  "state": "locally_verified_ready_to_publish",
   "job_ids": [
     "11638570"
   ],
@@ -28,7 +28,7 @@
   "tests": "Two stopping-rule tests and an end-to-end CPU smoke test passed; segmented resume reproduced uninterrupted model weights exactly. Smoke metrics are not results.",
   "trial_reference": "Separate-machine screenshot reports validation MSE 7.6e-5, 4.5546 times lower than published original; not an achieved result of this run.",
   "results_destination": "results/deeponet_plateau/11638570",
-  "publication_state": "Not published; browser transfers have not succeeded.",
+  "publication_state": "Ready to publish verified report",
   "exit_code": "0:0",
   "scheduler_elapsed": "00:27:44",
   "stop_reason": "validation_plateau",
@@ -43,5 +43,7 @@
     "file": "plain-results-11638570.tar.gz",
     "sha256": "f0770d452a28fc322ab799718099ee4a1fb7cbba27ae7527483d7b3348f9392d"
   },
-  "validation_status": "HPC status and evaluation completion inspected; per-design output and checkpoint still await local verification."
+  "validation_status": "Passed full CPU reproduction for all 2741 validation/test/holdout designs, split IDs, all 1860 held-out per-design metric records, aggregates, masks/grids/truth, source/checkpoint hashes and plateau stopping history.",
+  "download_zip_sha256": "925b1ea4f6ab7a97f2eeda9eda5dfd658b2abc7c50f59427ff4f3e84a7d4a10b",
+  "report_path": "results/deeponet_plateau/11638570"
 }

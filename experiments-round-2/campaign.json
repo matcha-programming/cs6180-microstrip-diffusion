@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "dataset_sha256": "7670297247077ee223a572b724e45236a6970a1f38da02f9a96e074ca0215af2",
+  "draw_studies": [
+    {"name": "R2-A-original", "checkpoint": "results/remaining/11603443/best-direct.pt", "steps": 20},
+    {"name": "R2-A-paired", "checkpoint": "results/unet_regression/11604740/best-diffusion.pt", "steps": 50}
+  ],
+  "continuation": {"name": "R2-B-paired-long", "backbone": "paired", "lr": 0.0002, "epochs": 500, "max_train_hours": 6},
+  "learning_rate_trials": [
+    {"name": "R2-C-lr-0.0001", "lr": 0.0001},
+    {"name": "R2-C-lr-0.0002", "lr": 0.0002},
+    {"name": "R2-C-lr-0.0004", "lr": 0.0004}
+  ],
+  "learning_rate_budget": {"epochs": 200, "max_train_hours": 3},
+  "min_snr_trial": {"name": "R2-D-min-snr-5", "lr": 0.0002, "loss_weighting": "min-snr", "snr_gamma": 5.0, "optional": true, "control": "R2-C-lr-0.0002"},
+  "training": {"backbone": "paired", "base": 36, "batch_size": 16, "seed": 6180, "precision": "float32", "field_interval": 20, "validation_count": 128, "field_steps": 50, "patience_evaluations": 5},
+  "draws": {"sizes": [1, 2, 4, 8, 16], "validation_count": 128, "seed_start": 6180},
+  "full_validation": {"steps": [20, 50], "draw_seeds": [6180, 6181, 6182], "selection_metric": "masked_mse_global"}
+}

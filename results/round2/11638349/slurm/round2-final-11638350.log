@@ -1,0 +1,4 @@
+SELECTION_FROZEN /scratch/he.zit/cs6180-microstrip-experiments/next-phase-20261104/runs/round2-11638349/selection.json
+DRAW_STUDY_COMPLETE /scratch/he.zit/cs6180-microstrip-experiments/next-phase-20261104/runs/round2-11638349/final-test
+DRAW_STUDY_COMPLETE /scratch/he.zit/cs6180-microstrip-experiments/next-phase-20261104/runs/round2-11638349/final-test_extrap
+{"training_rows": 20, "draw_rows": 10}

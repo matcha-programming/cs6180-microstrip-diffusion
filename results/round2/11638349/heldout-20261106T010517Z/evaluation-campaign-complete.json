@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "tasks": [
+    "R2-A-original",
+    "R2-A-paired",
+    "R2-C-lr-0.0001",
+    "R2-C-lr-0.0002",
+    "R2-C-lr-0.0004",
+    "R2-D-min-snr-5"
+  ],
+  "splits": [
+    "test",
+    "test_extrap"
+  ],
+  "plan_sha256": "632c5ed80b04614baeb4ebd4a3644a3545fa7c0c17e4f62f01e91f9b86971f22"
+}

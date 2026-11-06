@@ -67,6 +67,14 @@ R2-A and the three R2-C trials can be submitted independently. R2-B is independe
 
 The deliverable is a validation-based accuracy/cost comparison, per-design variance diagnostics, field-versus-noise checkpoint comparison, and final frozen test/extrapolation reports against the existing PCA+GP and 4R references. Replicate a selected configuration with independent training seeds before strengthening a category-wide conclusion.
 
+### Additional held-out comparison
+
+On November 5, the reporting scope was extended to evaluate both R2-A references, all three R2-C learning-rate trials, and R2-D on the full test and extrapolation splits. This is an evaluation of saved checkpoints; no models are retrained. The original globally selected R2-B configuration and its reports remain unchanged.
+
+Each R2-C/D trial freezes its own checkpoint and DDIM step count using its existing full-validation results before the additional held-out evaluations. R2-A retains its historical checkpoints and predeclared DDIM-20/50 settings; it does not claim a new full-validation checkpoint search. All methods use sample-ID-keyed seeds starting at 6180 and common one- and three-draw reports. R2-A additionally retains nested 2/4/8/16-draw studies. The new sampling jobs request V100-SXM2 GPUs and use the unchanged FP32 sampler and metric implementation.
+
+These additional scores support descriptive comparisons of the predefined candidates. They must not be used to retune checkpoints, samplers, learning rates, or loss weighting. Validation remains the basis of the original campaign selection. The implementation is [evaluate_holdout.py](../experiments/followup/evaluate_holdout.py); it freezes manifests on a scheduled CPU node, evaluates on scheduled GPU nodes, and packages artifacts on a scheduled CPU node.
+
 ### Later decision points
 
 The following discussed ideas are deferred, not part of this launch batch: expanded Palace training sets, higher-resolution targets, zero/structured noise starts, partial denoising of 4R predictions, residual diffusion around 4R, and capacity/conditioning changes. Min-SNR weighting is now covered by optional R2-D. Data generation first requires solver-equivalence and mesh-convergence pilots. No new spatial or DeepONet Fourier experiments are included. Progress to later work only when the round-two validation findings identify a useful direction.

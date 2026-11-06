@@ -1,0 +1,2178 @@
+[
+  {
+    "row_index": 44,
+    "sample_id": 45,
+    "normalized_design": [
+      -0.02174840308725834,
+      0.6742417812347412,
+      -0.38366785645484924,
+      -0.5689767003059387
+    ],
+    "valid_pixel_variance": 4.883320310477836e-05,
+    "edge_pixel_variance": 0.0004888379478977151,
+    "channel_variance": [
+      7.573246854942211e-06,
+      9.00931593546139e-05
+    ],
+    "estimated_ensemble_variance": 6.104150388097295e-06
+  },
+  {
+    "row_index": 51,
+    "sample_id": 52,
+    "normalized_design": [
+      0.784626841545105,
+      -0.6949176788330078,
+      -0.4906935691833496,
+      -0.4657084345817566
+    ],
+    "valid_pixel_variance": 7.232070762184824e-05,
+    "edge_pixel_variance": 0.00045851201819007423,
+    "channel_variance": [
+      1.8363896100602338e-05,
+      0.00012627751914309407
+    ],
+    "estimated_ensemble_variance": 9.04008845273103e-06
+  },
+  {
+    "row_index": 166,
+    "sample_id": 169,
+    "normalized_design": [
+      -0.612772524356842,
+      0.9560225605964661,
+      0.18661664426326752,
+      0.9504086971282959
+    ],
+    "valid_pixel_variance": 0.00024141459598145846,
+    "edge_pixel_variance": 0.001724189157297693,
+    "channel_variance": [
+      2.8086386399437967e-05,
+      0.0004547428055634783
+    ],
+    "estimated_ensemble_variance": 3.0176824497682307e-05
+  },
+  {
+    "row_index": 210,
+    "sample_id": 214,
+    "normalized_design": [
+      -0.6085407733917236,
+      -0.9342027306556702,
+      -0.7397950291633606,
+      -0.19971854984760284
+    ],
+    "valid_pixel_variance": 5.868555101534306e-05,
+    "edge_pixel_variance": 0.00021796492676996396,
+    "channel_variance": [
+      1.4791879635883274e-05,
+      0.00010257922239480214
+    ],
+    "estimated_ensemble_variance": 7.335693876917882e-06
+  },
+  {
+    "row_index": 224,
+    "sample_id": 229,
+    "normalized_design": [
+      -0.29892659187316895,
+      0.20074164867401123,
+      -0.6805591583251953,
+      0.23070889711380005
+    ],
+    "valid_pixel_variance": 5.155898779759148e-05,
+    "edge_pixel_variance": 0.00032466867667601314,
+    "channel_variance": [
+      1.1764252760661745e-05,
+      9.135372283452104e-05
+    ],
+    "estimated_ensemble_variance": 6.444873474698935e-06
+  },
+  {
+    "row_index": 294,
+    "sample_id": 300,
+    "normalized_design": [
+      0.7264196872711182,
+      -0.45917531847953796,
+      -0.055191509425640106,
+      0.8210172057151794
+    ],
+    "valid_pixel_variance": 3.0784440793522616e-05,
+    "edge_pixel_variance": 0.00028670130991760877,
+    "channel_variance": [
+      6.184770909673416e-06,
+      5.5384110677371555e-05
+    ],
+    "estimated_ensemble_variance": 3.848055099190327e-06
+  },
+  {
+    "row_index": 417,
+    "sample_id": 426,
+    "normalized_design": [
+      -0.41904550790786743,
+      -0.8388329148292542,
+      0.9328455924987793,
+      -0.44788479804992676
+    ],
+    "valid_pixel_variance": 4.755370645630761e-05,
+    "edge_pixel_variance": 0.0007588094216664774,
+    "channel_variance": [
+      1.6124893774257323e-05,
+      7.898251913835756e-05
+    ],
+    "estimated_ensemble_variance": 5.944213307038451e-06
+  },
+  {
+    "row_index": 553,
+    "sample_id": 563,
+    "normalized_design": [
+      0.6316616535186768,
+      0.28494375944137573,
+      0.8315887451171875,
+      0.038999296724796295
+    ],
+    "valid_pixel_variance": 9.102869837415288e-05,
+    "edge_pixel_variance": 0.0002928502022130508,
+    "channel_variance": [
+      1.8987870898976097e-05,
+      0.00016306952584932977
+    ],
+    "estimated_ensemble_variance": 1.137858729676911e-05
+  },
+  {
+    "row_index": 583,
+    "sample_id": 593,
+    "normalized_design": [
+      -0.9649993181228638,
+      0.8328230381011963,
+      0.6360025405883789,
+      0.16022592782974243
+    ],
+    "valid_pixel_variance": 0.00010683759332886395,
+    "edge_pixel_variance": 0.0008962807864803053,
+    "channel_variance": [
+      4.3885827439615344e-05,
+      0.00016978935921811199
+    ],
+    "estimated_ensemble_variance": 1.3354699166107994e-05
+  },
+  {
+    "row_index": 685,
+    "sample_id": 700,
+    "normalized_design": [
+      0.5460137128829956,
+      -0.2710765600204468,
+      -0.7792426943778992,
+      0.5972205996513367
+    ],
+    "valid_pixel_variance": 1.5867487039059428e-05,
+    "edge_pixel_variance": 9.85954225729369e-05,
+    "channel_variance": [
+      2.306130742136922e-06,
+      2.9428843335981767e-05
+    ],
+    "estimated_ensemble_variance": 1.9834358798824285e-06
+  },
+  {
+    "row_index": 773,
+    "sample_id": 790,
+    "normalized_design": [
+      -0.5922083258628845,
+      -0.9869858622550964,
+      0.5912887454032898,
+      -0.7710531949996948
+    ],
+    "valid_pixel_variance": 4.339806613425356e-05,
+    "edge_pixel_variance": 0.00041066803989448484,
+    "channel_variance": [
+      1.237610317084375e-05,
+      7.442002909766289e-05
+    ],
+    "estimated_ensemble_variance": 5.424758266781695e-06
+  },
+  {
+    "row_index": 824,
+    "sample_id": 842,
+    "normalized_design": [
+      -0.44648775458335876,
+      -0.533906877040863,
+      -0.9783771634101868,
+      0.8522825837135315
+    ],
+    "valid_pixel_variance": 1.444886517764008e-05,
+    "edge_pixel_variance": 0.00014561744191061028,
+    "channel_variance": [
+      3.878840793678879e-06,
+      2.5018889561601257e-05
+    ],
+    "estimated_ensemble_variance": 1.80610814720501e-06
+  },
+  {
+    "row_index": 864,
+    "sample_id": 882,
+    "normalized_design": [
+      -0.08689665049314499,
+      -0.005303410813212395,
+      -0.716009259223938,
+      0.13277313113212585
+    ],
+    "valid_pixel_variance": 0.00010892295509205382,
+    "edge_pixel_variance": 0.0005019558437167633,
+    "channel_variance": [
+      2.2227667329646277e-05,
+      0.0001956182428544607
+    ],
+    "estimated_ensemble_variance": 1.3615369386506728e-05
+  },
+  {
+    "row_index": 953,
+    "sample_id": 975,
+    "normalized_design": [
+      0.3303517699241638,
+      0.6968997120857239,
+      -0.1933889240026474,
+      0.17414341866970062
+    ],
+    "valid_pixel_variance": 9.647499769577806e-05,
+    "edge_pixel_variance": 0.00055740368964017,
+    "channel_variance": [
+      1.4706516384387142e-05,
+      0.00017824347900716813
+    ],
+    "estimated_ensemble_variance": 1.2059374711972257e-05
+  },
+  {
+    "row_index": 1069,
+    "sample_id": 1093,
+    "normalized_design": [
+      -0.37292760610580444,
+      0.6154091358184814,
+      0.22454364597797394,
+      -0.43604156374931335
+    ],
+    "valid_pixel_variance": 7.442705992753151e-05,
+    "edge_pixel_variance": 0.0010276228875225042,
+    "channel_variance": [
+      1.165389212803096e-05,
+      0.00013720022772703146
+    ],
+    "estimated_ensemble_variance": 9.303382490941439e-06
+  },
+  {
+    "row_index": 1084,
+    "sample_id": 1109,
+    "normalized_design": [
+      -0.41783154010772705,
+      0.1809137612581253,
+      0.8346684575080872,
+      0.7214146256446838
+    ],
+    "valid_pixel_variance": 5.956526321534232e-05,
+    "edge_pixel_variance": 0.0010969024480889657,
+    "channel_variance": [
+      1.0251643394808509e-05,
+      0.00010887888303587585
+    ],
+    "estimated_ensemble_variance": 7.44565790191779e-06
+  },
+  {
+    "row_index": 1108,
+    "sample_id": 1133,
+    "normalized_design": [
+      -0.0567149817943573,
+      0.6548739671707153,
+      0.5960441827774048,
+      0.2636258006095886
+    ],
+    "valid_pixel_variance": 0.00012082630245589999,
+    "edge_pixel_variance": 0.0012281771325604231,
+    "channel_variance": [
+      2.3045761267226808e-05,
+      0.00021860684364457265
+    ],
+    "estimated_ensemble_variance": 1.5103287806987499e-05
+  },
+  {
+    "row_index": 1144,
+    "sample_id": 1169,
+    "normalized_design": [
+      -0.9700509905815125,
+      0.9015002250671387,
+      0.593343198299408,
+      0.6945155262947083
+    ],
+    "valid_pixel_variance": 0.0002653968557900247,
+    "edge_pixel_variance": 0.0018609545455782887,
+    "channel_variance": [
+      6.728008629379763e-05,
+      0.00046351362528625195
+    ],
+    "estimated_ensemble_variance": 3.317460697375309e-05
+  },
+  {
+    "row_index": 1155,
+    "sample_id": 1181,
+    "normalized_design": [
+      -0.1401400864124298,
+      0.6939778923988342,
+      0.10031101852655411,
+      -0.0704561173915863
+    ],
+    "valid_pixel_variance": 8.200163990444917e-05,
+    "edge_pixel_variance": 0.0009205305071925015,
+    "channel_variance": [
+      9.031713759478671e-06,
+      0.00015497156604941942
+    ],
+    "estimated_ensemble_variance": 1.0250204988056147e-05
+  },
+  {
+    "row_index": 1264,
+    "sample_id": 1292,
+    "normalized_design": [
+      0.686069905757904,
+      -0.09527593851089478,
+      0.18623793125152588,
+      -0.884381890296936
+    ],
+    "valid_pixel_variance": 3.484650623548533e-05,
+    "edge_pixel_variance": 0.00039192867529865184,
+    "channel_variance": [
+      7.707266829696395e-06,
+      6.198574564127386e-05
+    ],
+    "estimated_ensemble_variance": 4.355813279435667e-06
+  },
+  {
+    "row_index": 1304,
+    "sample_id": 1334,
+    "normalized_design": [
+      -0.5007065534591675,
+      -0.41611018776893616,
+      0.8106410503387451,
+      -0.858759880065918
+    ],
+    "valid_pixel_variance": 8.187425475854379e-05,
+    "edge_pixel_variance": 0.0003456799869994323,
+    "channel_variance": [
+      1.5802889521427063e-05,
+      0.00014794561999565968
+    ],
+    "estimated_ensemble_variance": 1.0234281844817974e-05
+  },
+  {
+    "row_index": 1413,
+    "sample_id": 1445,
+    "normalized_design": [
+      -0.2671971321105957,
+      0.5143200159072876,
+      -0.7442537546157837,
+      -0.24224083125591278
+    ],
+    "valid_pixel_variance": 6.809255791490846e-05,
+    "edge_pixel_variance": 0.0005985454972707386,
+    "channel_variance": [
+      1.0307741038474078e-05,
+      0.00012587737479134215
+    ],
+    "estimated_ensemble_variance": 8.511569739363557e-06
+  },
+  {
+    "row_index": 1510,
+    "sample_id": 1544,
+    "normalized_design": [
+      0.19268229603767395,
+      -0.7634290456771851,
+      -0.280659556388855,
+      -0.11426930874586105
+    ],
+    "valid_pixel_variance": 8.038569119466075e-05,
+    "edge_pixel_variance": 0.0003702856288043875,
+    "channel_variance": [
+      1.7143972637765696e-05,
+      0.00014362740975155605
+    ],
+    "estimated_ensemble_variance": 1.0048211399332594e-05
+  },
+  {
+    "row_index": 1669,
+    "sample_id": 1704,
+    "normalized_design": [
+      0.1341218203306198,
+      -0.9613109827041626,
+      0.14651677012443542,
+      0.9403603076934814
+    ],
+    "valid_pixel_variance": 1.7467426806171345e-05,
+    "edge_pixel_variance": 0.0002755941215690637,
+    "channel_variance": [
+      5.583340735510065e-06,
+      2.9351512876832638e-05
+    ],
+    "estimated_ensemble_variance": 2.183428350771418e-06
+  },
+  {
+    "row_index": 1687,
+    "sample_id": 1722,
+    "normalized_design": [
+      -0.35994288325309753,
+      -0.7454363107681274,
+      0.3916712999343872,
+      -0.8978049755096436
+    ],
+    "valid_pixel_variance": 1.5153269871413532e-05,
+    "edge_pixel_variance": 0.0002034115991756786,
+    "channel_variance": [
+      5.29183193076409e-06,
+      2.501470781206285e-05
+    ],
+    "estimated_ensemble_variance": 1.8941587339266914e-06
+  },
+  {
+    "row_index": 1693,
+    "sample_id": 1729,
+    "normalized_design": [
+      -0.7806333303451538,
+      0.24377673864364624,
+      0.05397744104266167,
+      -0.13954347372055054
+    ],
+    "valid_pixel_variance": 0.00010593647913581065,
+    "edge_pixel_variance": 0.0012924670202026434,
+    "channel_variance": [
+      2.4331744626382192e-05,
+      0.00018754121364523906
+    ],
+    "estimated_ensemble_variance": 1.3242059891976332e-05
+  },
+  {
+    "row_index": 1840,
+    "sample_id": 1881,
+    "normalized_design": [
+      -0.7005429267883301,
+      0.22269794344902039,
+      0.7837021350860596,
+      0.8839223384857178
+    ],
+    "valid_pixel_variance": 5.413789641531601e-05,
+    "edge_pixel_variance": 0.0006192254528717988,
+    "channel_variance": [
+      1.3024428101653783e-05,
+      9.525136472897752e-05
+    ],
+    "estimated_ensemble_variance": 6.767237051914501e-06
+  },
+  {
+    "row_index": 2022,
+    "sample_id": 2065,
+    "normalized_design": [
+      -0.9898084998130798,
+      0.4488382339477539,
+      -0.08957511931657791,
+      -0.523265540599823
+    ],
+    "valid_pixel_variance": 0.00011217369081019821,
+    "edge_pixel_variance": 0.0013352153032018944,
+    "channel_variance": [
+      4.437060094080581e-05,
+      0.00017997678067959065
+    ],
+    "estimated_ensemble_variance": 1.4021711351274777e-05
+  },
+  {
+    "row_index": 2075,
+    "sample_id": 2118,
+    "normalized_design": [
+      -0.6701525449752808,
+      -0.3254948854446411,
+      0.147073894739151,
+      -0.41121017932891846
+    ],
+    "valid_pixel_variance": 3.81083146433145e-05,
+    "edge_pixel_variance": 0.0003040635674741872,
+    "channel_variance": [
+      6.998942002946284e-06,
+      6.921768728368246e-05
+    ],
+    "estimated_ensemble_variance": 4.763539330414312e-06
+  },
+  {
+    "row_index": 2105,
+    "sample_id": 2149,
+    "normalized_design": [
+      -0.2863629460334778,
+      0.23749801516532898,
+      0.8522311449050903,
+      -0.7124733924865723
+    ],
+    "valid_pixel_variance": 0.00014153934506665736,
+    "edge_pixel_variance": 0.002293779467583628,
+    "channel_variance": [
+      1.803091004514598e-05,
+      0.0002650477800881683
+    ],
+    "estimated_ensemble_variance": 1.769241813333217e-05
+  },
+  {
+    "row_index": 2232,
+    "sample_id": 2278,
+    "normalized_design": [
+      -0.7208473682403564,
+      -0.39935001730918884,
+      -0.2812187671661377,
+      0.5185338854789734
+    ],
+    "valid_pixel_variance": 4.459499460944694e-05,
+    "edge_pixel_variance": 0.00064848534176337,
+    "channel_variance": [
+      1.1755375369644739e-05,
+      7.743461384924877e-05
+    ],
+    "estimated_ensemble_variance": 5.5743743261808676e-06
+  },
+  {
+    "row_index": 2316,
+    "sample_id": 2365,
+    "normalized_design": [
+      -0.2013147622346878,
+      0.4066173732280731,
+      -0.6489769816398621,
+      -0.47245460748672485
+    ],
+    "valid_pixel_variance": 0.00011926624776199752,
+    "edge_pixel_variance": 0.000861692304317469,
+    "channel_variance": [
+      1.737171345477627e-05,
+      0.0002211607820692183
+    ],
+    "estimated_ensemble_variance": 1.490828097024969e-05
+  },
+  {
+    "row_index": 2451,
+    "sample_id": 2503,
+    "normalized_design": [
+      0.07132412493228912,
+      0.2861941158771515,
+      0.9978250861167908,
+      0.30524319410324097
+    ],
+    "valid_pixel_variance": 3.294972262621926e-05,
+    "edge_pixel_variance": 0.0005686328529531663,
+    "channel_variance": [
+      6.669361291551159e-06,
+      5.923008396088729e-05
+    ],
+    "estimated_ensemble_variance": 4.118715328277407e-06
+  },
+  {
+    "row_index": 2489,
+    "sample_id": 2543,
+    "normalized_design": [
+      0.2646292448043823,
+      0.45084601640701294,
+      0.36957740783691406,
+      -0.386611670255661
+    ],
+    "valid_pixel_variance": 6.061829031613574e-05,
+    "edge_pixel_variance": 0.0007627781618694191,
+    "channel_variance": [
+      8.839344913065399e-06,
+      0.00011239723571920612
+    ],
+    "estimated_ensemble_variance": 7.577286289516968e-06
+  },
+  {
+    "row_index": 2547,
+    "sample_id": 2602,
+    "normalized_design": [
+      -0.4242447018623352,
+      -0.5981513857841492,
+      -0.037487488240003586,
+      -0.02696608193218708
+    ],
+    "valid_pixel_variance": 7.368095687376299e-05,
+    "edge_pixel_variance": 0.0021601351458603525,
+    "channel_variance": [
+      1.557638185351258e-05,
+      0.00013178553189401233
+    ],
+    "estimated_ensemble_variance": 9.210119609220374e-06
+  },
+  {
+    "row_index": 2562,
+    "sample_id": 2618,
+    "normalized_design": [
+      -0.347967267036438,
+      -0.1678980439901352,
+      -0.8957464694976807,
+      0.8199760913848877
+    ],
+    "valid_pixel_variance": 2.0587984551399224e-05,
+    "edge_pixel_variance": 0.0001853400527028399,
+    "channel_variance": [
+      4.223335151147304e-06,
+      3.695263395165089e-05
+    ],
+    "estimated_ensemble_variance": 2.573498068924903e-06
+  },
+  {
+    "row_index": 2719,
+    "sample_id": 2780,
+    "normalized_design": [
+      0.5894340872764587,
+      -0.9340260028839111,
+      0.869175374507904,
+      -0.5779296159744263
+    ],
+    "valid_pixel_variance": 4.688603668892696e-05,
+    "edge_pixel_variance": 0.0005351476706326123,
+    "channel_variance": [
+      1.107986593480821e-05,
+      8.269220744304534e-05
+    ],
+    "estimated_ensemble_variance": 5.86075458611587e-06
+  },
+  {
+    "row_index": 2872,
+    "sample_id": 2934,
+    "normalized_design": [
+      -0.5418757200241089,
+      -0.33914250135421753,
+      -0.5571369528770447,
+      0.8064574599266052
+    ],
+    "valid_pixel_variance": 3.408357877231021e-05,
+    "edge_pixel_variance": 0.0007185170995478954,
+    "channel_variance": [
+      9.26735235501636e-06,
+      5.889980518960336e-05
+    ],
+    "estimated_ensemble_variance": 4.260447346538776e-06
+  },
+  {
+    "row_index": 2892,
+    "sample_id": 2954,
+    "normalized_design": [
+      -0.4859887361526489,
+      -0.09276396781206131,
+      -0.507133960723877,
+      0.23737724125385284
+    ],
+    "valid_pixel_variance": 4.195395798685631e-05,
+    "edge_pixel_variance": 0.002011516303976297,
+    "channel_variance": [
+      6.60164035095209e-06,
+      7.730627562275992e-05
+    ],
+    "estimated_ensemble_variance": 5.244244748357039e-06
+  },
+  {
+    "row_index": 2948,
+    "sample_id": 3010,
+    "normalized_design": [
+      -0.19073894619941711,
+      -0.2940604090690613,
+      -0.9809032678604126,
+      -0.947329044342041
+    ],
+    "valid_pixel_variance": 3.5372339227309105e-05,
+    "edge_pixel_variance": 0.00036808272366712833,
+    "channel_variance": [
+      8.85873346982169e-06,
+      6.188594498479608e-05
+    ],
+    "estimated_ensemble_variance": 4.421542403413638e-06
+  },
+  {
+    "row_index": 2951,
+    "sample_id": 3013,
+    "normalized_design": [
+      -0.3451808989048004,
+      0.28744614124298096,
+      -0.16876688599586487,
+      -0.6356756687164307
+    ],
+    "valid_pixel_variance": 3.101242477590735e-05,
+    "edge_pixel_variance": 0.0007954800659524588,
+    "channel_variance": [
+      4.607289321844463e-06,
+      5.741756022997007e-05
+    ],
+    "estimated_ensemble_variance": 3.876553096988418e-06
+  },
+  {
+    "row_index": 2952,
+    "sample_id": 3014,
+    "normalized_design": [
+      -0.6726245284080505,
+      -0.8139845132827759,
+      0.0006821118295192719,
+      0.9551776647567749
+    ],
+    "valid_pixel_variance": 2.1724856330662834e-05,
+    "edge_pixel_variance": 0.0002954268261960976,
+    "channel_variance": [
+      5.246198949433547e-06,
+      3.8203513711891825e-05
+    ],
+    "estimated_ensemble_variance": 2.715607041332854e-06
+  },
+  {
+    "row_index": 2998,
+    "sample_id": 3062,
+    "normalized_design": [
+      -0.5588818788528442,
+      -0.5852387547492981,
+      -0.22043386101722717,
+      0.6663340330123901
+    ],
+    "valid_pixel_variance": 2.3887230062908977e-05,
+    "edge_pixel_variance": 0.0002229722262744117,
+    "channel_variance": [
+      6.160257253215131e-06,
+      4.161420287260247e-05
+    ],
+    "estimated_ensemble_variance": 2.985903757863622e-06
+  },
+  {
+    "row_index": 3048,
+    "sample_id": 3112,
+    "normalized_design": [
+      0.150344118475914,
+      -0.009562943130731583,
+      0.15924444794654846,
+      0.3248988687992096
+    ],
+    "valid_pixel_variance": 2.834266262223952e-05,
+    "edge_pixel_variance": 0.0003813525101883912,
+    "channel_variance": [
+      5.800775912729168e-06,
+      5.088454933174969e-05
+    ],
+    "estimated_ensemble_variance": 3.54283282777994e-06
+  },
+  {
+    "row_index": 3167,
+    "sample_id": 3234,
+    "normalized_design": [
+      -0.18545116484165192,
+      -0.9614832997322083,
+      -0.2749546468257904,
+      0.31409475207328796
+    ],
+    "valid_pixel_variance": 3.0504536267366557e-05,
+    "edge_pixel_variance": 0.00020679529630156744,
+    "channel_variance": [
+      7.4410421537490705e-06,
+      5.3568030380983746e-05
+    ],
+    "estimated_ensemble_variance": 3.8130670334208196e-06
+  },
+  {
+    "row_index": 3243,
+    "sample_id": 3312,
+    "normalized_design": [
+      0.35505515336990356,
+      -0.1809280514717102,
+      0.03153160586953163,
+      0.18172551691532135
+    ],
+    "valid_pixel_variance": 1.3729625891398863e-05,
+    "edge_pixel_variance": 0.00011529481068042098,
+    "channel_variance": [
+      4.399068553577643e-06,
+      2.306018322922025e-05
+    ],
+    "estimated_ensemble_variance": 1.7162032364248578e-06
+  },
+  {
+    "row_index": 3272,
+    "sample_id": 3341,
+    "normalized_design": [
+      -0.06376022100448608,
+      0.7116049528121948,
+      0.41980665922164917,
+      -0.6238548755645752
+    ],
+    "valid_pixel_variance": 3.845270592841115e-05,
+    "edge_pixel_variance": 0.0007086252155194107,
+    "channel_variance": [
+      7.0593297587337136e-06,
+      6.984608209808794e-05
+    ],
+    "estimated_ensemble_variance": 4.806588241051394e-06
+  },
+  {
+    "row_index": 3395,
+    "sample_id": 3467,
+    "normalized_design": [
+      0.7612708806991577,
+      0.08244310319423676,
+      -0.5452812314033508,
+      0.2468610554933548
+    ],
+    "valid_pixel_variance": 6.865993472493911e-05,
+    "edge_pixel_variance": 0.0005875738213985039,
+    "channel_variance": [
+      1.5478230646894565e-05,
+      0.00012184163880298324
+    ],
+    "estimated_ensemble_variance": 8.58249184061739e-06
+  },
+  {
+    "row_index": 3477,
+    "sample_id": 3552,
+    "normalized_design": [
+      0.42430374026298523,
+      -0.1503467559814453,
+      -0.057938460260629654,
+      -0.18095530569553375
+    ],
+    "valid_pixel_variance": 1.2125585844149381e-05,
+    "edge_pixel_variance": 0.00015562179876225409,
+    "channel_variance": [
+      3.7092333383450618e-06,
+      2.0541938349953686e-05
+    ],
+    "estimated_ensemble_variance": 1.5156982305186727e-06
+  },
+  {
+    "row_index": 3480,
+    "sample_id": 3555,
+    "normalized_design": [
+      0.5974723100662231,
+      0.7482037544250488,
+      0.1476738154888153,
+      0.47043153643608093
+    ],
+    "valid_pixel_variance": 2.3662796700129244e-05,
+    "edge_pixel_variance": 0.00033663320274175576,
+    "channel_variance": [
+      5.310870258063723e-06,
+      4.201472314219475e-05
+    ],
+    "estimated_ensemble_variance": 2.9578495875161555e-06
+  },
+  {
+    "row_index": 3493,
+    "sample_id": 3569,
+    "normalized_design": [
+      -0.90043705701828,
+      0.9659245014190674,
+      0.3908003568649292,
+      -0.4258391857147217
+    ],
+    "valid_pixel_variance": 0.0001246588981589944,
+    "edge_pixel_variance": 0.00176680978887205,
+    "channel_variance": [
+      3.4064221789411765e-05,
+      0.00021525357452857748
+    ],
+    "estimated_ensemble_variance": 1.55823622698743e-05
+  },
+  {
+    "row_index": 3610,
+    "sample_id": 3689,
+    "normalized_design": [
+      -0.5776676535606384,
+      0.046537548303604126,
+      -0.8444584608078003,
+      -0.5080350637435913
+    ],
+    "valid_pixel_variance": 2.5482816855432207e-05,
+    "edge_pixel_variance": 0.0004509937856109979,
+    "channel_variance": [
+      5.069566569077004e-06,
+      4.5896067141787256e-05
+    ],
+    "estimated_ensemble_variance": 3.185352106929026e-06
+  },
+  {
+    "row_index": 3687,
+    "sample_id": 3768,
+    "normalized_design": [
+      0.09267038106918335,
+      -0.5368049740791321,
+      -0.045064304023981094,
+      0.8055651187896729
+    ],
+    "valid_pixel_variance": 6.690437767163829e-05,
+    "edge_pixel_variance": 0.0004983924110039021,
+    "channel_variance": [
+      1.7256187346088362e-05,
+      0.00011655256799718739
+    ],
+    "estimated_ensemble_variance": 8.363047208954786e-06
+  },
+  {
+    "row_index": 3779,
+    "sample_id": 3861,
+    "normalized_design": [
+      -0.38839367032051086,
+      0.1970793753862381,
+      0.5449772477149963,
+      -0.7637752890586853
+    ],
+    "valid_pixel_variance": 1.86990321193569e-05,
+    "edge_pixel_variance": 0.0001870608759776102,
+    "channel_variance": [
+      3.52988639328963e-06,
+      3.386817784542395e-05
+    ],
+    "estimated_ensemble_variance": 2.3373790149196124e-06
+  },
+  {
+    "row_index": 3802,
+    "sample_id": 3885,
+    "normalized_design": [
+      -0.02780311554670334,
+      0.7325174808502197,
+      0.7762631177902222,
+      -0.22004111111164093
+    ],
+    "valid_pixel_variance": 8.390615984562992e-05,
+    "edge_pixel_variance": 0.0010570314364872235,
+    "channel_variance": [
+      1.0528648424190921e-05,
+      0.0001572836712670687
+    ],
+    "estimated_ensemble_variance": 1.048826998070374e-05
+  },
+  {
+    "row_index": 3893,
+    "sample_id": 3978,
+    "normalized_design": [
+      -0.48660221695899963,
+      -0.5478469729423523,
+      -0.45621156692504883,
+      0.5217384099960327
+    ],
+    "valid_pixel_variance": 5.209737277341834e-05,
+    "edge_pixel_variance": 0.0005565397824214576,
+    "channel_variance": [
+      1.177876008787516e-05,
+      9.24159854589614e-05
+    ],
+    "estimated_ensemble_variance": 6.512171596677293e-06
+  },
+  {
+    "row_index": 4056,
+    "sample_id": 4143,
+    "normalized_design": [
+      0.30589765310287476,
+      0.8940190672874451,
+      0.7867205142974854,
+      0.9064068794250488
+    ],
+    "valid_pixel_variance": 7.226369159116278e-05,
+    "edge_pixel_variance": 0.000936170783980203,
+    "channel_variance": [
+      9.664068899610917e-06,
+      0.0001348633142827144
+    ],
+    "estimated_ensemble_variance": 9.032961448895347e-06
+  },
+  {
+    "row_index": 4384,
+    "sample_id": 4476,
+    "normalized_design": [
+      0.530120849609375,
+      -0.8973922729492188,
+      -0.9181911945343018,
+      -0.8335123062133789
+    ],
+    "valid_pixel_variance": 1.7894549814442362e-05,
+    "edge_pixel_variance": 0.0001458316858266458,
+    "channel_variance": [
+      2.930027846536237e-06,
+      3.2859071782348184e-05
+    ],
+    "estimated_ensemble_variance": 2.2368187268052953e-06
+  },
+  {
+    "row_index": 4498,
+    "sample_id": 4595,
+    "normalized_design": [
+      0.6788159608840942,
+      0.9069238305091858,
+      0.9709487557411194,
+      -0.2674812078475952
+    ],
+    "valid_pixel_variance": 9.773190307031315e-05,
+    "edge_pixel_variance": 0.000562475289248995,
+    "channel_variance": [
+      1.2293430628590311e-05,
+      0.00018317037551203555
+    ],
+    "estimated_ensemble_variance": 1.2216487883789144e-05
+  },
+  {
+    "row_index": 4502,
+    "sample_id": 4599,
+    "normalized_design": [
+      0.19195133447647095,
+      0.44938528537750244,
+      -0.014172609895467758,
+      0.2596898376941681
+    ],
+    "valid_pixel_variance": 7.890183043434874e-05,
+    "edge_pixel_variance": 0.0005386804140426385,
+    "channel_variance": [
+      1.4456605313835058e-05,
+      0.00014334705555486246
+    ],
+    "estimated_ensemble_variance": 9.862728804293592e-06
+  },
+  {
+    "row_index": 4587,
+    "sample_id": 4685,
+    "normalized_design": [
+      -0.09792633354663849,
+      0.5111420154571533,
+      -0.7734627723693848,
+      -0.8985894918441772
+    ],
+    "valid_pixel_variance": 8.345909911200009e-05,
+    "edge_pixel_variance": 0.0007347877802457657,
+    "channel_variance": [
+      1.5322886913091275e-05,
+      0.00015159531131090842
+    ],
+    "estimated_ensemble_variance": 1.0432387389000011e-05
+  },
+  {
+    "row_index": 4648,
+    "sample_id": 4747,
+    "normalized_design": [
+      0.751162052154541,
+      0.6927096843719482,
+      -0.1615266352891922,
+      -0.17601966857910156
+    ],
+    "valid_pixel_variance": 5.895689839397129e-05,
+    "edge_pixel_variance": 0.0002831085395046289,
+    "channel_variance": [
+      1.0425250477012762e-05,
+      0.00010748854631092972
+    ],
+    "estimated_ensemble_variance": 7.369612299246412e-06
+  },
+  {
+    "row_index": 4694,
+    "sample_id": 4794,
+    "normalized_design": [
+      -0.36323297023773193,
+      -0.5860434770584106,
+      -0.590121328830719,
+      0.903380274772644
+    ],
+    "valid_pixel_variance": 2.3107237361883374e-05,
+    "edge_pixel_variance": 0.0003345683122841308,
+    "channel_variance": [
+      6.472047278215423e-06,
+      3.974242744555112e-05
+    ],
+    "estimated_ensemble_variance": 2.8884046702354217e-06
+  },
+  {
+    "row_index": 4870,
+    "sample_id": 4972,
+    "normalized_design": [
+      0.7025535702705383,
+      -0.6783139109611511,
+      0.49434107542037964,
+      -0.17412175238132477
+    ],
+    "valid_pixel_variance": 2.268767731933208e-05,
+    "edge_pixel_variance": 0.00019052972761234095,
+    "channel_variance": [
+      6.054807893178021e-06,
+      3.9320546745485945e-05
+    ],
+    "estimated_ensemble_variance": 2.83595966491651e-06
+  },
+  {
+    "row_index": 4992,
+    "sample_id": 5097,
+    "normalized_design": [
+      -0.5821289420127869,
+      0.591367781162262,
+      0.7088948488235474,
+      -0.8521828055381775
+    ],
+    "valid_pixel_variance": 0.00018776930858661943,
+    "edge_pixel_variance": 0.0018980807641203168,
+    "channel_variance": [
+      2.565690285225666e-05,
+      0.000349881714320982
+    ],
+    "estimated_ensemble_variance": 2.347116357332743e-05
+  },
+  {
+    "row_index": 5081,
+    "sample_id": 5189,
+    "normalized_design": [
+      -0.3724668025970459,
+      0.18300975859165192,
+      -0.24689972400665283,
+      0.8296114206314087
+    ],
+    "valid_pixel_variance": 3.5113421959739096e-05,
+    "edge_pixel_variance": 0.00036214924195793945,
+    "channel_variance": [
+      5.449225839897696e-06,
+      6.477761807958004e-05
+    ],
+    "estimated_ensemble_variance": 4.389177744967387e-06
+  },
+  {
+    "row_index": 5203,
+    "sample_id": 5314,
+    "normalized_design": [
+      -0.19718587398529053,
+      -0.9337175488471985,
+      -0.350864052772522,
+      0.8778343796730042
+    ],
+    "valid_pixel_variance": 1.3565594731345504e-05,
+    "edge_pixel_variance": 0.00010785145772948328,
+    "channel_variance": [
+      4.267802341444001e-06,
+      2.286338712124696e-05
+    ],
+    "estimated_ensemble_variance": 1.695699341418188e-06
+  },
+  {
+    "row_index": 5214,
+    "sample_id": 5325,
+    "normalized_design": [
+      -0.11577440053224564,
+      0.13133932650089264,
+      0.9863648414611816,
+      0.08310369402170181
+    ],
+    "valid_pixel_variance": 4.8905700804874134e-05,
+    "edge_pixel_variance": 0.0010421772036019446,
+    "channel_variance": [
+      8.179979297921756e-06,
+      8.963142231182595e-05
+    ],
+    "estimated_ensemble_variance": 6.113212600609267e-06
+  },
+  {
+    "row_index": 5249,
+    "sample_id": 5361,
+    "normalized_design": [
+      -0.8953534364700317,
+      0.20038196444511414,
+      -0.2911403775215149,
+      -0.9085500836372375
+    ],
+    "valid_pixel_variance": 8.773812028857956e-05,
+    "edge_pixel_variance": 0.000875947801353192,
+    "channel_variance": [
+      2.5339076017507162e-05,
+      0.00015013716455965147
+    ],
+    "estimated_ensemble_variance": 1.0967265036072445e-05
+  },
+  {
+    "row_index": 5251,
+    "sample_id": 5363,
+    "normalized_design": [
+      0.6827731132507324,
+      0.7826465964317322,
+      -0.9046902656555176,
+      -0.16780942678451538
+    ],
+    "valid_pixel_variance": 8.684875515901437e-05,
+    "edge_pixel_variance": 0.0005265077161057107,
+    "channel_variance": [
+      1.1428335071269724e-05,
+      0.00016226917524675923
+    ],
+    "estimated_ensemble_variance": 1.0856094394876797e-05
+  },
+  {
+    "row_index": 5308,
+    "sample_id": 5423,
+    "normalized_design": [
+      0.3018128275871277,
+      0.7682152390480042,
+      -0.8376365900039673,
+      0.5254887938499451
+    ],
+    "valid_pixel_variance": 6.626795372183699e-05,
+    "edge_pixel_variance": 0.0003489617358493211,
+    "channel_variance": [
+      8.917345222495697e-06,
+      0.00012361856222117774
+    ],
+    "estimated_ensemble_variance": 8.283494215229623e-06
+  },
+  {
+    "row_index": 5402,
+    "sample_id": 5520,
+    "normalized_design": [
+      0.26592209935188293,
+      -0.5490403771400452,
+      -0.9910163283348083,
+      0.28730201721191406
+    ],
+    "valid_pixel_variance": 3.829559497805388e-05,
+    "edge_pixel_variance": 0.00019832095865499736,
+    "channel_variance": [
+      8.91448804206118e-06,
+      6.767670191404621e-05
+    ],
+    "estimated_ensemble_variance": 4.786949372256735e-06
+  },
+  {
+    "row_index": 5442,
+    "sample_id": 5562,
+    "normalized_design": [
+      -0.36743733286857605,
+      -0.30354249477386475,
+      -0.9426153302192688,
+      -0.6531256437301636
+    ],
+    "valid_pixel_variance": 3.118777259423198e-05,
+    "edge_pixel_variance": 0.0002475091499934578,
+    "channel_variance": [
+      7.820870342040083e-06,
+      5.455467484642336e-05
+    ],
+    "estimated_ensemble_variance": 3.898471574278998e-06
+  },
+  {
+    "row_index": 5673,
+    "sample_id": 5797,
+    "normalized_design": [
+      -0.27469536662101746,
+      0.4405883550643921,
+      0.17011672258377075,
+      -0.48789650201797485
+    ],
+    "valid_pixel_variance": 4.1993992448462884e-05,
+    "edge_pixel_variance": 0.0005035207815067068,
+    "channel_variance": [
+      6.607393151923464e-06,
+      7.738059174500179e-05
+    ],
+    "estimated_ensemble_variance": 5.2492490560578605e-06
+  },
+  {
+    "row_index": 5707,
+    "sample_id": 5831,
+    "normalized_design": [
+      0.06611336767673492,
+      0.9259578585624695,
+      0.3661988079547882,
+      -0.35976430773735046
+    ],
+    "valid_pixel_variance": 0.00011591313847106228,
+    "edge_pixel_variance": 0.0006417231975781905,
+    "channel_variance": [
+      1.926098183980637e-05,
+      0.0002125652951023177
+    ],
+    "estimated_ensemble_variance": 1.4489142308882785e-05
+  },
+  {
+    "row_index": 5749,
+    "sample_id": 5874,
+    "normalized_design": [
+      -0.06532889604568481,
+      -0.3183407783508301,
+      -0.09674092382192612,
+      -0.563833475112915
+    ],
+    "valid_pixel_variance": 2.962640914647737e-05,
+    "edge_pixel_variance": 0.00035820044923970894,
+    "channel_variance": [
+      5.3953078764820465e-06,
+      5.385751041647242e-05
+    ],
+    "estimated_ensemble_variance": 3.7033011433096712e-06
+  },
+  {
+    "row_index": 5959,
+    "sample_id": 6088,
+    "normalized_design": [
+      0.23732836544513702,
+      -0.595390796661377,
+      0.07421085983514786,
+      -0.49313783645629883
+    ],
+    "valid_pixel_variance": 2.5711212088337142e-05,
+    "edge_pixel_variance": 0.00032367613247514924,
+    "channel_variance": [
+      7.103850749366329e-06,
+      4.431857342730755e-05
+    ],
+    "estimated_ensemble_variance": 3.2139015110421428e-06
+  },
+  {
+    "row_index": 6101,
+    "sample_id": 6233,
+    "normalized_design": [
+      -0.6951946020126343,
+      0.6144589185714722,
+      0.4157557189464569,
+      -0.9392902255058289
+    ],
+    "valid_pixel_variance": 0.00015832880434161155,
+    "edge_pixel_variance": 0.0016835585944063654,
+    "channel_variance": [
+      2.4059739116906704e-05,
+      0.00029259786956631665
+    ],
+    "estimated_ensemble_variance": 1.9791100542701444e-05
+  },
+  {
+    "row_index": 6176,
+    "sample_id": 6311,
+    "normalized_design": [
+      0.05014132335782051,
+      0.15319792926311493,
+      0.7814342975616455,
+      -0.7524623274803162
+    ],
+    "valid_pixel_variance": 5.080743820377696e-05,
+    "edge_pixel_variance": 0.001249334603968657,
+    "channel_variance": [
+      9.641893778845705e-06,
+      9.19729826287085e-05
+    ],
+    "estimated_ensemble_variance": 6.35092977547212e-06
+  },
+  {
+    "row_index": 6193,
+    "sample_id": 6329,
+    "normalized_design": [
+      -0.6604546308517456,
+      0.22112047672271729,
+      0.02933034487068653,
+      -0.46115177869796753
+    ],
+    "valid_pixel_variance": 3.171416639044216e-05,
+    "edge_pixel_variance": 0.00040239346351748586,
+    "channel_variance": [
+      6.286193820152509e-06,
+      5.714213896073147e-05
+    ],
+    "estimated_ensemble_variance": 3.96427079880527e-06
+  },
+  {
+    "row_index": 6319,
+    "sample_id": 6457,
+    "normalized_design": [
+      -0.6847812533378601,
+      0.25164952874183655,
+      -0.3568871021270752,
+      -0.7702851295471191
+    ],
+    "valid_pixel_variance": 5.254699577686603e-05,
+    "edge_pixel_variance": 0.0014043333364138128,
+    "channel_variance": [
+      6.313749843318913e-06,
+      9.878024171041245e-05
+    ],
+    "estimated_ensemble_variance": 6.568374472108254e-06
+  },
+  {
+    "row_index": 6339,
+    "sample_id": 6477,
+    "normalized_design": [
+      -0.10703759640455246,
+      0.05578221380710602,
+      0.592182457447052,
+      -0.9634014964103699
+    ],
+    "valid_pixel_variance": 3.142744684020231e-05,
+    "edge_pixel_variance": 0.0006587602980131025,
+    "channel_variance": [
+      5.600424634736609e-06,
+      5.725446904566783e-05
+    ],
+    "estimated_ensemble_variance": 3.928430855025288e-06
+  },
+  {
+    "row_index": 6350,
+    "sample_id": 6489,
+    "normalized_design": [
+      -0.6955054402351379,
+      0.15128041803836823,
+      -0.5019364953041077,
+      -0.15498536825180054
+    ],
+    "valid_pixel_variance": 5.451896654584569e-05,
+    "edge_pixel_variance": 0.0013177595985946514,
+    "channel_variance": [
+      7.704462395286786e-06,
+      0.0001013334706964042
+    ],
+    "estimated_ensemble_variance": 6.814870818230711e-06
+  },
+  {
+    "row_index": 6370,
+    "sample_id": 6509,
+    "normalized_design": [
+      -0.05386359989643097,
+      0.9694814682006836,
+      -0.26191383600234985,
+      0.49899154901504517
+    ],
+    "valid_pixel_variance": 6.849672485584421e-05,
+    "edge_pixel_variance": 0.0005634903894842786,
+    "channel_variance": [
+      1.0634250243465349e-05,
+      0.00012635919946822263
+    ],
+    "estimated_ensemble_variance": 8.562090606980527e-06
+  },
+  {
+    "row_index": 6382,
+    "sample_id": 6522,
+    "normalized_design": [
+      -0.31562307476997375,
+      -0.2857261896133423,
+      -0.4998108148574829,
+      -0.970896303653717
+    ],
+    "valid_pixel_variance": 2.2986503833572194e-05,
+    "edge_pixel_variance": 0.0005035759341356171,
+    "channel_variance": [
+      6.294568291051975e-06,
+      3.967843937609228e-05
+    ],
+    "estimated_ensemble_variance": 2.873312979196524e-06
+  },
+  {
+    "row_index": 6461,
+    "sample_id": 6601,
+    "normalized_design": [
+      -0.5084412097930908,
+      0.3374214768409729,
+      -0.8531390428543091,
+      0.5791771411895752
+    ],
+    "valid_pixel_variance": 6.70735340060209e-05,
+    "edge_pixel_variance": 0.0005724001700848779,
+    "channel_variance": [
+      1.5351723386689175e-05,
+      0.00011879534462535152
+    ],
+    "estimated_ensemble_variance": 8.384191750752612e-06
+  },
+  {
+    "row_index": 6471,
+    "sample_id": 6611,
+    "normalized_design": [
+      0.7306202054023743,
+      0.8239004015922546,
+      0.9330097436904907,
+      -0.14418114721775055
+    ],
+    "valid_pixel_variance": 7.320256133778605e-05,
+    "edge_pixel_variance": 0.0004361984477212692,
+    "channel_variance": [
+      1.251230464887917e-05,
+      0.00013389281802669238
+    ],
+    "estimated_ensemble_variance": 9.150320167223256e-06
+  },
+  {
+    "row_index": 6475,
+    "sample_id": 6615,
+    "normalized_design": [
+      0.1559557020664215,
+      0.2882978916168213,
+      -0.08559343963861465,
+      0.13640786707401276
+    ],
+    "valid_pixel_variance": 3.33401845866437e-05,
+    "edge_pixel_variance": 0.0002732695903118191,
+    "channel_variance": [
+      9.467832439584843e-06,
+      5.721253673370232e-05
+    ],
+    "estimated_ensemble_variance": 4.167523073330463e-06
+  },
+  {
+    "row_index": 6501,
+    "sample_id": 6642,
+    "normalized_design": [
+      -0.07113954424858093,
+      -0.27495715022087097,
+      0.7354297637939453,
+      -0.22527383267879486
+    ],
+    "valid_pixel_variance": 2.3562561683243505e-05,
+    "edge_pixel_variance": 0.00021439728673412927,
+    "channel_variance": [
+      7.515809781489711e-06,
+      3.960931358499718e-05
+    ],
+    "estimated_ensemble_variance": 2.945320210405438e-06
+  },
+  {
+    "row_index": 6503,
+    "sample_id": 6644,
+    "normalized_design": [
+      0.7702140212059021,
+      -0.14970268309116364,
+      -0.9155886173248291,
+      0.9913648366928101
+    ],
+    "valid_pixel_variance": 4.4808706083897346e-05,
+    "edge_pixel_variance": 0.0005487467926577616,
+    "channel_variance": [
+      1.0416065502658032e-05,
+      7.920134666513631e-05
+    ],
+    "estimated_ensemble_variance": 5.601088260487168e-06
+  },
+  {
+    "row_index": 6590,
+    "sample_id": 6734,
+    "normalized_design": [
+      -0.9262498021125793,
+      -0.8418302536010742,
+      -0.18660667538642883,
+      -0.3504776954650879
+    ],
+    "valid_pixel_variance": 4.6870263998947916e-05,
+    "edge_pixel_variance": 0.0013508097114905957,
+    "channel_variance": [
+      2.5984004230236767e-05,
+      6.775652376765835e-05
+    ],
+    "estimated_ensemble_variance": 5.8587829998684895e-06
+  },
+  {
+    "row_index": 6657,
+    "sample_id": 6802,
+    "normalized_design": [
+      -0.05230673402547836,
+      -0.3770606219768524,
+      0.953673779964447,
+      0.13310649991035461
+    ],
+    "valid_pixel_variance": 4.438747368979186e-05,
+    "edge_pixel_variance": 0.00037988083129160475,
+    "channel_variance": [
+      8.786304688335882e-06,
+      7.998864269124711e-05
+    ],
+    "estimated_ensemble_variance": 5.548434211223982e-06
+  },
+  {
+    "row_index": 6748,
+    "sample_id": 6893,
+    "normalized_design": [
+      -0.04083273559808731,
+      0.4809117019176483,
+      -0.40049508213996887,
+      -0.8847426772117615
+    ],
+    "valid_pixel_variance": 4.274048302210656e-05,
+    "edge_pixel_variance": 0.00024106870174067288,
+    "channel_variance": [
+      1.0823062978726754e-05,
+      7.4657903065486e-05
+    ],
+    "estimated_ensemble_variance": 5.34256037776332e-06
+  },
+  {
+    "row_index": 6789,
+    "sample_id": 6936,
+    "normalized_design": [
+      0.029576394706964493,
+      -0.18409760296344757,
+      0.4397694170475006,
+      0.9631209969520569
+    ],
+    "valid_pixel_variance": 2.245742048618443e-05,
+    "edge_pixel_variance": 0.00030487363028746804,
+    "channel_variance": [
+      4.667502572334543e-06,
+      4.024733840003411e-05
+    ],
+    "estimated_ensemble_variance": 2.807177560773054e-06
+  },
+  {
+    "row_index": 6931,
+    "sample_id": 7080,
+    "normalized_design": [
+      0.12931925058364868,
+      -0.6623880863189697,
+      -0.9925622940063477,
+      0.7987422943115234
+    ],
+    "valid_pixel_variance": 3.128992977477519e-05,
+    "edge_pixel_variance": 0.000449235849130813,
+    "channel_variance": [
+      1.016691883275844e-05,
+      5.241294071679184e-05
+    ],
+    "estimated_ensemble_variance": 3.9112412218468985e-06
+  },
+  {
+    "row_index": 7004,
+    "sample_id": 7156,
+    "normalized_design": [
+      0.768751323223114,
+      -0.8655892610549927,
+      0.5749635696411133,
+      -0.8250568509101868
+    ],
+    "valid_pixel_variance": 2.627524855231336e-05,
+    "edge_pixel_variance": 0.00018711252637828766,
+    "channel_variance": [
+      5.759739282725385e-06,
+      4.679075782190086e-05
+    ],
+    "estimated_ensemble_variance": 3.28440606903917e-06
+  },
+  {
+    "row_index": 7017,
+    "sample_id": 7169,
+    "normalized_design": [
+      -0.7820258140563965,
+      0.9137913584709167,
+      0.03685961663722992,
+      -0.3141949474811554
+    ],
+    "valid_pixel_variance": 0.00015326182782291332,
+    "edge_pixel_variance": 0.0012002963027576631,
+    "channel_variance": [
+      2.6456200787161412e-05,
+      0.0002800674548586659
+    ],
+    "estimated_ensemble_variance": 1.9157728477864165e-05
+  },
+  {
+    "row_index": 7209,
+    "sample_id": 7366,
+    "normalized_design": [
+      -0.6835367679595947,
+      -0.720726490020752,
+      -0.3759593367576599,
+      0.059438031166791916
+    ],
+    "valid_pixel_variance": 2.159682886507149e-05,
+    "edge_pixel_variance": 0.0002990753985346364,
+    "channel_variance": [
+      6.512355301937585e-06,
+      3.668130242820526e-05
+    ],
+    "estimated_ensemble_variance": 2.699603608133936e-06
+  },
+  {
+    "row_index": 7255,
+    "sample_id": 7413,
+    "normalized_design": [
+      -0.4753935635089874,
+      0.39364057779312134,
+      -0.450756698846817,
+      -0.027712425217032433
+    ],
+    "valid_pixel_variance": 5.863404072935957e-05,
+    "edge_pixel_variance": 0.00035979938291588525,
+    "channel_variance": [
+      1.0627410453181544e-05,
+      0.00010664067100553726
+    ],
+    "estimated_ensemble_variance": 7.329255091169946e-06
+  },
+  {
+    "row_index": 7571,
+    "sample_id": 7734,
+    "normalized_design": [
+      -0.5096583962440491,
+      -0.33315223455429077,
+      0.594996452331543,
+      0.4404028356075287
+    ],
+    "valid_pixel_variance": 4.3530462116102334e-05,
+    "edge_pixel_variance": 0.0004517514901616003,
+    "channel_variance": [
+      9.25598515695789e-06,
+      7.780493907524643e-05
+    ],
+    "estimated_ensemble_variance": 5.441307764512792e-06
+  },
+  {
+    "row_index": 7668,
+    "sample_id": 7833,
+    "normalized_design": [
+      -0.7447388768196106,
+      0.6824713945388794,
+      0.3724774718284607,
+      -0.4090885818004608
+    ],
+    "valid_pixel_variance": 9.700825539895087e-05,
+    "edge_pixel_variance": 0.0011770782765166423,
+    "channel_variance": [
+      1.52789822202654e-05,
+      0.00017873752857763614
+    ],
+    "estimated_ensemble_variance": 1.2126031924868858e-05
+  },
+  {
+    "row_index": 7688,
+    "sample_id": 7853,
+    "normalized_design": [
+      -0.005395013839006424,
+      0.43804633617401123,
+      0.6099938750267029,
+      0.19010837376117706
+    ],
+    "valid_pixel_variance": 3.696389449720117e-05,
+    "edge_pixel_variance": 0.0002853212144299321,
+    "channel_variance": [
+      7.479366153795917e-06,
+      6.644842284060594e-05
+    ],
+    "estimated_ensemble_variance": 4.620486812150146e-06
+  },
+  {
+    "row_index": 7778,
+    "sample_id": 7945,
+    "normalized_design": [
+      -0.5525858998298645,
+      0.3968828320503235,
+      -0.9348607659339905,
+      0.04900560528039932
+    ],
+    "valid_pixel_variance": 4.3168362531296775e-05,
+    "edge_pixel_variance": 0.0005135503523597624,
+    "channel_variance": [
+      6.406878745954233e-06,
+      7.992984631663885e-05
+    ],
+    "estimated_ensemble_variance": 5.396045316412097e-06
+  },
+  {
+    "row_index": 7873,
+    "sample_id": 8045,
+    "normalized_design": [
+      -0.0500856377184391,
+      0.5953763723373413,
+      0.8095985651016235,
+      -0.9065775275230408
+    ],
+    "valid_pixel_variance": 0.00010199097406903883,
+    "edge_pixel_variance": 0.0022947100746580663,
+    "channel_variance": [
+      1.0297596678822577e-05,
+      0.00019368435145925486
+    ],
+    "estimated_ensemble_variance": 1.2748871758629853e-05
+  },
+  {
+    "row_index": 8020,
+    "sample_id": 8195,
+    "normalized_design": [
+      0.5133533477783203,
+      0.0007521472871303558,
+      0.22468282282352448,
+      0.19680054485797882
+    ],
+    "valid_pixel_variance": 2.257725260020284e-05,
+    "edge_pixel_variance": 0.00029419585503075813,
+    "channel_variance": [
+      5.197811037993584e-06,
+      3.995669416241174e-05
+    ],
+    "estimated_ensemble_variance": 2.822156575025355e-06
+  },
+  {
+    "row_index": 8066,
+    "sample_id": 8243,
+    "normalized_design": [
+      0.6261120438575745,
+      0.27151811122894287,
+      -0.006930924952030182,
+      0.42364293336868286
+    ],
+    "valid_pixel_variance": 5.600640521995604e-05,
+    "edge_pixel_variance": 0.0005016020620882456,
+    "channel_variance": [
+      9.883960932738176e-06,
+      0.00010212884950717359
+    ],
+    "estimated_ensemble_variance": 7.000800652494505e-06
+  },
+  {
+    "row_index": 8251,
+    "sample_id": 8431,
+    "normalized_design": [
+      0.25081899762153625,
+      0.9473732709884644,
+      0.852061927318573,
+      -0.09314640611410141
+    ],
+    "valid_pixel_variance": 6.813536568894549e-05,
+    "edge_pixel_variance": 0.0014315001937125404,
+    "channel_variance": [
+      6.888931150841639e-06,
+      0.00012938180022704942
+    ],
+    "estimated_ensemble_variance": 8.516920711118186e-06
+  },
+  {
+    "row_index": 8270,
+    "sample_id": 8450,
+    "normalized_design": [
+      -0.24629126489162445,
+      -0.8482486009597778,
+      0.33443984389305115,
+      -0.4449443221092224
+    ],
+    "valid_pixel_variance": 1.4529595901573116e-05,
+    "edge_pixel_variance": 0.00015357067632614202,
+    "channel_variance": [
+      4.001838912999496e-06,
+      2.5057352890146826e-05
+    ],
+    "estimated_ensemble_variance": 1.8161994876966395e-06
+  },
+  {
+    "row_index": 8407,
+    "sample_id": 8589,
+    "normalized_design": [
+      -0.08398320525884628,
+      0.8308337330818176,
+      -0.27348828315734863,
+      -0.8788981437683105
+    ],
+    "valid_pixel_variance": 7.605250147165364e-05,
+    "edge_pixel_variance": 0.0005542509045070751,
+    "channel_variance": [
+      1.1897337526062404e-05,
+      0.00014020766541724406
+    ],
+    "estimated_ensemble_variance": 9.506562683956705e-06
+  },
+  {
+    "row_index": 8449,
+    "sample_id": 8632,
+    "normalized_design": [
+      0.08267632126808167,
+      -0.40925395488739014,
+      0.013555752113461494,
+      -0.17458483576774597
+    ],
+    "valid_pixel_variance": 1.8428334667995828e-05,
+    "edge_pixel_variance": 0.0002467026564078315,
+    "channel_variance": [
+      3.7580097596893215e-06,
+      3.30986595763023e-05
+    ],
+    "estimated_ensemble_variance": 2.3035418334994785e-06
+  },
+  {
+    "row_index": 8530,
+    "sample_id": 8716,
+    "normalized_design": [
+      0.6770459413528442,
+      -0.2085500806570053,
+      0.8964893221855164,
+      -0.9116662740707397
+    ],
+    "valid_pixel_variance": 5.334448853901706e-05,
+    "edge_pixel_variance": 0.00033872431287275124,
+    "channel_variance": [
+      9.875572452825502e-06,
+      9.681340462520836e-05
+    ],
+    "estimated_ensemble_variance": 6.668061067377132e-06
+  },
+  {
+    "row_index": 8583,
+    "sample_id": 8770,
+    "normalized_design": [
+      -0.21468991041183472,
+      -0.03775215148925781,
+      -0.7868425846099854,
+      -0.8877488970756531
+    ],
+    "valid_pixel_variance": 6.759665389343436e-05,
+    "edge_pixel_variance": 0.0005698744487099332,
+    "channel_variance": [
+      1.0464321213833063e-05,
+      0.00012472898657303475
+    ],
+    "estimated_ensemble_variance": 8.449581736679295e-06
+  },
+  {
+    "row_index": 8627,
+    "sample_id": 8815,
+    "normalized_design": [
+      0.26756757497787476,
+      0.79007887840271,
+      -0.08488018065690994,
+      0.3662669360637665
+    ],
+    "valid_pixel_variance": 7.792488293589003e-05,
+    "edge_pixel_variance": 0.0008317061566470751,
+    "channel_variance": [
+      1.3720357993531528e-05,
+      0.00014212940787824697
+    ],
+    "estimated_ensemble_variance": 9.740610366986254e-06
+  },
+  {
+    "row_index": 8819,
+    "sample_id": 9012,
+    "normalized_design": [
+      0.7923258543014526,
+      -0.02883118763566017,
+      -0.26041799783706665,
+      -0.7711316347122192
+    ],
+    "valid_pixel_variance": 7.138000308348839e-05,
+    "edge_pixel_variance": 0.0006137435837150449,
+    "channel_variance": [
+      1.2949654249178678e-05,
+      0.00012981035191779775
+    ],
+    "estimated_ensemble_variance": 8.922500385436049e-06
+  },
+  {
+    "row_index": 8892,
+    "sample_id": 9086,
+    "normalized_design": [
+      -0.8030937910079956,
+      -0.6271694898605347,
+      -0.5838141441345215,
+      0.7863041758537292
+    ],
+    "valid_pixel_variance": 4.0586278722053196e-05,
+    "edge_pixel_variance": 0.0006739437537254004,
+    "channel_variance": [
+      1.191305642656039e-05,
+      6.925950101754539e-05
+    ],
+    "estimated_ensemble_variance": 5.0732848402566496e-06
+  },
+  {
+    "row_index": 8896,
+    "sample_id": 9090,
+    "normalized_design": [
+      -0.23153795301914215,
+      -0.8823742866516113,
+      -0.6016821265220642,
+      0.23431424796581268
+    ],
+    "valid_pixel_variance": 1.0924998557423435e-05,
+    "edge_pixel_variance": 0.00017028620090777231,
+    "channel_variance": [
+      2.960694851918421e-06,
+      1.8889302262928454e-05
+    ],
+    "estimated_ensemble_variance": 1.3656248196779294e-06
+  },
+  {
+    "row_index": 8919,
+    "sample_id": 9113,
+    "normalized_design": [
+      -0.7420313358306885,
+      0.02944570779800415,
+      -0.15893808007240295,
+      0.12133648991584778
+    ],
+    "valid_pixel_variance": 3.313956634239555e-05,
+    "edge_pixel_variance": 0.000309133637101599,
+    "channel_variance": [
+      6.246998319823867e-06,
+      6.0032134364967155e-05
+    ],
+    "estimated_ensemble_variance": 4.142445792799444e-06
+  },
+  {
+    "row_index": 8963,
+    "sample_id": 9159,
+    "normalized_design": [
+      0.07760429382324219,
+      0.5336223840713501,
+      0.9083499908447266,
+      -0.7583060264587402
+    ],
+    "valid_pixel_variance": 4.724675278848776e-05,
+    "edge_pixel_variance": 0.0006606982611186113,
+    "channel_variance": [
+      5.662419786574464e-06,
+      8.883108579040012e-05
+    ],
+    "estimated_ensemble_variance": 5.90584409856097e-06
+  },
+  {
+    "row_index": 9354,
+    "sample_id": 9557,
+    "normalized_design": [
+      -0.4106415808200836,
+      0.38700374960899353,
+      -0.5773448348045349,
+      -0.14065653085708618
+    ],
+    "valid_pixel_variance": 5.2138111569562435e-05,
+    "edge_pixel_variance": 0.0006815821438927466,
+    "channel_variance": [
+      9.07930217276126e-06,
+      9.519692096636314e-05
+    ],
+    "estimated_ensemble_variance": 6.517263946195304e-06
+  },
+  {
+    "row_index": 9415,
+    "sample_id": 9621,
+    "normalized_design": [
+      -0.4036993980407715,
+      0.19013261795043945,
+      0.16683322191238403,
+      0.16952292621135712
+    ],
+    "valid_pixel_variance": 6.96205599643639e-05,
+    "edge_pixel_variance": 0.0024655878240590423,
+    "channel_variance": [
+      8.973516714693885e-06,
+      0.00013026760321403313
+    ],
+    "estimated_ensemble_variance": 8.702569995545488e-06
+  },
+  {
+    "row_index": 9424,
+    "sample_id": 9630,
+    "normalized_design": [
+      -0.8296536803245544,
+      -0.3949756920337677,
+      0.4563758969306946,
+      -0.8460844159126282
+    ],
+    "valid_pixel_variance": 0.00011770105146403703,
+    "edge_pixel_variance": 0.0010290082028528687,
+    "channel_variance": [
+      3.7062271298586425e-05,
+      0.00019833983162948664
+    ],
+    "estimated_ensemble_variance": 1.4712631433004629e-05
+  },
+  {
+    "row_index": 9532,
+    "sample_id": 9739,
+    "normalized_design": [
+      0.770070493221283,
+      0.6726495623588562,
+      0.7527107000350952,
+      -0.00013884343206882477
+    ],
+    "valid_pixel_variance": 7.19609350183515e-05,
+    "edge_pixel_variance": 0.0005346874010569638,
+    "channel_variance": [
+      1.1579400660560461e-05,
+      0.00013234246937614204
+    ],
+    "estimated_ensemble_variance": 8.995116877293938e-06
+  },
+  {
+    "row_index": 9540,
+    "sample_id": 9747,
+    "normalized_design": [
+      0.7186942100524902,
+      0.8268908262252808,
+      -0.3481239974498749,
+      0.44836142659187317
+    ],
+    "valid_pixel_variance": 7.749259088763443e-05,
+    "edge_pixel_variance": 0.000419326328727162,
+    "channel_variance": [
+      1.0988515839926022e-05,
+      0.00014399666593534197
+    ],
+    "estimated_ensemble_variance": 9.686573860954304e-06
+  },
+  {
+    "row_index": 9552,
+    "sample_id": 9759,
+    "normalized_design": [
+      0.422991007566452,
+      0.5187862515449524,
+      -0.8411567211151123,
+      -0.8164899945259094
+    ],
+    "valid_pixel_variance": 3.310629454759306e-05,
+    "edge_pixel_variance": 0.00019251652654202588,
+    "channel_variance": [
+      4.3233600613223314e-06,
+      6.188922903386353e-05
+    ],
+    "estimated_ensemble_variance": 4.1382868184491325e-06
+  },
+  {
+    "row_index": 9555,
+    "sample_id": 9762,
+    "normalized_design": [
+      -0.16913853585720062,
+      -0.9569783210754395,
+      -0.9036460518836975,
+      -0.7208804488182068
+    ],
+    "valid_pixel_variance": 2.1364494998260098e-05,
+    "edge_pixel_variance": 0.00038369969624732486,
+    "channel_variance": [
+      6.030274173784243e-06,
+      3.669871582273563e-05
+    ],
+    "estimated_ensemble_variance": 2.670561874782512e-06
+  },
+  {
+    "row_index": 9734,
+    "sample_id": 9944,
+    "normalized_design": [
+      0.04113344848155975,
+      -0.8344812393188477,
+      0.7423012852668762,
+      0.5561102032661438
+    ],
+    "valid_pixel_variance": 1.3740297047362179e-05,
+    "edge_pixel_variance": 0.00023216873636082024,
+    "channel_variance": [
+      4.957777646427831e-06,
+      2.252281644829657e-05
+    ],
+    "estimated_ensemble_variance": 1.7175371309202724e-06
+  },
+  {
+    "row_index": 9743,
+    "sample_id": 9953,
+    "normalized_design": [
+      -0.8179841637611389,
+      0.24496427178382874,
+      -0.4578390121459961,
+      -0.8821020722389221
+    ],
+    "valid_pixel_variance": 8.193588418240731e-05,
+    "edge_pixel_variance": 0.0008889931622594369,
+    "channel_variance": [
+      1.726543805893512e-05,
+      0.0001466063303058795
+    ],
+    "estimated_ensemble_variance": 1.0241985522800914e-05
+  },
+  {
+    "row_index": 9788,
+    "sample_id": 9999,
+    "normalized_design": [
+      0.35233956575393677,
+      0.5503462553024292,
+      0.8186255097389221,
+      0.8196408152580261
+    ],
+    "valid_pixel_variance": 8.056372848014176e-05,
+    "edge_pixel_variance": 0.0009495039612125129,
+    "channel_variance": [
+      1.1294562560041992e-05,
+      0.00014983289440024134
+    ],
+    "estimated_ensemble_variance": 1.007046606001772e-05
+  }
+]

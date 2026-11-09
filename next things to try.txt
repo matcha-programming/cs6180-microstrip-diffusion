@@ -1,0 +1,14 @@
+1. decrease learning r as training comes to close (different learning rate schedules)
+
+2. more data (before higher resolution)
+3. smaller network
+4. try L1 loss
+5. batch size? (prevent overfitting)
+
+6. Are there errors in the diffusion validation pipeline? Loss is suspiciously smooth
+
+7. Flow matching instead of diffusion
+
+8.More steps (to 100?) !! (diffusion)
+
+diffusion schedule comparison

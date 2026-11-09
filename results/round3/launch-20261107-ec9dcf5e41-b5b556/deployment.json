@@ -1,0 +1,37 @@
+{
+  "campaign_name": "round3-schedules-20261107-ec9dcf5e41-b5b556",
+  "remote_root": "/scratch/he.zit/cs6180-microstrip-experiments/round3-schedules-20261107-ec9dcf5e41-b5b556",
+  "archive": "/tmp/round3-schedules-20261107-ec9dcf5e41-b5b556/round3-schedules-20261107-ec9dcf5e41-b5b556.tar.gz",
+  "archive_sha256": "5194813949c864253c026059c90c8afefcd7db83d0877a901da640c5bd9d80f9",
+  "source_snapshot": "ec9dcf5e41a88290aedbec14f82087e13782afefb12e676e31936adf953158e9",
+  "files": 38,
+  "recorded_at": "2026-11-07T15:29:55.868820-08:00",
+  "state": "screening_running",
+  "preflight_job_id": "11716507",
+  "array_job_id": "11716516",
+  "report_job_id": "11716517",
+  "verified": {
+    "local_and_remote_source_files": 38,
+    "explorer_cpu_tests_passed": 8,
+    "torch": "2.5.1+cu124",
+    "gpu": "Tesla V100-SXM2-32GB",
+    "parameters": 5602322,
+    "target_updates": 220500
+  },
+  "observed_tasks": {
+    "11716516_0": "RUNNING d1004",
+    "11716516_1": "RUNNING d1004",
+    "11716516_2": "PENDING JobArrayTaskLimit",
+    "11716516_3": "PENDING JobArrayTaskLimit",
+    "11716516_4": "PENDING JobArrayTaskLimit",
+    "11716517": "PENDING Dependency"
+  },
+  "submission_recovery": {
+    "first_response_lost": true,
+    "extra_cpu_preflight_job": "11716512",
+    "extra_cpu_preflight_status": "FAILED: exclusive submission journal prevented a second GPU array",
+    "gpu_arrays_submitted": 1
+  },
+  "confirmation_submitted": false,
+  "heldout_evaluation_submitted": false
+}

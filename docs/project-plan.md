@@ -79,6 +79,30 @@ These additional scores support descriptive comparisons of the predefined candid
 
 The following discussed ideas are deferred, not part of this launch batch: expanded Palace training sets, higher-resolution targets, zero/structured noise starts, partial denoising of 4R predictions, residual diffusion around 4R, and capacity/conditioning changes. Min-SNR weighting is now covered by optional R2-D. Data generation first requires solver-equivalence and mesh-convergence pilots. No new spatial or DeepONet Fourier experiments are included. Progress to later work only when the round-two validation findings identify a useful direction.
 
+## Round 3: direct diffusion learning-rate schedules
+
+Design and executable code: [experiments-round-3](../experiments-round-3/README.md). This round isolates LR scheduling for the position-conditioned **direct** DDPM, keeping the executed paired backbone and unweighted masked epsilon objective. It does not change the original diffusion noise schedule, train a regression model, or add Fourier features.
+
+Round-two full-validation field MSE favors constant LR 0.0001 among the fresh 200-epoch trials: 0.000074680 versus 0.000095902 at 0.0002 and 0.000144530 at 0.0004. The longer 0.0002 continuation reached 0.000061179 at epoch 500; that run has a different training history. These are validation findings, not a basis for claiming an optimal LR or selecting on test errors. They motivate a common peak of 0.0001 and a longer controlled horizon. Min-SNR is fixed off to avoid changing two factors simultaneously; it can be crossed with the selected schedule later as a separately controlled experiment.
+
+| ID | LR schedule | Shared or specific settings |
+| --- | --- | --- |
+| R3-S0 | Constant | LR 0.0001; no warmup; fresh long-budget control |
+| R3-S1 | Linear warmup, then constant | 0.00001 to 0.0001 over five epoch equivalents, then hold |
+| R3-S2 | Linear warmup, then cosine | Same warmup; decay smoothly to 0.000001 at the final update; no restarts |
+| R3-S3 | Linear warmup, then multistep | Same warmup; LR multiplied by 0.1 after 60% and 85% of updates; floor 0.000001 |
+| R3-S4 | Linear warmup, then validation plateau | Same warmup; halve LR after three consecutive field checks without a 0.1% relative improvement; floor 0.000001 |
+
+Every primary run starts fresh with seed 6180, base width 36, 5,602,322 parameters, batch size 16, FP32, AdamW with zero weight decay, EMA 0.999, gradient clipping 1, original training-only normalization and all 7,048 training designs. Run **220,500 successful optimizer updates**, equivalent to 500 complete epochs, and disable early stopping so late-decay schedules can finish. A six-hour training safety cap marks a truncated run incomplete; it cannot win equal-update selection. All primary jobs request the same V100-SXM2 GPU model. Log actual GPU-hours and LR/update histories; equal updates do not imply identical wall time.
+
+Use the same 128-design validation panel and DDIM-50 seed 6180 every 20 complete epochs. Field MSE selects the primary checkpoint. The plateau scheduler observes this metric after warmup, not noise loss; its initial-state validation is not a patience observation. Noise-selected checkpoints remain diagnostics and cannot replace the declared field-selected primary. Full validation uses all 881 designs, 20/50 DDIM steps, and three sampling seeds. LR scheduler state, optimizer, EMA, RNG and partial-epoch cursor are saved together. Resume must preserve the original horizon and schedule; no round-two warm-start is allowed in the primary matrix.
+
+Screen all five schedules, then freeze a confirmation plan for the constant control and the strongest nonconstant challenger. Repeat both at training seeds 6181 and 6182, retaining their original seed-6180 runs. Thus screening uses five fresh runs and confirmation adds four, rather than duplicating existing runs. Select the final schedule and common sampler step count using mean full-validation field MSE across three independent training seeds; report training-seed standard deviation separately from draw variation. Checkpoint/config hashes bind screening to confirmation. No best-seed cherry-picking or held-out score enters these decisions.
+
+Freeze one manifest for each of the winning schedule's three model seeds, then evaluate those saved models on the original test and extrapolation splits with one/three-draw reporting. Keep PCA+GP, 4R and prior diffusion results as historical references. The original test sets have already been reported repeatedly; treat new comparisons as descriptive benchmarks, with a fresh Palace holdout needed for independent external confirmation.
+
+Budget estimate from round-two V100 timings: about 3.4 training hours per 500-epoch run, about 17 for screening and 14 for the four confirmation runs, plus final validation and sampling. The declared training caps total at most 30 hours for screening and 24 for confirmation; these are allowances, not measured usage. Use at most two GPUs concurrently. Outputs include complete schedule specifications, actual LR traces, learning curves, equal-update accuracy/cost tables, training-seed summaries and final paired per-design metrics. All five schedules and incomplete runs remain visible in reports.
+
 ## Evaluation protocol
 
 - Tune on validation only; report test and extrapolation test separately.

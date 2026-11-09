@@ -2,6 +2,8 @@
 
 Submitted on November 7, 2026. This is a launch receipt, not completed experiment results.
 
+November 9 update: [observed validation results](../11716516/) are available for all five schedules; four completed 220,500 updates and plateau stopped short at 79,062. The original status table below records the launch handoff only. Plateau recovery is authorized but blocked by SSH-key ownership; no continuation has been submitted.
+
 | Job | Purpose | Verified status at handoff |
 | --- | --- | --- |
 | 11716507 | CPU source/data preflight and eight tests | COMPLETED, exit 0 |

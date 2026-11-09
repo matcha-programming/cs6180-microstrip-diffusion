@@ -6,7 +6,7 @@ Given four design parameters, each model predicts a two-channel, peak-normalized
 
 ## Results
 
-All experiments are complete. The table reports mean per-design relative L2 over valid pixels. Diffusion entries average single-draw errors for seeds 6180–6182; three-draw ensembles and their extra cost are reported separately.
+The initial experiments below are complete. The November 7 [Round 3 learning-rate screen](results/round3/11716516/) has four completed schedules and one incomplete plateau schedule awaiting recovery. Its validation scores remain separate from held-out results. The table reports mean per-design relative L2 over valid pixels. Diffusion entries average single-draw errors for seeds 6180–6182; three-draw ensembles and their extra cost are reported separately.
 
 | Experiment | Model | Test error | Extrapolation error | Results |
 |---|---|---:|---:|---|
@@ -24,6 +24,7 @@ These are single-training-seed, budgeted results. The paired diffusion model rea
 
 ## Reports and artifacts
 
+- [Round 3: observed validation scores, all checkpoint/sampler settings, and recovery status](results/round3/11716516/)
 - [Original Fourier, direct diffusion, DDIM, and residual experiments](results/remaining/11603443/)
 - [4R and its matched diffusion control](results/unet_regression/11604740/)
 - [PCA/GP and plain DeepONet comparison](results/pca_gp/11601747/)

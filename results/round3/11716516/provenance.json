@@ -1,0 +1,37 @@
+{
+  "observed_utc_date": "2026-11-09",
+  "campaign_root": "/scratch/he.zit/cs6180-microstrip-experiments/round3-schedules-20261107-ec9dcf5e41-b5b556",
+  "array_job_id": "11716516",
+  "original_report_job_id": "11716517",
+  "source_snapshot": "ec9dcf5e41a88290aedbec14f82087e13782afefb12e676e31936adf953158e9",
+  "source_commit": "6835aae17e68fddd1f27847be0c555dea2357cda",
+  "source_manifest_local_matches": 38,
+  "capture": "Parsed JSON transcribed from authenticated rendered OOD pages; not byte-identical downloads.",
+  "source_urls": {
+    "R3-S4-warmup-plateau-seed6180": "https://ood.explorer.northeastern.edu/pun/sys/dashboard/files/fs//scratch/he.zit/cs6180-microstrip-experiments/round3-schedules-20261107-ec9dcf5e41-b5b556/runs/screen/R3-S4-warmup-plateau-seed6180/validation.json",
+    "R3-S2-warmup-cosine-seed6180": "https://ood.explorer.northeastern.edu/pun/sys/dashboard/files/fs//scratch/he.zit/cs6180-microstrip-experiments/round3-schedules-20261107-ec9dcf5e41-b5b556/runs/screen/R3-S2-warmup-cosine-seed6180/validation.json",
+    "R3-S0-constant-seed6180": "https://ood.explorer.northeastern.edu/pun/sys/dashboard/files/fs//scratch/he.zit/cs6180-microstrip-experiments/round3-schedules-20261107-ec9dcf5e41-b5b556/runs/screen/R3-S0-constant-seed6180/validation.json",
+    "R3-S1-warmup-constant-seed6180": "https://ood.explorer.northeastern.edu/pun/sys/dashboard/files/fs//scratch/he.zit/cs6180-microstrip-experiments/round3-schedules-20261107-ec9dcf5e41-b5b556/runs/screen/R3-S1-warmup-constant-seed6180/validation.json",
+    "R3-S3-warmup-multistep-seed6180": "https://ood.explorer.northeastern.edu/pun/sys/dashboard/files/fs//scratch/he.zit/cs6180-microstrip-experiments/round3-schedules-20261107-ec9dcf5e41-b5b556/runs/screen/R3-S3-warmup-multistep-seed6180/validation.json"
+  },
+  "published_checkpoint_bytes": false,
+  "independent_prediction_reproduction": false,
+  "raw_histories_downloaded": false,
+  "scope": "All five observed validation snapshots; plateau incomplete and excluded from completed comparison.",
+  "recovery": {
+    "authorization_date": "2026-11-09",
+    "state": "prepared_not_submitted",
+    "blocker": "Official generated private key is owned by root with mode 600. he.zit cannot read it. Local SSH and OOD Shell reject public-key authentication.",
+    "plan": "Resume own last.pt to original 220500-update horizon, extending only elapsed-time allowance.",
+    "alternative_submission_blocker": "OOD Job Composer initialization failed: Disk quota exceeded creating /home/he.zit/ondemand/data/sys/myjobs."
+  },
+  "checks": {
+    "published_snapshot_csv_consistency": true,
+    "finite_nonnegative_metrics": true,
+    "all_metric_counts_881": true,
+    "local_frozen_source_files_match": 38,
+    "existing_round3_tests_passed": 8,
+    "recovery_worker_python_shell_syntax": "passed",
+    "real_hpc_checkpoint_recovery_tested": false
+  }
+}

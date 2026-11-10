@@ -1,0 +1,23 @@
+{
+  "state": "submitted",
+  "preflight_job_id": "11716507",
+  "source_manifest_sha256": "e49f48151bf266680f485356afd8ff7e41a7cd211e9ee8cd006d0fdb38df72e4",
+  "source_commit": "6835aae17e68fddd1f27847be0c555dea2357cda",
+  "source_snapshot": "ec9dcf5e41a88290aedbec14f82087e13782afefb12e676e31936adf953158e9",
+  "dataset_sha256": "7670297247077ee223a572b724e45236a6970a1f38da02f9a96e074ca0215af2",
+  "torch": "2.5.1+cu124",
+  "torch_cuda": "12.4",
+  "python": "/scratch/he.zit/envs/meep-gpu/bin/python",
+  "screening_tasks": [
+    "R3-S0-constant",
+    "R3-S1-warmup-constant",
+    "R3-S2-warmup-cosine",
+    "R3-S3-warmup-multistep",
+    "R3-S4-warmup-plateau"
+  ],
+  "parallel_limit": 2,
+  "confirmation": "not submitted; review screening first",
+  "output_root": "/scratch/he.zit/cs6180-microstrip-experiments/round3-schedules-20261107-ec9dcf5e41-b5b556/runs/screen",
+  "array_job_id": "11716516",
+  "report_job_id": "11716517"
+}

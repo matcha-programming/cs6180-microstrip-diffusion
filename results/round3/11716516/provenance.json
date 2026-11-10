@@ -1,37 +1,120 @@
 {
-  "observed_utc_date": "2026-11-09",
+  "verified_on": "2026-11-10",
+  "capture_utc": "2026-11-10T21:09:47.024226+00:00",
   "campaign_root": "/scratch/he.zit/cs6180-microstrip-experiments/round3-schedules-20261107-ec9dcf5e41-b5b556",
   "array_job_id": "11716516",
-  "original_report_job_id": "11716517",
+  "report_job_id": "11716517",
   "source_snapshot": "ec9dcf5e41a88290aedbec14f82087e13782afefb12e676e31936adf953158e9",
-  "source_commit": "6835aae17e68fddd1f27847be0c555dea2357cda",
-  "source_manifest_local_matches": 38,
-  "capture": "Parsed JSON transcribed from authenticated rendered OOD pages; not byte-identical downloads.",
-  "source_urls": {
-    "R3-S4-warmup-plateau-seed6180": "https://ood.explorer.northeastern.edu/pun/sys/dashboard/files/fs//scratch/he.zit/cs6180-microstrip-experiments/round3-schedules-20261107-ec9dcf5e41-b5b556/runs/screen/R3-S4-warmup-plateau-seed6180/validation.json",
-    "R3-S2-warmup-cosine-seed6180": "https://ood.explorer.northeastern.edu/pun/sys/dashboard/files/fs//scratch/he.zit/cs6180-microstrip-experiments/round3-schedules-20261107-ec9dcf5e41-b5b556/runs/screen/R3-S2-warmup-cosine-seed6180/validation.json",
-    "R3-S0-constant-seed6180": "https://ood.explorer.northeastern.edu/pun/sys/dashboard/files/fs//scratch/he.zit/cs6180-microstrip-experiments/round3-schedules-20261107-ec9dcf5e41-b5b556/runs/screen/R3-S0-constant-seed6180/validation.json",
-    "R3-S1-warmup-constant-seed6180": "https://ood.explorer.northeastern.edu/pun/sys/dashboard/files/fs//scratch/he.zit/cs6180-microstrip-experiments/round3-schedules-20261107-ec9dcf5e41-b5b556/runs/screen/R3-S1-warmup-constant-seed6180/validation.json",
-    "R3-S3-warmup-multistep-seed6180": "https://ood.explorer.northeastern.edu/pun/sys/dashboard/files/fs//scratch/he.zit/cs6180-microstrip-experiments/round3-schedules-20261107-ec9dcf5e41-b5b556/runs/screen/R3-S3-warmup-multistep-seed6180/validation.json"
-  },
-  "published_checkpoint_bytes": false,
-  "independent_prediction_reproduction": false,
-  "raw_histories_downloaded": false,
-  "scope": "All five observed validation snapshots; plateau incomplete and excluded from completed comparison.",
-  "recovery": {
-    "authorization_date": "2026-11-09",
-    "state": "prepared_not_submitted",
-    "blocker": "Official generated private key is owned by root with mode 600. he.zit cannot read it. Local SSH and OOD Shell reject public-key authentication.",
-    "plan": "Resume own last.pt to original 220500-update horizon, extending only elapsed-time allowance.",
-    "alternative_submission_blocker": "OOD Job Composer initialization failed: Disk quota exceeded creating /home/he.zit/ondemand/data/sys/myjobs."
+  "capture": "Original HPC files downloaded over SSH; each file checked against SHA256 computed on HPC.",
+  "archive_sha256": "fad99fb1b5c1443c9d638f1008f0c160b97767b5c7d79c9249b7db92e8631ca0",
+  "published_file_mapping": {
+    "submission.json": "provenance/submission.json",
+    "source-manifest.json": "provenance/source-manifest.json",
+    "preflight-submission.json": "provenance/preflight-submission.json",
+    "runs/screen/R3-S0-constant-seed6180.log": "R3-S0-constant-seed6180.log",
+    "runs/screen/R3-S1-warmup-constant-seed6180.log": "R3-S1-warmup-constant-seed6180.log",
+    "runs/screen/R3-S2-warmup-cosine-seed6180.log": "R3-S2-warmup-cosine-seed6180.log",
+    "runs/screen/R3-S3-warmup-multistep-seed6180.log": "R3-S3-warmup-multistep-seed6180.log",
+    "runs/screen/R3-S4-warmup-plateau-seed6180.log": "R3-S4-warmup-plateau-seed6180.log",
+    "runs/screen/cpu-screen-11716516-0.txt": "cpu-screen-11716516-0.txt",
+    "runs/screen/cpu-screen-11716516-1.txt": "cpu-screen-11716516-1.txt",
+    "runs/screen/cpu-screen-11716516-2.txt": "cpu-screen-11716516-2.txt",
+    "runs/screen/cpu-screen-11716516-3.txt": "cpu-screen-11716516-3.txt",
+    "runs/screen/cpu-screen-11716516-4.txt": "cpu-screen-11716516-4.txt",
+    "runs/screen/gpu-screen-11716516-0.txt": "gpu-screen-11716516-0.txt",
+    "runs/screen/gpu-screen-11716516-1.txt": "gpu-screen-11716516-1.txt",
+    "runs/screen/gpu-screen-11716516-2.txt": "gpu-screen-11716516-2.txt",
+    "runs/screen/gpu-screen-11716516-3.txt": "gpu-screen-11716516-3.txt",
+    "runs/screen/gpu-screen-11716516-4.txt": "gpu-screen-11716516-4.txt",
+    "runs/screen/R3-S0-constant-seed6180/complete.json": "R3-S0-constant-seed6180/complete.json",
+    "runs/screen/R3-S0-constant-seed6180/config.json": "R3-S0-constant-seed6180/config.json",
+    "runs/screen/R3-S0-constant-seed6180/history.jsonl": "R3-S0-constant-seed6180/history.jsonl",
+    "runs/screen/R3-S0-constant-seed6180/validation.json": "R3-S0-constant-seed6180/validation.json",
+    "runs/screen/R3-S1-warmup-constant-seed6180/complete.json": "R3-S1-warmup-constant-seed6180/complete.json",
+    "runs/screen/R3-S1-warmup-constant-seed6180/config.json": "R3-S1-warmup-constant-seed6180/config.json",
+    "runs/screen/R3-S1-warmup-constant-seed6180/history.jsonl": "R3-S1-warmup-constant-seed6180/history.jsonl",
+    "runs/screen/R3-S1-warmup-constant-seed6180/validation.json": "R3-S1-warmup-constant-seed6180/validation.json",
+    "runs/screen/R3-S2-warmup-cosine-seed6180/complete.json": "R3-S2-warmup-cosine-seed6180/complete.json",
+    "runs/screen/R3-S2-warmup-cosine-seed6180/config.json": "R3-S2-warmup-cosine-seed6180/config.json",
+    "runs/screen/R3-S2-warmup-cosine-seed6180/history.jsonl": "R3-S2-warmup-cosine-seed6180/history.jsonl",
+    "runs/screen/R3-S2-warmup-cosine-seed6180/validation.json": "R3-S2-warmup-cosine-seed6180/validation.json",
+    "runs/screen/R3-S3-warmup-multistep-seed6180/complete.json": "R3-S3-warmup-multistep-seed6180/complete.json",
+    "runs/screen/R3-S3-warmup-multistep-seed6180/config.json": "R3-S3-warmup-multistep-seed6180/config.json",
+    "runs/screen/R3-S3-warmup-multistep-seed6180/history.jsonl": "R3-S3-warmup-multistep-seed6180/history.jsonl",
+    "runs/screen/R3-S3-warmup-multistep-seed6180/validation.json": "R3-S3-warmup-multistep-seed6180/validation.json",
+    "runs/screen/R3-S4-warmup-plateau-seed6180/complete.json": "R3-S4-warmup-plateau-seed6180/complete.json",
+    "runs/screen/R3-S4-warmup-plateau-seed6180/config.json": "R3-S4-warmup-plateau-seed6180/config.json",
+    "runs/screen/R3-S4-warmup-plateau-seed6180/history.jsonl": "R3-S4-warmup-plateau-seed6180/history.jsonl",
+    "runs/screen/R3-S4-warmup-plateau-seed6180/validation.json": "R3-S4-warmup-plateau-seed6180/validation.json",
+    "slurm/preflight-11716507.log": "slurm/preflight-11716507.log",
+    "slurm/preflight-11716512.log": "slurm/preflight-11716512.log",
+    "slurm/screen-11716516_0.log": "slurm/screen-11716516_0.log",
+    "slurm/screen-11716516_1.log": "slurm/screen-11716516_1.log",
+    "slurm/screen-11716516_2.log": "slurm/screen-11716516_2.log",
+    "slurm/screen-11716516_3.log": "slurm/screen-11716516_3.log",
+    "slurm/screen-11716516_4.log": "slurm/screen-11716516_4.log"
   },
   "checks": {
-    "published_snapshot_csv_consistency": true,
-    "finite_nonnegative_metrics": true,
+    "downloaded_files_verified": 45,
+    "checkpoint_files_hashed_on_hpc": 15,
+    "validation_checkpoint_hash_matches": 10,
+    "source_files_per_run_matching_repository": 19,
+    "validation_metric_rows": 20,
     "all_metric_counts_881": true,
-    "local_frozen_source_files_match": 38,
-    "existing_round3_tests_passed": 8,
-    "recovery_worker_python_shell_syntax": "passed",
-    "real_hpc_checkpoint_recovery_tested": false
-  }
+    "common_initial_model_sha256": "df1aadd4588324c5d3b041c76b139f5cad2a910beaac70ee8ceb9775d29ed090",
+    "common_gpu": "Tesla V100-SXM2-32GB",
+    "common_dataset_sha256": "7670297247077ee223a572b724e45236a6970a1f38da02f9a96e074ca0215af2",
+    "runs": [
+      {
+        "run": "R3-S0-constant-seed6180",
+        "updates": 220500,
+        "complete": true,
+        "history_rows": 501,
+        "checkpoint_hashes_match": true,
+        "best_field_epoch_matches_history": true
+      },
+      {
+        "run": "R3-S1-warmup-constant-seed6180",
+        "updates": 220500,
+        "complete": true,
+        "history_rows": 501,
+        "checkpoint_hashes_match": true,
+        "best_field_epoch_matches_history": true
+      },
+      {
+        "run": "R3-S2-warmup-cosine-seed6180",
+        "updates": 220500,
+        "complete": true,
+        "history_rows": 501,
+        "checkpoint_hashes_match": true,
+        "best_field_epoch_matches_history": true
+      },
+      {
+        "run": "R3-S3-warmup-multistep-seed6180",
+        "updates": 220500,
+        "complete": true,
+        "history_rows": 501,
+        "checkpoint_hashes_match": true,
+        "best_field_epoch_matches_history": true
+      },
+      {
+        "run": "R3-S4-warmup-plateau-seed6180",
+        "updates": 79062,
+        "complete": false,
+        "history_rows": 181,
+        "checkpoint_hashes_match": true,
+        "best_field_epoch_matches_history": true
+      }
+    ]
+  },
+  "limits": [
+    "Predictions and per-design aggregation were not recomputed.",
+    "Checkpoint hashes were computed on HPC; checkpoint and optimizer files remain there.",
+    "Plateau is incomplete; confirmation and held-out round-three results are unavailable."
+  ],
+  "recovery": {
+    "ssh_access": "Restored and verified on 2026-11-10",
+    "state": "Not submitted; existing plateau run still incomplete"
+  },
+  "report_generation": "python3 experiments-round-3/report.py --root results/round3/11716516 --output results/round3/11716516; run columns normalized to relative directory names"
 }

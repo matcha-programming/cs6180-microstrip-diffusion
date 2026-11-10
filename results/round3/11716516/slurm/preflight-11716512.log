@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/scratch/he.zit/cs6180-microstrip-experiments/round3-schedules-20261107-ec9dcf5e41-b5b556/experiments-round-3/submit.py", line 106, in <module>
+    {"submit": submit, "report": report}[args.action]()
+  File "/scratch/he.zit/cs6180-microstrip-experiments/round3-schedules-20261107-ec9dcf5e41-b5b556/experiments-round-3/submit.py", line 60, in submit
+    with journal.open("x") as stream:
+  File "/scratch/he.zit/envs/meep-gpu/lib/python3.10/pathlib.py", line 1119, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+FileExistsError: [Errno 17] File exists: '/scratch/he.zit/cs6180-microstrip-experiments/round3-schedules-20261107-ec9dcf5e41-b5b556/submission.json'

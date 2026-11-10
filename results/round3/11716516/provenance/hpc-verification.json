@@ -1,0 +1,250 @@
+{
+  "captured_utc": "2026-11-10T21:09:47.024226+00:00",
+  "campaign_root": "/scratch/he.zit/cs6180-microstrip-experiments/round3-schedules-20261107-ec9dcf5e41-b5b556",
+  "files": {
+    "submission.json": {
+      "size": 931,
+      "sha256": "8f4884331e135c53334c0b4a4e9ae701a8a9349631ea7781d0b47c4b77e96313"
+    },
+    "source-manifest.json": {
+      "size": 4387,
+      "sha256": "e49f48151bf266680f485356afd8ff7e41a7cd211e9ee8cd006d0fdb38df72e4"
+    },
+    "preflight-submission.json": {
+      "size": 355,
+      "sha256": "bc20362756bb7168e903ec7cddfcb91c9175841fe5104e4000454dbbe2fd4225"
+    },
+    "runs/screen/R3-S0-constant-seed6180.log": {
+      "size": 362078,
+      "sha256": "2a005ba2c8e59547182e3baa59111169283d43a8b1ffe8b3242520c6cce881a8"
+    },
+    "runs/screen/R3-S1-warmup-constant-seed6180.log": {
+      "size": 367265,
+      "sha256": "9e97043029d06b5bbd666721730650425e71925147e4e4b4d2344799c9e8d147"
+    },
+    "runs/screen/R3-S2-warmup-cosine-seed6180.log": {
+      "size": 388754,
+      "sha256": "fe4f12bcaa94404ab322ddf29b97609466f690fd23bd5d33034214076200a662"
+    },
+    "runs/screen/R3-S3-warmup-multistep-seed6180.log": {
+      "size": 371045,
+      "sha256": "21dccfcb3e30be1109ea583146a07078e715d7e2163fad4372e6fac46ded5c8f"
+    },
+    "runs/screen/R3-S4-warmup-plateau-seed6180.log": {
+      "size": 133815,
+      "sha256": "2751dcaf898503354496f7a657f2009c82944b8d771cbe087b31e16b92b46df4"
+    },
+    "runs/screen/cpu-screen-11716516-0.txt": {
+      "size": 3010,
+      "sha256": "ed168312f4a6df74519e5ddaa51c319ca1c1ad47ac97bb2946a79547c2d8ff49"
+    },
+    "runs/screen/cpu-screen-11716516-1.txt": {
+      "size": 3010,
+      "sha256": "ed168312f4a6df74519e5ddaa51c319ca1c1ad47ac97bb2946a79547c2d8ff49"
+    },
+    "runs/screen/cpu-screen-11716516-2.txt": {
+      "size": 3010,
+      "sha256": "ed168312f4a6df74519e5ddaa51c319ca1c1ad47ac97bb2946a79547c2d8ff49"
+    },
+    "runs/screen/cpu-screen-11716516-3.txt": {
+      "size": 3010,
+      "sha256": "ed168312f4a6df74519e5ddaa51c319ca1c1ad47ac97bb2946a79547c2d8ff49"
+    },
+    "runs/screen/cpu-screen-11716516-4.txt": {
+      "size": 3050,
+      "sha256": "771551fd3b438688fab0b97ebd286701a3d9daade056e3d7603c908514dd5a4d"
+    },
+    "runs/screen/gpu-screen-11716516-0.txt": {
+      "size": 1742,
+      "sha256": "71bd59c47ae772269e1c2035a145df03a0e8d41f9fb6cde3c91b59262fb2adf9"
+    },
+    "runs/screen/gpu-screen-11716516-1.txt": {
+      "size": 1742,
+      "sha256": "0e320c565fbc588258b082dcaa62cd73599bb5fd4366f8c78a44a0725e639a3d"
+    },
+    "runs/screen/gpu-screen-11716516-2.txt": {
+      "size": 1742,
+      "sha256": "9b5441588f8b4393872926236654aa7bb6c46bd0eac735f555fb647f361a19d2"
+    },
+    "runs/screen/gpu-screen-11716516-3.txt": {
+      "size": 1742,
+      "sha256": "f3453a91066a1ee21c99fc40eac79aa178fe7d34fea8eacc4e801517b029497e"
+    },
+    "runs/screen/gpu-screen-11716516-4.txt": {
+      "size": 1742,
+      "sha256": "41916d0e08e1b2eeb0056b5af03db3efaf768e5348945d103279041303941add"
+    },
+    "runs/screen/R3-S0-constant-seed6180/complete.json": {
+      "size": 104,
+      "sha256": "1955e94f6d87533ed71989fdd645516e7398f9a0042e58ed791d0df5a4b8169e"
+    },
+    "runs/screen/R3-S0-constant-seed6180/config.json": {
+      "size": 5961,
+      "sha256": "d72385fc3e178ad5735b7d22dc43bf3cbd30cf150450430b943a9a2d39c8fb29"
+    },
+    "runs/screen/R3-S0-constant-seed6180/history.jsonl": {
+      "size": 355700,
+      "sha256": "beb8b8fdb8ff566e3aec3a285802a20738662f7f6743b9dd5639d5ba6fd69b5e"
+    },
+    "runs/screen/R3-S0-constant-seed6180/validation.json": {
+      "size": 1846,
+      "sha256": "812c001ed397389779a2f22bec161b8a06284ac4cdc4784cbbafc8d7b8ec8194"
+    },
+    "runs/screen/R3-S1-warmup-constant-seed6180/complete.json": {
+      "size": 104,
+      "sha256": "1955e94f6d87533ed71989fdd645516e7398f9a0042e58ed791d0df5a4b8169e"
+    },
+    "runs/screen/R3-S1-warmup-constant-seed6180/config.json": {
+      "size": 5992,
+      "sha256": "624afa89da4bd1710b336bce18fef043f66245c0b0d2f00c49cd2efcb8f21941"
+    },
+    "runs/screen/R3-S1-warmup-constant-seed6180/history.jsonl": {
+      "size": 360880,
+      "sha256": "6abb8d06ddb54b8963f1f287767ff747a718f43ef1570646ca366b53328defef"
+    },
+    "runs/screen/R3-S1-warmup-constant-seed6180/validation.json": {
+      "size": 1846,
+      "sha256": "33a1a12bcf2e1e77ad4d396e343017d51e875c7cb173e5c8eb45685434baa44a"
+    },
+    "runs/screen/R3-S2-warmup-cosine-seed6180/complete.json": {
+      "size": 104,
+      "sha256": "1955e94f6d87533ed71989fdd645516e7398f9a0042e58ed791d0df5a4b8169e"
+    },
+    "runs/screen/R3-S2-warmup-cosine-seed6180/config.json": {
+      "size": 5984,
+      "sha256": "2be4d16c676fc867e53ad2630584eaa3411b4044f5cd5d52c5a3f7bd7223cf76"
+    },
+    "runs/screen/R3-S2-warmup-cosine-seed6180/history.jsonl": {
+      "size": 382371,
+      "sha256": "ffb0db21f23181b02689d5db2360d80c78a9a1dfa0bf3d93a07bfcccd6770f3f"
+    },
+    "runs/screen/R3-S2-warmup-cosine-seed6180/validation.json": {
+      "size": 1843,
+      "sha256": "268ef964e7e0783c8f660b282fe0ccd861c2a4beaf809bfe175cbc193ccca9b3"
+    },
+    "runs/screen/R3-S3-warmup-multistep-seed6180/complete.json": {
+      "size": 104,
+      "sha256": "1955e94f6d87533ed71989fdd645516e7398f9a0042e58ed791d0df5a4b8169e"
+    },
+    "runs/screen/R3-S3-warmup-multistep-seed6180/config.json": {
+      "size": 5996,
+      "sha256": "8f1c5feffb4f853ee24994238d61cf368e7fd42080b4c2abccc199667b55a5cf"
+    },
+    "runs/screen/R3-S3-warmup-multistep-seed6180/history.jsonl": {
+      "size": 364659,
+      "sha256": "252086c4d7a03c1418889dda840c49157168c4e4818a7a4c3f89a03647faef32"
+    },
+    "runs/screen/R3-S3-warmup-multistep-seed6180/validation.json": {
+      "size": 1846,
+      "sha256": "8dc52338e44d90e135c989504ae85d299b2e5466619a5e96019e1dfe1ab85ef2"
+    },
+    "runs/screen/R3-S4-warmup-plateau-seed6180/complete.json": {
+      "size": 105,
+      "sha256": "1552a1b21ae6dfdf71a38334f9f864277101eaa263a3b937d35157509c38b567"
+    },
+    "runs/screen/R3-S4-warmup-plateau-seed6180/config.json": {
+      "size": 5988,
+      "sha256": "03d7ecd96b184f1877c5788e5d2bb38da04669f92a6b1802e97b4a4b9d4998ed"
+    },
+    "runs/screen/R3-S4-warmup-plateau-seed6180/history.jsonl": {
+      "size": 131708,
+      "sha256": "c68901719b114ab9963e192507d283d2520b3b1d27e75b013b45ca78144a522c"
+    },
+    "runs/screen/R3-S4-warmup-plateau-seed6180/validation.json": {
+      "size": 1846,
+      "sha256": "d43f734d8cad2a76899b0b187870fd91dfad00af61b174803ccb1d3a8c540449"
+    },
+    "slurm/preflight-11716507.log": {
+      "size": 18466,
+      "sha256": "024c1913fbe3af6d5310a32f8348e4e8b3945170a5f7c042f7f4b79e202acefc"
+    },
+    "slurm/preflight-11716512.log": {
+      "size": 736,
+      "sha256": "119ffd9414a0c1775d87d041c107b42d0e77ca668ca1d72a8d7681482fb47bd1"
+    },
+    "slurm/screen-11716516_0.log": {
+      "size": 840,
+      "sha256": "18ae3b27875a05129e4f2853843d8e830bdde272275ca124e7fb07e5aeeede06"
+    },
+    "slurm/screen-11716516_1.log": {
+      "size": 861,
+      "sha256": "cb12100bb47e78953e75334d80f7d678870f086a5ef0a0d24cdc04c5eafd985b"
+    },
+    "slurm/screen-11716516_2.log": {
+      "size": 855,
+      "sha256": "3370ffbd4d7e1aa1c569ed03b34a0f8f53a4ede0a517019991539866769c2cca"
+    },
+    "slurm/screen-11716516_3.log": {
+      "size": 864,
+      "sha256": "6062773057239a33a5cf996e58512f358d0feec85ab81742fdddec1c650e3f59"
+    },
+    "slurm/screen-11716516_4.log": {
+      "size": 927,
+      "sha256": "76907fb04a4e468499f03eae28c527e7e7217f174b6ec2b83acd22c56e51621b"
+    }
+  },
+  "checkpoints": {
+    "runs/screen/R3-S0-constant-seed6180/best-field.pt": {
+      "size": 22489802,
+      "sha256": "f86acc0af12596ad6fa3b32282e9d0e3d85082a8fc83916212d340b9cd5ab528"
+    },
+    "runs/screen/R3-S0-constant-seed6180/best-noise.pt": {
+      "size": 22489802,
+      "sha256": "6c39bb4a4fbae3ddac239b145131c7b5731de752eb723228c433dd7b60dfe15e"
+    },
+    "runs/screen/R3-S0-constant-seed6180/last.pt": {
+      "size": 89984296,
+      "sha256": "ef3ed31374c59a893a8a4faede1434915b47c8e5bec1ca6d2d633d89892cc101"
+    },
+    "runs/screen/R3-S1-warmup-constant-seed6180/best-field.pt": {
+      "size": 22489802,
+      "sha256": "769136116f5e62c9e6d97b210c14fda8e7e82224345a5206a38f5fb88cfc400c"
+    },
+    "runs/screen/R3-S1-warmup-constant-seed6180/best-noise.pt": {
+      "size": 22489802,
+      "sha256": "c65a52eb6707e9365cc16f9229da87c17deb1c238a2e94d62587a55a87e25f9a"
+    },
+    "runs/screen/R3-S1-warmup-constant-seed6180/last.pt": {
+      "size": 89984296,
+      "sha256": "968018597f60807b14119eaf42f35d07585dab975933d80070d6694c1186ee88"
+    },
+    "runs/screen/R3-S2-warmup-cosine-seed6180/best-field.pt": {
+      "size": 22489802,
+      "sha256": "20cf28fcba91cec7626793139e2342c92326523ec491d992393af53cf4ad2430"
+    },
+    "runs/screen/R3-S2-warmup-cosine-seed6180/best-noise.pt": {
+      "size": 22489802,
+      "sha256": "8320c85a96bf75c722c002a948cffe6c3347190c762425c1d0faf24a9303406c"
+    },
+    "runs/screen/R3-S2-warmup-cosine-seed6180/last.pt": {
+      "size": 89984296,
+      "sha256": "1dc1206448cf30c99e376cd9d0c2edf968aee4a8a89584bf74d835ad77be1872"
+    },
+    "runs/screen/R3-S3-warmup-multistep-seed6180/best-field.pt": {
+      "size": 22489802,
+      "sha256": "bcca910afce96ebf5df811cc702ab9681fba7945939358ebc1e0874b2ed5da79"
+    },
+    "runs/screen/R3-S3-warmup-multistep-seed6180/best-noise.pt": {
+      "size": 22489802,
+      "sha256": "f62d76739d5fab82575e4d47100fcfe18005306daaafe081de1d99094cf9e27b"
+    },
+    "runs/screen/R3-S3-warmup-multistep-seed6180/last.pt": {
+      "size": 89984296,
+      "sha256": "11aac50b3b63c8a1633d78baa2cab7286a65b96011214f9dcda15f204bd53522"
+    },
+    "runs/screen/R3-S4-warmup-plateau-seed6180/best-field.pt": {
+      "size": 22489802,
+      "sha256": "8f5d850dc439dcd2dc114770d3f50b995695b9832845e792341ef1cac02806dd"
+    },
+    "runs/screen/R3-S4-warmup-plateau-seed6180/best-noise.pt": {
+      "size": 22489802,
+      "sha256": "ddfc8e4cda694195e41eeb6ab7c6d9e3c20dcc8c40e8d32b45234b5fbdfda8bf"
+    },
+    "runs/screen/R3-S4-warmup-plateau-seed6180/last.pt": {
+      "size": 90044392,
+      "sha256": "77990276307d8661e44f3f378eb2ed1c2f3aed9299395818a86137f960f7a77c"
+    }
+  },
+  "sacct": "JobID|State|ExitCode|Elapsed|NodeList\n11716516_0|COMPLETED|0:0|03:30:36|d1004\n11716516_0.batch|COMPLETED|0:0|03:30:36|d1004\n11716516_0.extern|COMPLETED|0:0|03:30:36|d1004\n11716516_1|COMPLETED|0:0|03:31:36|d1004\n11716516_1.batch|COMPLETED|0:0|03:31:36|d1004\n11716516_1.extern|COMPLETED|0:0|03:31:37|d1004\n11716516_2|COMPLETED|0:0|03:30:30|d1004\n11716516_2.batch|COMPLETED|0:0|03:30:30|d1004\n11716516_2.extern|COMPLETED|0:0|03:30:30|d1004\n11716516_3|COMPLETED|0:0|03:31:07|d1004\n11716516_3.batch|COMPLETED|0:0|03:31:07|d1004\n11716516_3.extern|COMPLETED|0:0|03:31:07|d1004\n11716516_4|NODE_FAIL|0:0|02:03:09|d1011\n11716516_4.batch|CANCELLED||02:03:09|d1011\n11716516_4.extern|CANCELLED||02:03:09|d1011\n11716517|CANCELLED|0:0|00:00:00|None assigned\n",
+  "squeue": "             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)\n"
+}

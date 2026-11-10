@@ -1,6 +1,6 @@
-# Round 3 learning-rate screening: observed validation results
+# Round 3 learning-rate screening results
 
-Campaign launched November 7, 2026; validation files inspected through authenticated Explorer Open OnDemand on November 9, 2026. **Four schedules completed their common update budget. Warmup + plateau remains incomplete; recovery is authorized but has not been submitted because SSH access is blocked.**
+Verified against the original HPC files on November 10, 2026. Four schedules completed 220,500 updates. Warmup + plateau remains incomplete at 79,062 updates and is excluded from the equal-budget comparison. These are screening validation results from one training seed; confirmation and held-out evaluation are pending.
 
 ## Completed schedules
 
@@ -19,19 +19,31 @@ Cosine has the lowest primary validation MSE among these four runs, about 4.57% 
 
 ## Incomplete plateau schedule
 
-The observed warmup + plateau run stopped for `training_budget`, with 79,062 of 220,500 updates (35.86%). Its best-field epoch 160 gives 6.739% validation relative L2 and 8.077325e-5 global MSE at DDIM-20. Its best-noise checkpoint is epoch 178. **Do not rank this shortened run against the completed schedules.** The word “plateau” here names its learning-rate schedule, not a measured convergence result.
+The saved warmup + plateau run stopped for `training_budget`, with 79,062 of 220,500 updates (35.86%). Its best-field epoch 160 gives 6.739% validation relative L2 and 8.077325e-5 global MSE at DDIM-20. Its best-noise checkpoint is epoch 178. **Do not rank this shortened run against the completed schedules.** The word “plateau” here names its learning-rate schedule, not a measured convergence result.
 
 Recovery must use the existing `last.pt` with model, EMA, AdamW, scheduler, RNG, epoch permutation and partial-epoch cursor. Preserve the original 220,500-update horizon and source. Extend only the training-time allowance; do not restart training or increase the epoch horizon. The existing trainer checks resume compatibility. [Recovery instructions](../../../experiments/round3_recovery/README.md).
 
-## Evidence and limits
+## Scheduler status and timing
 
-- [Launch receipt, original source manifest and submission journal](../launch-20261107-ec9dcf5e41-b5b556/) identify GPU array 11716516 and dependent report job 11716517. The recorded training protocol uses a paired PositionUNet, seed 6180, FP32, batch 16, peak LR 1e-4, minimum LR 1e-6, and a 500-epoch/220,500-update horizon. Launch logs reported V100-SXM2-32GB.
-- The five `validation.json` files here are parsed snapshots transcribed from the rendered HPC JSON, preserving all observed fields and numerical values. Whitespace differs from the server files. [Provenance](provenance.json) records the source URLs and scope. Checksums cover these published snapshots, not independently downloaded HPC bytes.
-- Each file contains four metric records, each with `designs: 881`, finite nonnegative metrics, checkpoint epochs and reported SHA256 values. Counts and fields were checked; full prediction reproduction, checkpoint-byte hashes, per-design IDs, masks and aggregation were **not independently revalidated** for this publication.
-- Best checkpoints, full histories, configurations and optimizer recovery files remain on HPC. The browser download attempt did not produce local files. Their contents are not represented as downloaded or audited here. No datasets, caches or optimizer checkpoints are published.
-- Recovery access checks found the official generated key owned by root with mode 600. SSH was denied; the alternative OOD Job Composer also failed initialization with `Disk quota exceeded` in the home directory. No recovery job was submitted and no files were deleted.
-- The campaign root did not show `report/`, `screen-decision/` or `screen-complete.json` at inspection. The original report dependency must be checked after recovery; no successful final report is claimed. Confirmation and held-out evaluation were not submitted in the launch record, and no later results were found in this campaign directory.
-- Do not infer calibrated physical uncertainty from diffusion draw variation. These are stored-target validation errors; no new Palace simulations or physical-truth claims are added.
+[Slurm accounting](slurm/accounting.txt) records tasks `11716516_0` through `_3` as `COMPLETED`, plateau task `_4` as `NODE_FAIL`, and dependent report job `11716517` as `CANCELLED`. No jobs were queued or running for this account at download.
+
+The plateau training artifact reports `training_budget` and 6.634 elapsed training hours, while Slurm records 2:03:09 for the failed task. These records do not agree on elapsed time; neither is treated as verified active GPU time for that run. Its history ends in a partial epoch 180. The successful runs each report about 3.4 training hours and 3.5 hours of scheduler wall time.
+
+SSH access was restored on November 10. No plateau continuation or new training was submitted as part of this results update. The five-schedule selection remains pending until plateau completes its original update budget.
+
+## Files and verification
+
+- [Validation table](validation.csv): all 20 checkpoint/sampler settings, including the incomplete plateau run.
+- [Learning-rate history](lr-history.csv): 2,179 complete-epoch rows. Original histories also retain initial validation and the plateau partial-epoch record.
+- Each schedule directory contains the original `config.json`, `validation.json`, `complete.json`, `history.jsonl`, and any additional recorded field-check history. Matching training logs sit beside these directories.
+- [Slurm logs](slurm/) and [original submission/source records](provenance/) retain execution evidence.
+- [Verification record](provenance.json) maps published paths to their HPC sources. All 45 downloaded files match SHA256 values computed on HPC. The five validation JSON objects match the previously published November 9 snapshots; this update replaces those transcriptions with the original bytes.
+- All 10 evaluated checkpoint hashes match their validation records. Hashes for those checkpoints and the five `last.pt` files are in [the HPC manifest](provenance/hpc-verification.json). Checkpoint and optimizer files remain on HPC.
+- All runs share their initial model hash, dataset hash, GPU model and 19 recorded source-file hashes. Source hashes match the repository. Reported update counts agree with histories and completion records; best-field checkpoint epochs agree with the lowest recorded selection-panel MSE. All 20 metric records contain 881 designs and finite, nonnegative values.
+
+The CSV tables were regenerated locally with `experiments-round-3/report.py`; run paths were shortened to portable directory names. [Checksums](sha256sums.txt) cover every published file in this result directory except the checksum list itself.
+
+These checks establish file integrity and consistency. Predictions, per-design aggregation and physical accuracy were not independently recomputed. Diffusion draw variation is not evidence of calibrated physical uncertainty. No new Palace simulations were run.
 
 HPC output root:
 

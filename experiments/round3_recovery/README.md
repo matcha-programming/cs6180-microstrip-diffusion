@@ -1,10 +1,8 @@
 # Recover the incomplete Round 3 plateau schedule
 
-User authorized continuation on November 9, 2026. **Prepared only; no recovery job has been submitted.** Official Explorer SSH migration requires the generated user key locally. The generated private key was observed owned by root with mode 600, which prevents he.zit from reading/downloading it. Both the local SSH attempt and OOD Shell failed public-key authentication. Research Computing must correct ownership or provide a usable replacement through its official process. Do not expose key contents or change authorized_keys.
+Status as of November 10, 2026: recovery is prepared but has not been submitted. SSH access is restored and verified. The current [results and scheduler records](../../results/round3/11716516/) show that plateau remains at 79,062 of 220,500 updates; its Slurm task ended with `NODE_FAIL` and the dependent report job was cancelled.
 
-The OOD Job Composer fallback also failed initialization: creating `/home/he.zit/ondemand/data/sys/myjobs` returned `Disk quota exceeded`. Home quota must be resolved before using that submission route. No files were deleted and no jobs were submitted through it.
-
-Once access is restored:
+Recovery procedure:
 
 1. Inspect `squeue -u he.zit` and `sacct -j 11716516,11716517`. Do not submit if any original plateau task or continuation is pending/running. Inspect the latest history, complete.json and last.pt; do not assume the November 9 snapshot is still current.
 2. Upload this recovery folder into the original campaign's `experiments/round3_recovery/`. Do not edit the frozen round-three training sources: they are part of the checkpoint's resume signature.

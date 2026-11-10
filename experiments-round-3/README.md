@@ -1,6 +1,6 @@
 # Round 3: learning-rate schedules for direct conditional diffusion
 
-Status: designed and locally checked; no round-three GPU training is implied by this document. See the [project plan](../docs/project-plan.md). These are fresh training experiments using the executed position-conditioned direct DDPM. It generates the complete field; it is not residual diffusion and does not load a regression predictor.
+Status: screening ran on HPC. Four schedules completed 220,500 updates; plateau remains incomplete. See the [verified results, histories and execution records](../results/round3/11716516/). See the [project plan](../docs/project-plan.md). These are fresh training experiments using the executed position-conditioned direct DDPM. It generates the complete field; it is not residual diffusion and does not load a regression predictor.
 
 ## Evidence used for the design
 
@@ -138,4 +138,4 @@ Supply the original nondefault settings if any. Round-two checkpoints and weight
 PYTHONDONTWRITEBYTECODE=1 python -m unittest discover -s . -p test_round3.py -v
 ```
 
-Checks cover LR endpoints and update boundaries, plateau patience/warmup, scheduler-state recovery, five-schedule CPU training with equal updates, bitwise model/RNG replay after a partial-epoch interruption, validation-based screening and seed-averaged confirmation, and rejection of incomplete runs. Synthetic CPU outputs are explicitly marked smoke-only and cannot enter scientific selection. Full GPU performance and convergence remain to be measured.
+Checks cover LR endpoints and update boundaries, plateau patience/warmup, scheduler-state recovery, five-schedule CPU training with equal updates, bitwise model/RNG replay after a partial-epoch interruption, validation-based screening and seed-averaged confirmation, and rejection of incomplete runs. Synthetic CPU outputs are explicitly marked smoke-only and cannot enter scientific selection. Measured screening results are linked above; convergence and multi-seed confirmation remain open.

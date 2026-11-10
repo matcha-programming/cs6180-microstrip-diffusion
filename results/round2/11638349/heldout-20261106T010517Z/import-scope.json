@@ -1,0 +1,19 @@
+{
+  "scope": "Full held-out campaign: aggregate and per-design scores, variance, fixed example arrays, frozen manifests, source, configuration, and logs.",
+  "remote_root": "/scratch/he.zit/cs6180-microstrip-experiments/heldout-comparison-20261106T010517Z",
+  "full_archive": {
+    "path": "/scratch/he.zit/cs6180-microstrip-experiments/heldout-comparison-20261106T010517Z.zip",
+    "bytes": 39374061,
+    "sha256": "3c585cf1e8fd8b985fcb07ed51b6d7aae8aefc2573607154c1f236922d3989e0"
+  },
+  "imported_files": 257,
+  "verification": "Archive SHA-256, ZIP CRCs, and every manifest file SHA-256 verified.",
+  "local_archive": "/home/yucblob/src/cs6180-microstrip-diffusion/results/round2/11638349/heldout-20261106T010517Z/full-results.zip",
+  "full_artifacts_local": true,
+  "compute_transfer": {
+    "node": "c3014",
+    "slurm_job_id": "11666921",
+    "bytes": 39374061,
+    "sha256": "3c585cf1e8fd8b985fcb07ed51b6d7aae8aefc2573607154c1f236922d3989e0"
+  }
+}

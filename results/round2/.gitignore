@@ -1,0 +1,2 @@
+# Large copied checkpoints remain local.
+*.pt

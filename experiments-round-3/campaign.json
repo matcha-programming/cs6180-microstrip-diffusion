@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "round": 3,
+  "dataset_sha256": "7670297247077ee223a572b724e45236a6970a1f38da02f9a96e074ca0215af2",
+  "training": {
+    "backbone": "paired", "base": 36, "batch_size": 16, "seed": 6180,
+    "epochs": 500, "max_train_hours": 6, "lr": 0.0001, "min_lr": 0.000001,
+    "warmup_epochs": 5, "precision": "float32", "loss_weighting": "none",
+    "field_interval": 20, "validation_count": 128, "field_steps": 50
+  },
+  "schedules": [
+    {"name": "R3-S0-constant", "schedule": "constant", "warmup_epochs": 0},
+    {"name": "R3-S1-warmup-constant", "schedule": "warmup-constant"},
+    {"name": "R3-S2-warmup-cosine", "schedule": "warmup-cosine"},
+    {"name": "R3-S3-warmup-multistep", "schedule": "warmup-multistep"},
+    {"name": "R3-S4-warmup-plateau", "schedule": "warmup-plateau"}
+  ],
+  "confirmation_seeds": [6180, 6181, 6182],
+  "validation": {"steps": [20, 50], "sampling_seeds": [6180, 6181, 6182], "primary_checkpoint": "best-field", "metric": "masked_mse_global"},
+  "selection_basis": "Round-two fresh constant-LR full validation favors 0.0001; held-out errors are not used. Min-SNR is held off to isolate scheduling."
+}

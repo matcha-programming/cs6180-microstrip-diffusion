@@ -1,0 +1,78 @@
+{
+  "experiment": "R2-A",
+  "smoke_test_only": false,
+  "split": "test",
+  "checkpoint_sha256": "9be9651d3a5c010ae0aa9abe5350b7386424447e0cdb56d04c79593427ca9bbd",
+  "evaluation_wall_seconds": 56.732450952753425,
+  "sizes": {
+    "1": {
+      "ensemble": {
+        "relative_l2": {
+          "mean": 0.049675745271657946,
+          "median": 0.036941953003406525,
+          "std": 0.05239763447380499
+        },
+        "edge_relative_l2": {
+          "mean": 0.06518393865375273,
+          "median": 0.03743570297956467,
+          "std": 0.07758565069914183
+        },
+        "gradient_relative_l2": {
+          "mean": 0.5140888286198444,
+          "median": 0.4334304928779602,
+          "std": 0.2968406678300347
+        },
+        "masked_mse": {
+          "mean": 6.08248349303208e-05,
+          "median": 1.3874328942620195e-05,
+          "std": 0.0002344807502732396
+        },
+        "designs": 881
+      },
+      "single_draw_mean": {
+        "relative_l2": 0.049675745271657946,
+        "edge_relative_l2": 0.06518393865375273,
+        "gradient_relative_l2": 0.5140888286198444,
+        "masked_mse": 6.08248349303208e-05
+      },
+      "batch_one_single_draw_seconds": 0.15612950325012206,
+      "estimated_serial_ensemble_seconds": 0.15612950325012206,
+      "mean_design_variance": null
+    },
+    "3": {
+      "ensemble": {
+        "relative_l2": {
+          "mean": 0.04069233901807182,
+          "median": 0.029890527948737144,
+          "std": 0.04124410862571208
+        },
+        "edge_relative_l2": {
+          "mean": 0.055379115717927425,
+          "median": 0.03149085491895676,
+          "std": 0.0658260106409269
+        },
+        "gradient_relative_l2": {
+          "mean": 0.42782455275974807,
+          "median": 0.3837718367576599,
+          "std": 0.19648933346277123
+        },
+        "masked_mse": {
+          "mean": 3.844394882309337e-05,
+          "median": 9.119043170358054e-06,
+          "std": 0.00013196238588509092
+        },
+        "designs": 881
+      },
+      "single_draw_mean": {
+        "relative_l2": 0.04995973105075468,
+        "edge_relative_l2": 0.06671761120593783,
+        "gradient_relative_l2": 0.5190828831339938,
+        "masked_mse": 5.725631321548689e-05
+      },
+      "batch_one_single_draw_seconds": 0.15612950325012206,
+      "estimated_serial_ensemble_seconds": 0.46838850975036617,
+      "mean_design_variance": 2.8218546472268634e-05
+    }
+  },
+  "timing_convention": "batch one synchronized DDIM; cached Gaussian input on GPU; excludes noise construction, transfers, scoring and I/O"
+}

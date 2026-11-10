@@ -24,8 +24,6 @@ sbatch experiments/followup/submit_cpu.sbatch
 
 `source-manifest.json` is generated during packaging from the committed source and is required on HPC. `submission.json` records actual scheduler IDs; do not infer successful submission from these instructions. A partial or unknown submission outcome requires inspecting that journal and `squeue` before recovery. The original runs and optimizer checkpoints are read only.
 
-Verified submission: CPU launcher **11638337** completed with exit code 0:0; GPU array **11638349** and dependent evaluation **11638350** were accepted. At the recorded observation, the array was waiting for resources and evaluation for its dependency; the scheduler supplied no start estimate. See [the submission record](submission-record.json) for hashes and provenance. No new GPU results are claimed yet.
-
 ## Local reproduction
 
 ```sh
@@ -39,3 +37,27 @@ The kNN implementation reads field targets for training and validation only. Its
 The [next-step plan](../../docs/next-steps-20261104.md) covers solver validation and broader geometries after this launch.
 
 `physics-pilot.json` freezes eight metadata-selected training/validation designs and 32 solver configurations. It is a prepared pilot, not a simulation result. Palace was not found on Explorer's default PATH or in `module -t avail palace` during launch preparation.
+
+## Additional R2-A/C/D held-out reporting
+
+`evaluate_holdout.py` evaluates the saved R2-A-original, R2-A-paired, three R2-C learning-rate trials, and R2-D checkpoint on all 881 test and 979 extrapolation designs. It does not train or change the original campaign. R2-C/D choices are frozen independently from each trial's saved full-validation scores. R2-A keeps its predeclared historical checkpoints and 20/50-step samplers, and records that this is not a new full-validation checkpoint search.
+
+All six cases report K=1 and K=3 with the original sample-ID-keyed seeds starting at 6180. R2-A additionally reports K=2/4/8/16. The existing globally selected R2-B reports supply the reference. Each method's sampler steps are fixed before these additional test scores are accessed. Do not use the resulting held-out scores for retuning.
+
+The three commands below belong in Slurm jobs, using a CUDA-enabled environment. `prepare` runs on a CPU allocation, `worker` on one V100-SXM2 per task, and `pack` on a CPU allocation after all six workers succeed:
+
+```sh
+python evaluate_holdout.py prepare --configuration /path/to/configuration.json
+python evaluate_holdout.py worker --output-root /path/to/evaluation --task-index 0
+python evaluate_holdout.py pack --output-root /path/to/evaluation
+```
+
+The configuration records the original source root, campaign root, dataset path, output root, and reviewed source hashes. Preparation verifies those hashes, the dataset and checkpoints, and the existing R2-B reference before writing any frozen selections. The worker enforces the frozen settings through the unchanged round-two sampler's held-out guards. The output contains `plan.json`, one selection per case, both split reports, per-design metrics, fixed examples, logs, checksums, and a final ZIP archive. Original campaign files are read-only.
+
+`collect_holdout.py --journal /path/to/submission.json` is a one-shot local monitor for an already submitted campaign. It reads scheduler status and a compact, compute-generated summary through the established Explorer session, verifies the summary checksums, imports the metrics/configurations/manifests into `results/round2/11638349/heldout-TIMESTAMP/`, and refreshes the comparison. `import-scope.json` identifies the full cluster archive and makes clear that per-design arrays are not part of this compact local import. The collector exits when this batch completes; it does not install a recurring schedule.
+
+Lightweight orchestration checks do not require PyTorch:
+
+```sh
+PYTHONDONTWRITEBYTECODE=1 python -m unittest discover -s experiments/followup -p test_holdout.py -v
+```

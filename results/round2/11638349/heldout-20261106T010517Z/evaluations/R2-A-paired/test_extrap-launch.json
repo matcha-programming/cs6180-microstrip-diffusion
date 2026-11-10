@@ -1,0 +1,32 @@
+{
+  "command": [
+    "/scratch/he.zit/envs/meep-gpu/bin/python",
+    "/scratch/he.zit/cs6180-microstrip-experiments/next-phase-20261104/experiments-round-2/draw_study.py",
+    "--data",
+    "/courses/CS6180.202710/shared/final_proj/em2d_task.h5",
+    "--checkpoint",
+    "/scratch/he.zit/cs6180-microstrip-experiments/next-phase-20261104/results/unet_regression/11604740/best-diffusion.pt",
+    "--steps",
+    "50",
+    "--sizes",
+    "1",
+    "2",
+    "3",
+    "4",
+    "8",
+    "16",
+    "--seed-start",
+    "6180",
+    "--split",
+    "test_extrap",
+    "--limit",
+    "0",
+    "--confirm-test",
+    "--selection",
+    "/scratch/he.zit/cs6180-microstrip-experiments/heldout-comparison-20261106T010517Z/evaluations/R2-A-paired/selection.json",
+    "--output",
+    "/scratch/he.zit/cs6180-microstrip-experiments/heldout-comparison-20261106T010517Z/evaluations/R2-A-paired/test_extrap"
+  ],
+  "selection_sha256": "8ead78a49d4bf527ef6f7ebc17d646cc64bc386236e1a7defcfcfad4d10e5dce",
+  "slurm_job_id": "11659790"
+}

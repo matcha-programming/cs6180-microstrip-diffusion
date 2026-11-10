@@ -1,0 +1,16 @@
+{
+  "source_root": "/scratch/he.zit/cs6180-microstrip-experiments/next-phase-20261104",
+  "source_campaign": "/scratch/he.zit/cs6180-microstrip-experiments/next-phase-20261104/runs/round2-11638349",
+  "output_root": "/scratch/he.zit/cs6180-microstrip-experiments/heldout-comparison-20261106T010517Z",
+  "data": "/courses/CS6180.202710/shared/final_proj/em2d_task.h5",
+  "source_sha256": {
+    "experiments-round-2/draw_study.py": "3ccb32463d0bb6ac90e473e37f420ad5bb53fca86c8013e99f93eef1c3c73b1a",
+    "experiments-round-2/support.py": "595183e9f791d42a428ca20a4501e191f9199e11196c7d5efae430757d1c5e3d",
+    "experiments-round-2/freeze_selection.py": "326ada796521887f07257ba4103779145c4d3c7a39177af9148f6d3848a2c6d8",
+    "experiments-round-2/campaign.json": "91c7e67612f365c0af36c7920e0860c6c4eb1f8aac1634a922570708cfa5c2cd",
+    "experiments/remaining/models.py": "20f12aa865ea5df055c579c30fd1669486b73f0ac1e31917cb76fb3d755a1172",
+    "experiments/pca_gp/metric_utils.py": "2a01afdadd13a245218d3ceb080001731fd5eb9566c9fbfc71347df0b9dd5bb7",
+    "experiments/deeponet_plain/train.py": "32ca458eb54f3060fd9abf99625f6c7d9bf2e746b19250333d423dc3568e25b4"
+  },
+  "launcher_sha256": "751f0ecb65fee4033c0bed90dc141ca74cbbf35daea8a8af31e63af54315a72d"
+}

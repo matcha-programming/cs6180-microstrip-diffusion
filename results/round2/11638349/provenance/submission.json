@@ -1,0 +1,44 @@
+{
+  "source_commit": "78149ff9237f00ea8f1d27a2e20cfdc6763f13fc",
+  "dataset_sha256": "7670297247077ee223a572b724e45236a6970a1f38da02f9a96e074ca0215af2",
+  "resume_sha256": "6c851ca0c63917baeef515ad04a1705dcaad0d6dbbe66942d07e578e89dfd7f1",
+  "resume_epoch": 159,
+  "resume_elapsed_seconds": 7201.513021629304,
+  "torch": "2.5.1+cu124",
+  "torch_cuda": "12.4",
+  "tasks": [
+    [
+      "draws",
+      0
+    ],
+    [
+      "draws",
+      1
+    ],
+    [
+      "continue",
+      0
+    ],
+    [
+      "lr",
+      0
+    ],
+    [
+      "lr",
+      1
+    ],
+    [
+      "lr",
+      2
+    ],
+    [
+      "min-snr",
+      0
+    ]
+  ],
+  "gpu_type": "v100-sxm2",
+  "parallel_limit": 2,
+  "state": "submitted",
+  "array_job_id": "11638349",
+  "final_job_id": "11638350"
+}

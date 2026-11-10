@@ -1,0 +1,14 @@
+{
+  "epoch": 1145,
+  "best_epoch": 1140,
+  "best": 5.539944842597798e-05,
+  "anchor": 5.539944842597798e-05,
+  "streak": 2,
+  "new_epochs": 1050,
+  "train_seconds": 1597.2645411603153,
+  "stop_reason": "validation_plateau",
+  "validation_masked_mse": 5.638808641112094e-05,
+  "sampled_train_mse": 5.061631487239503e-05,
+  "window_relative_gain": 0.0070425548122350695,
+  "job_id": "11638570"
+}

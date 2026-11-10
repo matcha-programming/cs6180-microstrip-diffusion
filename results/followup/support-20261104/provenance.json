@@ -1,0 +1,20 @@
+{
+  "base_commit": "c17a87336ebf2f2932d287c578c9ae5cb2ae6f73",
+  "dataset_sha256": "7670297247077ee223a572b724e45236a6970a1f38da02f9a96e074ca0215af2",
+  "source_sha256": {
+    "experiments/followup/test_support.py": "4ead88b8e7bc1417d6b6f4294d471b6ba753b6f3bedfa340bbac5f3b9ac7faf2",
+    "experiments/followup/campaign.py": "77348f0c326eccbf2a8a7bea5ffc4335e9255ea4be2310dd681735916c7dde41",
+    "experiments/followup/audit_support.py": "491469c06e9c2f6e35a3803210a7a66c611379545842b6371edae16c2b248761",
+    "experiments/followup/test_campaign.py": "77021e93821e9d99cc23f08a7acaeed896e61eaca04a601195a59dda71527751",
+    "experiments/followup/knn_control.py": "73225a7becd111eacf82f4bd1a0ab49b1041c426b4bb4f1043156c1ed9ff0145",
+    "experiments/pca_gp/metric_utils.py": "2a01afdadd13a245218d3ceb080001731fd5eb9566c9fbfc71347df0b9dd5bb7"
+  },
+  "support_audit_reads_field_targets": false,
+  "knn_target_splits": [
+    "train",
+    "val"
+  ],
+  "knn_selection_metric": "global valid-element MSE",
+  "tests": "13 existing Round2 tests plus 7 follow-up tests passed; Slurm scripts passed bash -n",
+  "palace_branch_inspected": "f8d7df46d8201ef995b4d2b8efb985cb10d0af3e"
+}

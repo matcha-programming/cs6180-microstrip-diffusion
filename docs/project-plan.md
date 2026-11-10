@@ -116,3 +116,7 @@ Budget estimate from round-two V100 timings: about 3.4 training hours per 500-ep
 ## Deliverables
 
 Reproducible baseline and training commands; saved configuration and seeds; comparison table; edge-detail figures; and an evidence-based answer to the accuracy-versus-cost question.
+
+## Follow-up execution and physics checks
+
+The [November 4 follow-up plan](next-steps-20261104.md) adds a metadata-only split-support audit, cheap validation-only regression controls, and a V100 submission wrapper for the existing Round 2 protocol. It separates the course's thickness holdout from a conditional physical-similarity interpretation and gates larger datasets or multiple-trace geometries on solver/preprocessing and mesh-convergence checks. Existing Round 2 settings and teammate-owned DeepONet work remain unchanged.

@@ -1,0 +1,7 @@
+{
+  "archive_sha256": "70b4a6277dcf148f397a055612c6719dbb85d3a1bbd0e4481a0faaeedd9230b7",
+  "files_verified": 7,
+  "solver_version_check": "passed",
+  "python_import_check": "gmsh4.15.0 vtk9.5.2 scipy h5py passed",
+  "runtime_job": 11819182
+}

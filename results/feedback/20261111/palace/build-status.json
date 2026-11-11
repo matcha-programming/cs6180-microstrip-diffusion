@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-11-11T19:38:27.849150+00:00",
+  "observed_at_utc": "2026-11-11T19:45:17.217285+00:00",
   "attempts": [
     {
       "job_id": 11811825,
@@ -48,12 +48,17 @@
     },
     {
       "job_id": 11819135,
-      "state": "RUNNING",
-      "detail": "Palace compiled, linked, installed and --version passed; Python runtime setup in progress"
+      "state": "CANCELLED",
+      "detail": "Solver build and --version succeeded; superseded online package installation cancelled after repeated PyPI timeouts"
+    },
+    {
+      "job_id": 11819182,
+      "state": "COMPLETED",
+      "detail": "Pinned wheel hashes verified; gmsh4.15.0, vtk9.5.2, scipy and h5py imports passed"
     }
   ],
   "current_script": "experiments/feedback_round4/build_palace_clean.sbatch",
-  "generation_status": "not started",
+  "generation_status": "Pilot shard0 job11819206 running; other shards withheld until structural verification passes",
   "source_changes": "No Palace physics source changes; dependency/compiler configuration repairs only.",
   "pilot_verifier": "experiments/feedback_round4/verify_palace_pilot.py"
 }

@@ -1,0 +1,120 @@
+Wed Nov 11 02:34:37 2026       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 545.23.08              Driver Version: 545.23.08    CUDA Version: 12.3     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  Tesla V100-SXM2-32GB           On  | 00000000:18:00.0 Off |                    0 |
+| N/A   69C    P0              81W / 300W |      0MiB / 32768MiB |      0%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|  No running processes found                                                           |
++---------------------------------------------------------------------------------------+
+{"epoch": 1, "updates": 221, "train_objective": 0.8966688214041183, "lr_next": 2.801630434782609e-05, "elapsed": 28.18081860244274}
+{"epoch": 2, "updates": 442, "train_objective": 0.48062038749760855, "lr_next": 4.603260869565218e-05, "elapsed": 55.57803710363805}
+{"epoch": 3, "updates": 663, "train_objective": 0.12341331458406335, "lr_next": 6.404891304347826e-05, "elapsed": 83.02277786843479}
+{"epoch": 4, "updates": 884, "train_objective": 0.031571544806190704, "lr_next": 8.206521739130435e-05, "elapsed": 110.45298212394118}
+{"epoch": 5, "updates": 1105, "train_objective": 0.018442260764251706, "lr_next": 0.0001, "elapsed": 138.05381056293845}
+{"epoch": 6, "updates": 1326, "train_objective": 0.013232963341504977, "lr_next": 9.997293366031169e-05, "elapsed": 165.51602167077363}
+{"epoch": 7, "updates": 1547, "train_objective": 0.010073026137428609, "lr_next": 9.989176424071114e-05, "elapsed": 193.02190727181733}
+{"epoch": 8, "updates": 1768, "train_objective": 0.009051637896881033, "lr_next": 9.975658050722191e-05, "elapsed": 220.52576867491007}
+{"epoch": 9, "updates": 1989, "train_objective": 0.007712287850525742, "lr_next": 9.956753029535315e-05, "elapsed": 247.99257589504123}
+{"epoch": 10, "updates": 2210, "train_objective": 0.007174723070203649, "lr_next": 9.93248203484282e-05, "elapsed": 275.45838992111385}
+{"epoch": 11, "updates": 2431, "train_objective": 0.006102377771866105, "lr_next": 9.902871609149226e-05, "elapsed": 302.946461295709}
+{"epoch": 12, "updates": 2652, "train_objective": 0.005880806451318754, "lr_next": 9.86795413410464e-05, "elapsed": 330.4494222830981}
+{"epoch": 13, "updates": 2873, "train_objective": 0.005649554746957003, "lr_next": 9.827767795092522e-05, "elapsed": 357.9352740123868}
+{"epoch": 14, "updates": 3094, "train_objective": 0.0052338553409945225, "lr_next": 9.78235653947055e-05, "elapsed": 385.4187158718705}
+{"epoch": 15, "updates": 3315, "train_objective": 0.005088625979217596, "lr_next": 9.731770028510253e-05, "elapsed": 412.90196806564927}
+{"epoch": 16, "updates": 3536, "train_objective": 0.004597374525081861, "lr_next": 9.676063583087965e-05, "elapsed": 440.44601658172905}
+{"epoch": 17, "updates": 3757, "train_objective": 0.004556928765531904, "lr_next": 9.6152981231865e-05, "elapsed": 467.96968648023903}
+{"epoch": 18, "updates": 3978, "train_objective": 0.004437632112162321, "lr_next": 9.5495401012737e-05, "elapsed": 495.5043125599623}
+{"epoch": 19, "updates": 4199, "train_objective": 0.0045517995899646765, "lr_next": 9.478861429630702e-05, "elapsed": 522.9699827805161}
+{"epoch": 20, "updates": 4420, "train_objective": 0.004412284201258427, "lr_next": 9.403339401709448e-05, "elapsed": 550.4988189600408, "field": {"relative_l2": 0.3453153633745387, "edge_relative_l2": 0.29863826785003766, "gradient_relative_l2": 3.7654726784676313, "masked_mse": 0.0015753327789980176, "masked_mse_global": 0.001574963211550708, "designs": 128, "draws": 1, "nfe": 20}}
+{"epoch": 21, "updates": 4641, "train_objective": 0.004102533960146206, "lr_next": 9.323056607605357e-05, "elapsed": 580.6688822172582}
+{"epoch": 22, "updates": 4862, "train_objective": 0.0038325245189295486, "lr_next": 9.238100843737676e-05, "elapsed": 608.1335954070091}
+{"epoch": 23, "updates": 5083, "train_objective": 0.004523273609487697, "lr_next": 9.148565016836234e-05, "elapsed": 635.6401085369289}
+{"epoch": 24, "updates": 5304, "train_objective": 0.0033798222736615125, "lr_next": 9.054547042339628e-05, "elapsed": 663.11218361184}
+{"epoch": 25, "updates": 5525, "train_objective": 0.00368388805292107, "lr_next": 8.956149737315916e-05, "elapsed": 690.6703290194273}
+{"epoch": 26, "updates": 5746, "train_objective": 0.003913393612025003, "lr_next": 8.853480708022966e-05, "elapsed": 718.1722660437226}
+{"epoch": 27, "updates": 5967, "train_objective": 0.0035360905806408197, "lr_next": 8.74665223223138e-05, "elapsed": 745.6952166259289}
+{"epoch": 28, "updates": 6188, "train_objective": 0.003859173755450058, "lr_next": 8.635781136438693e-05, "elapsed": 773.1803926881403}
+{"epoch": 29, "updates": 6409, "train_objective": 0.0039443731373789105, "lr_next": 8.520988668109166e-05, "elapsed": 800.7048812676221}
+{"epoch": 30, "updates": 6630, "train_objective": 0.0034897526698112994, "lr_next": 8.402400363078817e-05, "elapsed": 828.2173946034163}
+{"epoch": 31, "updates": 6851, "train_objective": 0.003335970282400287, "lr_next": 8.280145908270757e-05, "elapsed": 855.719915587455}
+{"epoch": 32, "updates": 7072, "train_objective": 0.00322711697825052, "lr_next": 8.154358999870935e-05, "elapsed": 883.2075648400933}
+{"epoch": 33, "updates": 7293, "train_objective": 0.0031202751009383584, "lr_next": 8.025177197119399e-05, "elapsed": 910.7347821630538}
+{"epoch": 34, "updates": 7514, "train_objective": 0.0032858386549625067, "lr_next": 7.892741771876942e-05, "elapsed": 938.2694273665547}
+{"epoch": 35, "updates": 7735, "train_objective": 0.003209798510644107, "lr_next": 7.757197554131709e-05, "elapsed": 965.8139322027564}
+{"epoch": 36, "updates": 7956, "train_objective": 0.0028036669495004937, "lr_next": 7.618692773614613e-05, "elapsed": 993.3257697615772}
+{"epoch": 37, "updates": 8177, "train_objective": 0.0030350578670304326, "lr_next": 7.477378897696889e-05, "elapsed": 1020.8653362523764}
+{"epoch": 38, "updates": 8398, "train_objective": 0.0030549765030259348, "lr_next": 7.333410465746951e-05, "elapsed": 1048.5021298471838}
+{"epoch": 39, "updates": 8619, "train_objective": 0.0030537151976538215, "lr_next": 7.186944920127768e-05, "elapsed": 1076.0026947949082}
+{"epoch": 40, "updates": 8840, "train_objective": 0.002985281987373678, "lr_next": 7.03814243401956e-05, "elapsed": 1103.631113404408, "field": {"relative_l2": 0.223344301834004, "edge_relative_l2": 0.17711603848147206, "gradient_relative_l2": 1.3550794704351574, "masked_mse": 0.0007059324095095576, "masked_mse_global": 0.0007057115698519137, "designs": 128, "draws": 1, "nfe": 20}}
+{"epoch": 41, "updates": 9061, "train_objective": 0.0030635445030928335, "lr_next": 6.887165736256081e-05, "elapsed": 1133.7272471524775}
+{"epoch": 42, "updates": 9282, "train_objective": 0.0028111776169209776, "lr_next": 6.734179933366087e-05, "elapsed": 1161.2396418284625}
+{"epoch": 43, "updates": 9503, "train_objective": 0.0027628148834973735, "lr_next": 6.579352329014567e-05, "elapsed": 1188.733952715993}
+{"epoch": 44, "updates": 9724, "train_objective": 0.0027099097320423056, "lr_next": 6.42285224104122e-05, "elapsed": 1216.2894689068198}
+{"epoch": 45, "updates": 9945, "train_objective": 0.0029992123013394003, "lr_next": 6.264850816296242e-05, "elapsed": 1243.7856507245451}
+{"epoch": 46, "updates": 10166, "train_objective": 0.0029661449199123785, "lr_next": 6.10552084347593e-05, "elapsed": 1271.319607211277}
+{"epoch": 47, "updates": 10387, "train_objective": 0.002645309532109318, "lr_next": 5.9450365641627844e-05, "elapsed": 1298.8949018511921}
+{"epoch": 48, "updates": 10608, "train_objective": 0.0026229927990221915, "lr_next": 5.783573482276746e-05, "elapsed": 1326.3948861323297}
+{"epoch": 49, "updates": 10829, "train_objective": 0.0027170852772790037, "lr_next": 5.621308172145954e-05, "elapsed": 1353.8863323424011}
+{"epoch": 50, "updates": 11050, "train_objective": 0.002572605788742618, "lr_next": 5.45841808540692e-05, "elapsed": 1381.3629999272525}
+{"epoch": 51, "updates": 11271, "train_objective": 0.002649723352503907, "lr_next": 5.295081356945279e-05, "elapsed": 1408.865141350776}
+{"epoch": 52, "updates": 11492, "train_objective": 0.002700123236520971, "lr_next": 5.1314766100893624e-05, "elapsed": 1436.4002223294228}
+{"epoch": 53, "updates": 11713, "train_objective": 0.002513384004625641, "lr_next": 4.9677827612695944e-05, "elapsed": 1463.9010273814201}
+{"epoch": 54, "updates": 11934, "train_objective": 0.0024596539676975918, "lr_next": 4.804178824357369e-05, "elapsed": 1491.3884183187038}
+{"epoch": 55, "updates": 12155, "train_objective": 0.0024531710114346966, "lr_next": 4.640843714897368e-05, "elapsed": 1518.8600077144802}
+{"epoch": 56, "updates": 12376, "train_objective": 0.0022718943089931765, "lr_next": 4.4779560544473935e-05, "elapsed": 1546.4005706384778}
+{"epoch": 57, "updates": 12597, "train_objective": 0.0026313806939489556, "lr_next": 4.315693975239723e-05, "elapsed": 1573.8952605184168}
+{"epoch": 58, "updates": 12818, "train_objective": 0.002432792099979236, "lr_next": 4.1542349253775595e-05, "elapsed": 1601.3480915147811}
+{"epoch": 59, "updates": 13039, "train_objective": 0.002471345161784453, "lr_next": 3.993755474779667e-05, "elapsed": 1628.8126161321998}
+{"epoch": 60, "updates": 13260, "train_objective": 0.00226337491338026, "lr_next": 3.8344311220853516e-05, "elapsed": 1656.316197782755, "field": {"relative_l2": 0.13460982909600716, "edge_relative_l2": 0.12839936795353424, "gradient_relative_l2": 0.8026415342465043, "masked_mse": 0.00027263108962394256, "masked_mse_global": 0.0002724180803779624, "designs": 128, "draws": 1, "nfe": 20}}
+{"epoch": 61, "updates": 13481, "train_objective": 0.0022451410312670688, "lr_next": 3.676436102731003e-05, "elapsed": 1686.3532892484218}
+{"epoch": 62, "updates": 13702, "train_objective": 0.002187282968934617, "lr_next": 3.519943198408052e-05, "elapsed": 1713.820105491206}
+{"epoch": 63, "updates": 13923, "train_objective": 0.002278921529877969, "lr_next": 3.365123548110731e-05, "elapsed": 1741.2927292883396}
+{"epoch": 64, "updates": 14144, "train_objective": 0.002295679753108709, "lr_next": 3.2121464609802636e-05, "elapsed": 1768.8109252788126}
+{"epoch": 65, "updates": 14365, "train_objective": 0.00213191518176846, "lr_next": 3.061179231150182e-05, "elapsed": 1796.3995717670768}
+{"epoch": 66, "updates": 14586, "train_objective": 0.00239237272547966, "lr_next": 2.912386954795206e-05, "elapsed": 1823.8582675475627}
+{"epoch": 67, "updates": 14807, "train_objective": 0.00210260559849533, "lr_next": 2.7659323495838116e-05, "elapsed": 1851.3359155151993}
+{"epoch": 68, "updates": 15028, "train_objective": 0.0019839821778059167, "lr_next": 2.621975576731907e-05, "elapsed": 1878.7745379116386}
+{"epoch": 69, "updates": 15249, "train_objective": 0.0020580199193241124, "lr_next": 2.4806740658521886e-05, "elapsed": 1906.2742800470442}
+{"epoch": 70, "updates": 15470, "train_objective": 0.001985997864109687, "lr_next": 2.3421823427908017e-05, "elapsed": 1933.7254935782403}
+{"epoch": 71, "updates": 15691, "train_objective": 0.0019572569592776587, "lr_next": 2.2066518606394775e-05, "elapsed": 1961.1669475678355}
+{"epoch": 72, "updates": 15912, "train_objective": 0.00218349224311658, "lr_next": 2.0742308341080362e-05, "elapsed": 1988.6185233555734}
+{"epoch": 73, "updates": 16133, "train_objective": 0.0021656442306212716, "lr_next": 1.9450640774383324e-05, "elapsed": 2016.1195585560054}
+{"epoch": 74, "updates": 16354, "train_objective": 0.0021799652172288476, "lr_next": 1.819292846036936e-05, "elapsed": 2043.6790148932487}
+{"epoch": 75, "updates": 16575, "train_objective": 0.0019649656997701823, "lr_next": 1.6970546819996844e-05, "elapsed": 2071.3048575613648}
+{"epoch": 76, "updates": 16796, "train_objective": 0.0020012880181819706, "lr_next": 1.5784832636971147e-05, "elapsed": 2098.797143753618}
+{"epoch": 77, "updates": 17017, "train_objective": 0.0020006006322198554, "lr_next": 1.4637082595851906e-05, "elapsed": 2126.2369683235884}
+{"epoch": 78, "updates": 17238, "train_objective": 0.00199627468233482, "lr_next": 1.352855186401246e-05, "elapsed": 2153.569184295833}
+{"epoch": 79, "updates": 17459, "train_objective": 0.002175234324773446, "lr_next": 1.2460452719001994e-05, "elapsed": 2180.943883791566}
+{"epoch": 80, "updates": 17680, "train_objective": 0.002064769654378832, "lr_next": 1.1433953222811653e-05, "elapsed": 2208.2643969040364, "field": {"relative_l2": 0.0841586413589539, "edge_relative_l2": 0.09818467362492811, "gradient_relative_l2": 0.6033784303581342, "masked_mse": 0.00012520604683974312, "masked_mse_global": 0.00012501660404716595, "designs": 128, "draws": 1, "nfe": 20}}
+{"epoch": 81, "updates": 17901, "train_objective": 0.0018782914161209596, "lr_next": 1.0450175944494066e-05, "elapsed": 2238.189136924222}
+{"epoch": 82, "updates": 18122, "train_objective": 0.002067370517427793, "lr_next": 9.51019673253381e-06, "elapsed": 2265.619046891108}
+{"epoch": 83, "updates": 18343, "train_objective": 0.0019741886081047163, "lr_next": 8.615043538310716e-06, "elapsed": 2293.0949156787246}
+{"epoch": 84, "updates": 18564, "train_objective": 0.0017786687325565176, "lr_next": 7.765695291943082e-06, "elapsed": 2320.4896805509925}
+{"epoch": 85, "updates": 18785, "train_objective": 0.0019188717884517927, "lr_next": 6.963080831739974e-06, "elapsed": 2347.9268413763493}
+{"epoch": 86, "updates": 19006, "train_objective": 0.0017279872598621262, "lr_next": 6.2080778884335015e-06, "elapsed": 2375.256566103548}
+{"epoch": 87, "updates": 19227, "train_objective": 0.0017551102270620634, "lr_next": 5.501512125301566e-06, "elapsed": 2402.579534687102}
+{"epoch": 88, "updates": 19448, "train_objective": 0.002058749787397651, "lr_next": 4.844156235231342e-06, "elapsed": 2429.873915074393}
+{"epoch": 89, "updates": 19669, "train_objective": 0.002071883733894768, "lr_next": 4.2367290957103945e-06, "elapsed": 2457.196546619758}
+{"epoch": 90, "updates": 19890, "train_objective": 0.002057264367896518, "lr_next": 3.679894982669758e-06, "elapsed": 2484.5321152117103}
+{"epoch": 91, "updates": 20111, "train_objective": 0.0018804479578285818, "lr_next": 3.174262844038908e-06, "elapsed": 2511.877409093082}
+{"epoch": 92, "updates": 20332, "train_objective": 0.001749473091572466, "lr_next": 2.7203856338065796e-06, "elapsed": 2539.2188624758273}
+{"epoch": 93, "updates": 20553, "train_objective": 0.0019229721197611086, "lr_next": 2.3187597073161646e-06, "elapsed": 2566.5783771742135}
+{"epoch": 94, "updates": 20774, "train_objective": 0.002035712654000438, "lr_next": 1.9698242784567155e-06, "elapsed": 2593.94044165127}
+{"epoch": 95, "updates": 20995, "train_objective": 0.0019893765887369747, "lr_next": 1.6739609393432451e-06, "elapsed": 2621.2832824196666}
+{"epoch": 96, "updates": 21216, "train_objective": 0.00184860052143157, "lr_next": 1.4314932430116333e-06, "elapsed": 2648.705011624843}
+{"epoch": 97, "updates": 21437, "train_objective": 0.0019776926174544214, "lr_next": 1.2426863495843993e-06, "elapsed": 2676.0992084573954}
+{"epoch": 98, "updates": 21658, "train_objective": 0.0020458712070761725, "lr_next": 1.1077467362943877e-06, "elapsed": 2703.4572060313076}
+{"epoch": 99, "updates": 21879, "train_objective": 0.001911336789171927, "lr_next": 1.0268219716834527e-06, "elapsed": 2730.7873660624027}
+{"epoch": 100, "updates": 22100, "train_objective": 0.0018817042238774067, "lr_next": 1e-06, "elapsed": 2758.146490070969, "field": {"relative_l2": 0.0709739327285206, "edge_relative_l2": 0.0880933236257988, "gradient_relative_l2": 0.5608232233207673, "masked_mse": 9.935864474308609e-05, "masked_mse_global": 9.917690619368128e-05, "designs": 128, "draws": 1, "nfe": 20}}

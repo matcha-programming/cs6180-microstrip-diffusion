@@ -25,6 +25,8 @@ These are single-training-seed, budgeted results. The paired diffusion model rea
 
 ## Reports and artifacts
 
+- [Feedback experiments: seven training variants and 256 Palace designs (augmentation gate failed)](results/feedback/20261111/)
+
 - [Round 3: completed schedule comparison and frozen confirmation plan](results/round3/11802771/)
 - [Original Fourier, direct diffusion, DDIM, and residual experiments](results/remaining/11603443/)
 - [4R and its matched diffusion control](results/unet_regression/11604740/)
@@ -33,6 +35,8 @@ These are single-training-seed, budgeted results. The paired diffusion model rea
 Reports include per-design metrics, configurations, source hashes, learning curves, fixed field/error examples, edge zooms, sampler settings, sample variation, and selected checkpoints. Test and extrapolation results remain separate. Validation selects models and sampling steps; PCA, GP, and normalization fitting use training data only.
 
 ## Reproduction
+
+- [Feedback experiment protocol and HPC jobs](experiments/feedback_round4/)
 
 - [Experiment 1: PCA-32 + GP](experiments/pca_gp/)
 - [Experiment 2: plain DeepONet](experiments/deeponet_plain/) · [Continuation to a plateau](experiments/deeponet_plateau/)

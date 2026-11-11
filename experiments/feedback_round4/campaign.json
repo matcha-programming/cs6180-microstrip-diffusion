@@ -1,0 +1,13 @@
+{
+  "dataset_sha256": "7670297247077ee223a572b724e45236a6970a1f38da02f9a96e074ca0215af2",
+  "common": {"seed":6180,"epochs":100,"lr":0.0001,"max_hours":4,"field_interval":20,"validation_count":128,"steps":[20,50,100],"sampling_seeds":[6180,6181,6182]},
+  "training": [
+    {"name":"diffusion-control","method":"diffusion","base":36,"batch_size":16,"loss":"l2"},
+    {"name":"diffusion-small","method":"diffusion","base":24,"batch_size":16,"loss":"l2"},
+    {"name":"diffusion-l1","method":"diffusion","base":36,"batch_size":16,"loss":"l1"},
+    {"name":"diffusion-batch32","method":"diffusion","base":36,"batch_size":32,"loss":"l2"},
+    {"name":"flow-matching","method":"flow","base":36,"batch_size":16,"loss":"l2"},
+    {"name":"regression-l2","method":"regression","base":36,"batch_size":16,"loss":"l2"},
+    {"name":"regression-l1","method":"regression","base":36,"batch_size":16,"loss":"l1"}
+  ]
+}

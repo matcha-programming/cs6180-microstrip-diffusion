@@ -1,0 +1,8 @@
+{
+  "status": "complete",
+  "new_designs": 256,
+  "reference_designs": 24,
+  "refined_designs": 8,
+  "training_eligible": false,
+  "h5_sha256": "be5fe10d44e7c11a01534ddb63d62413bee94c5f8c8a7edbe378dad9f22ce452"
+}

@@ -1,0 +1,15 @@
+{
+  "runs/validation-audit/checks.json": "65e35318290f3632ce3273fb6325cd25c50d417dfc5e19ba86c60872bd41e86f",
+  "runs/validation-audit/complete.json": "c53e9111a25e1bc7a3e3d99467432279ee5267848114b84deb069d59b0f8429d",
+  "runs/validation-audit/per-design-100.json": "889193f9b1efcaa7c5c20602dab055470358bb1f209d7473581f5af15c8e6b4a",
+  "runs/validation-audit/per-design-20.json": "2395c29094e0670741fd60a4e19704942462b58ef29554dc038898c8bfe447f3",
+  "runs/validation-audit/per-design-50.json": "2204ff4ee4db6791a7205f8d17f236a0f62083f1b83460cdde060f4b5e748eb0",
+  "runs/validation-audit/validation.json": "ff7d11bd248f7d7019dd006564bdae4a3c55fe59ada51150dfaabfb36be8c73f",
+  "screen-submission.json": "629a4ea35cbae5bc3ae736cde058f4ce6b9d0b4008455666fbaead51f6d276ae",
+  "microstrip-feedback-manifest.json": "4ea074f4e1a0ac78f26f74190c7c7988856175b6428758771e8464bd7674f512",
+  "data/palace-pilot/mask-audit.json": "6ffebfe50db56c3319b48c7e38d246acc6a9d05b506425039eb3956447fa5492",
+  "data/palace-pilot/cases.json": "3fbb6097e1ac1287a3f95aaa5b32fac00bf465dcbde25fbad0d531507a9ba0b8",
+  "slurm/preflight-11811854.log": "a62028ad04a13f3a52ad183337e8bfbbb5fc3a82b64560e6bc101cb2e6059957",
+  "slurm/capacity-11811929.log": "55de0a2b023101266bb33905ac0104adad40924ee6002235e306b23bc9d0f7d7",
+  "slurm/audit-11811898.log": "e5d0362116db4b6f0a01537ab1960b96490e1d91923444a823b5933672a0cfe5"
+}

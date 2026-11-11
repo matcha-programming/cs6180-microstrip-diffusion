@@ -1,0 +1,64 @@
+{
+  "observed_at_utc": "2026-11-11T20:40:21.907757+00:00",
+  "attempts": [
+    {
+      "job_id": 11811825,
+      "state": "FAILED",
+      "detail": "MFEM LAPACK linkage"
+    },
+    {
+      "job_id": 11811978,
+      "state": "FAILED",
+      "detail": "Required eigensolver absent after MFEM repair"
+    },
+    {
+      "job_id": 11818445,
+      "state": "FAILED",
+      "detail": "ParMETIS absent after ARPACK build"
+    },
+    {
+      "job_id": 11818544,
+      "state": "FAILED",
+      "detail": "GCC11.5 constexpr std::string compilation after ParMETIS build"
+    },
+    {
+      "job_id": 11818592,
+      "state": "FAILED",
+      "detail": "Anaconda fmt9 headers used with pinned fmt12.2 library"
+    },
+    {
+      "job_id": 11818707,
+      "state": "FAILED",
+      "detail": "Catch2 GitHub download timeout"
+    },
+    {
+      "job_id": 11818988,
+      "state": "FAILED",
+      "detail": "Conda compiler sysroot could not find zlib.h"
+    },
+    {
+      "job_id": 11819023,
+      "state": "FAILED",
+      "detail": "All application sources compiled; final link failed on non-PIE relocations in static ARPACK"
+    },
+    {
+      "job_id": 11819090,
+      "state": "FAILED",
+      "detail": "PIE issue resolved; Fortran link search path selected old GCC11 libstdc++"
+    },
+    {
+      "job_id": 11819135,
+      "state": "CANCELLED",
+      "detail": "Solver build and --version succeeded; superseded online package installation cancelled after repeated PyPI timeouts"
+    },
+    {
+      "job_id": 11819182,
+      "state": "COMPLETED",
+      "detail": "Pinned wheel hashes verified; gmsh4.15.0, vtk9.5.2, scipy and h5py imports passed"
+    }
+  ],
+  "current_script": "experiments/feedback_round4/build_palace_clean.sbatch",
+  "generation_status": "All288cases completed; finish11819947 verified and packed256newdesigns; quality gate failed, training_eligible=false.",
+  "source_changes": "No Palace physics source changes; dependency/compiler configuration repairs only.",
+  "pilot_verifier": "experiments/feedback_round4/verify_palace_pilot.py"
+}

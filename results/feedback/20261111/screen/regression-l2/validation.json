@@ -1,0 +1,17 @@
+{
+  "split": "val",
+  "checkpoint_sha256": "03d13d59d377da8ff87ca4bba232d90c798fa1bd79b8c2a0fcfd44033a32ba05",
+  "epoch": 100,
+  "steps": {
+    "1": {
+      "relative_l2": 0.027843532430496445,
+      "edge_relative_l2": 0.04280781980326968,
+      "gradient_relative_l2": 0.37706081543823916,
+      "masked_mse": 2.6890719002423116e-05,
+      "masked_mse_global": 2.6832174166804253e-05,
+      "designs": 881,
+      "draws": 1,
+      "nfe": 1
+    }
+  }
+}

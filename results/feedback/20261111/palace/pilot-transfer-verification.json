@@ -1,0 +1,10 @@
+{
+  "files_verified": 2,
+  "sha256": {
+    "pilot-verification.json": "395d33ef31b2de0da1f7ac3848c2bfb63288b539ac7a28ec5f6c2d932f470f61",
+    "pilot-solver-diagnostics.json": "7888f4b9a1bc609d1362003c277bbc195f2a4b1ac6061986272b9e3276ca762c"
+  },
+  "pilot_job": 11819206,
+  "all_18_cases_passed": true,
+  "scope": "Structural and logged solver checks; full course-compatibility gate remains pending."
+}

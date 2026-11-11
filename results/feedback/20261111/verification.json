@@ -1,0 +1,10 @@
+{
+  "files_verified": 13,
+  "verification": "SHA256 of transferred bytes matched hashes computed on HPC",
+  "mapping": {
+    "runs/validation-audit": "validation-audit",
+    "slurm": "preflight",
+    "data/palace-pilot": "palace"
+  },
+  "no_training_result_claim": true
+}

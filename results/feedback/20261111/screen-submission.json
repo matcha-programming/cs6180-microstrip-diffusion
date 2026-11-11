@@ -1,0 +1,16 @@
+{
+  "state": "submitted",
+  "source_manifest_sha256": "4ea074f4e1a0ac78f26f74190c7c7988856175b6428758771e8464bd7674f512",
+  "preflight_job_id": "11811854",
+  "capacity_job_id": "11811929",
+  "capacity_check": {
+    "batch_size": 32,
+    "base": 36,
+    "peak_memory_bytes": 2762168320,
+    "loss": 1.0025817155838013,
+    "status": "passed"
+  },
+  "parallel_limit": 2,
+  "array_job_id": "11811956",
+  "report_job_id": "11811957"
+}

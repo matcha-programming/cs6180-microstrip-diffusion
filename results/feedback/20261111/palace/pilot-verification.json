@@ -1,0 +1,145 @@
+{
+  "status": "passed",
+  "shard": 0,
+  "cases_verified": 18,
+  "checks": [
+    "case identity",
+    "SHA256",
+    "shapes",
+    "finite fields",
+    "mask zeros",
+    "E/s normalization",
+    "coordinate ordering",
+    "input parameters",
+    "solver log/config/mesh and VTU presence"
+  ],
+  "scope": "Structural verification only; course compatibility requires the separate quality gate.",
+  "cases": [
+    {
+      "id": "new-0000",
+      "kind": "new",
+      "sample_sha256": "9b3d82433f2700cd148fdad7988de608b1ec8a8e8e3401125f95dafea6f4562a",
+      "normalized_peak": 1.0,
+      "s_v_per_m": 56403.41182553274
+    },
+    {
+      "id": "new-0016",
+      "kind": "new",
+      "sample_sha256": "f0150ca37728a5d3bc0c012611ab48a65ed3fd19c2631c8049466c6e98c73b19",
+      "normalized_peak": 1.0,
+      "s_v_per_m": 62838.60479909338
+    },
+    {
+      "id": "new-0032",
+      "kind": "new",
+      "sample_sha256": "e2b3ac0845295475789c17ec06ee58ed88d54c971ec4ac9891869a5982e69909",
+      "normalized_peak": 1.0,
+      "s_v_per_m": 74973.79048128072
+    },
+    {
+      "id": "new-0048",
+      "kind": "new",
+      "sample_sha256": "ed5444c444b81cc81fb995accb2027e838b5fc732a4096d6b4ff05307fc56cd9",
+      "normalized_peak": 1.0,
+      "s_v_per_m": 44687.38330355908
+    },
+    {
+      "id": "new-0064",
+      "kind": "new",
+      "sample_sha256": "38baddfe0f8d02f762bca893a240e048db821656b3998299cdbc0a9690b1b757",
+      "normalized_peak": 1.0,
+      "s_v_per_m": 76555.83086756691
+    },
+    {
+      "id": "new-0080",
+      "kind": "new",
+      "sample_sha256": "057e299a91fa2223860dacebbf30923336dec5ac5dbbcc4199b1df85cdb75ae1",
+      "normalized_peak": 1.0,
+      "s_v_per_m": 215353.02427559084
+    },
+    {
+      "id": "new-0096",
+      "kind": "new",
+      "sample_sha256": "2528d34cbedf6fcb547deb23856a4d083a8ac2cdba167aa7cbaa8ad82b58129a",
+      "normalized_peak": 1.0,
+      "s_v_per_m": 57560.780690578205
+    },
+    {
+      "id": "new-0112",
+      "kind": "new",
+      "sample_sha256": "eff23b8b26e8e283e0b06b79c6dd7c4571799a23d85cfa86cc9712bbd8601409",
+      "normalized_peak": 1.0,
+      "s_v_per_m": 297231.41673539695
+    },
+    {
+      "id": "new-0128",
+      "kind": "new",
+      "sample_sha256": "78585c3a9eeb167b9f57a1cc422659806a709737c2a16cfa5b47a72070f8abf3",
+      "normalized_peak": 0.9999999403953552,
+      "s_v_per_m": 79580.08146488141
+    },
+    {
+      "id": "new-0144",
+      "kind": "new",
+      "sample_sha256": "634abdf9049868a6d74119608845407efb4fc00233f409508aa4e9db21bd61a0",
+      "normalized_peak": 1.0,
+      "s_v_per_m": 101473.53945700386
+    },
+    {
+      "id": "new-0160",
+      "kind": "new",
+      "sample_sha256": "85ce6e8effc58392b56566016c1ca343cb6ef4212d562a593fecfc649788b72b",
+      "normalized_peak": 0.9999999403953552,
+      "s_v_per_m": 44120.05913690271
+    },
+    {
+      "id": "new-0176",
+      "kind": "new",
+      "sample_sha256": "78c750a6bbe909f89b0e8961f30bf395ecab414bebce3b4d0890c16e521aa874",
+      "normalized_peak": 1.0,
+      "s_v_per_m": 279628.2451468516
+    },
+    {
+      "id": "new-0192",
+      "kind": "new",
+      "sample_sha256": "9017f7fd548ab02575a72e36968af0278b0a1c3fb03d8eab0d0c46c44e9d036f",
+      "normalized_peak": 1.0,
+      "s_v_per_m": 68229.90696921616
+    },
+    {
+      "id": "new-0208",
+      "kind": "new",
+      "sample_sha256": "e616e2b85c430978bd1abe43e75db391aaf0e86ee322b84c0da539972cd8fd55",
+      "normalized_peak": 1.0,
+      "s_v_per_m": 91733.84357362769
+    },
+    {
+      "id": "new-0224",
+      "kind": "new",
+      "sample_sha256": "5deb30b7a8429bd5c38ac6d5b9bff99e10dc794d284f964a679b2f872d6d013b",
+      "normalized_peak": 0.9999999403953552,
+      "s_v_per_m": 111356.3044671337
+    },
+    {
+      "id": "new-0240",
+      "kind": "new",
+      "sample_sha256": "0f7093186813303959e2350535b4d2ec722e087a9285b0f989ac7faf7c242ba3",
+      "normalized_peak": 0.9999999403953552,
+      "s_v_per_m": 193646.38731042828
+    },
+    {
+      "id": "ref-09186",
+      "kind": "reference",
+      "sample_sha256": "bd6d8371e07c51f10a9b3f246f6677df6995a9a604a7a076adc25d1ac0719e84",
+      "normalized_peak": 1.0,
+      "s_v_per_m": 77970.77751668259
+    },
+    {
+      "id": "ref-07866",
+      "kind": "reference",
+      "sample_sha256": "1c9bdae265fec70375c0d64d36fd23053472c5a005c6f4af4954985941baf0c4",
+      "normalized_peak": 0.9999999403953552,
+      "s_v_per_m": 112081.08068811349
+    }
+  ]
+}

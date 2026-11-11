@@ -1,0 +1,11 @@
+{
+  "archive_sha256": "aacce326276a5812b555cbf9022a6b1d326bcc961e12f89e5e88fd73bd7eb7fd",
+  "artifact_files_verified": 7,
+  "source_files_verified": 9,
+  "all_case_checks": 288,
+  "packed_rows_checked_against_samples": 256,
+  "hdf5_hash_verified_on_hpc": true,
+  "hdf5_downloaded": false,
+  "figure_visual_review": "completed",
+  "raw_environment_records_published": false
+}

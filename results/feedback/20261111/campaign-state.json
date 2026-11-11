@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-11T18:56:33.315420+00:00",
+  "updated_at_utc": "2026-11-11T19:00:56.260563+00:00",
   "remote_root": "/scratch/he.zit/cs6180-microstrip-experiments/feedback-20261111",
   "branch": "codex/palace-feedback-20261110",
   "jobs": {
@@ -15,7 +15,8 @@
     "training_array": 11811956,
     "training_report": 11811957,
     "palace_arpack_recovery": 11818445,
-    "palace_parmetis_recovery": 11818544
+    "palace_parmetis_recovery": 11818544,
+    "palace_gcc13_recovery": 11818592
   },
   "verified_completed": [
     "palace_input_preparation",
@@ -28,7 +29,7 @@
   ],
   "initial_build_failure": "MFEM example omitted static HYPRE BLAS/LAPACK dependency; recovery enables MFEM_USE_LAPACK",
   "training_status": "All seven 100-epoch variants and report completed; 47 evidence files hash-verified and per-design averages recomputed locally.",
-  "palace_status": "ParMETIS installed and Palace compilation advancing in CPU job 11818544. No generated fields verified.",
+  "palace_status": "ParMETIS repair11818544 installed the missing library but failed compiling constexpr std::string with GCC11.5. Isolated GCC13 application build11818592 submitted; preserves original source, dependency build and logs. No generated fields verified.",
   "publication": {
     "user_approved": true,
     "pull_request": "https://github.com/matcha-programming/cs6180-microstrip-diffusion/pull/4",

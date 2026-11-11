@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-11T20:40:21.907063+00:00",
+  "updated_at_utc": "2026-11-11T20:41:40.179925+00:00",
   "remote_root": "/scratch/he.zit/cs6180-microstrip-experiments/feedback-20261111",
   "branch": "codex/palace-feedback-20261110",
   "jobs": {
@@ -50,17 +50,18 @@
   "publication": {
     "user_approved": true,
     "pull_request": "https://github.com/matcha-programming/cs6180-microstrip-diffusion/pull/4",
-    "status": "Final report prepared; feature branch/PR only. No merge authorized."
+    "status": "Final report and root overview published and remote blobs verified; PR4 is open and ready for review, not merged."
   },
   "recurring_monitor": {
     "id": "finish-palace-and-feedback-experiments",
-    "status": "ACTIVE until final publication verified",
+    "status": "DELETED after verified final publication",
     "interval_minutes": 20,
     "user_approved": true
   },
-  "remaining": [
-    "Publish and verify final report, artifacts, source hashes and root overview",
-    "Remove follow-up after verified publication"
-  ],
-  "campaign_status": "complete; final publication verification pending"
+  "remaining": [],
+  "campaign_status": "complete",
+  "future_work_requiring_review": [
+    "Resolve mesh/refinement and reconstruction mismatch before any augmentation",
+    "Design full-budget multi-seed confirmation before a new held-out comparison"
+  ]
 }

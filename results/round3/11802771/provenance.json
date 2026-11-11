@@ -1,0 +1,16 @@
+{
+  "capture": "Original HPC bytes transferred over SSH and verified by SHA-256.",
+  "recovery_job_id": 11802771,
+  "report_job_id": 11807152,
+  "original_array_job_id": 11716516,
+  "source_updates": 79062,
+  "target_updates": 220500,
+  "verified_complete_schedules": 5,
+  "hpc_files_verified": 13,
+  "validated_checkpoint_hashes": 10,
+  "history_preserves_original_plateau_prefix": true,
+  "report_regeneration_match": true,
+  "validation_metric_rows": 20,
+  "learning_rate_history_rows": 2500,
+  "confirmation_submitted": false
+}

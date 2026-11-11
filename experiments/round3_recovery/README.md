@@ -1,8 +1,8 @@
-# Recover the incomplete Round 3 plateau schedule
+# Round 3 plateau recovery
 
-Status as of November 10, 2026: recovery is prepared but has not been submitted. SSH access is restored and verified. The current [results and scheduler records](../../results/round3/11716516/) show that plateau remains at 79,062 of 220,500 updates; its Slurm task ended with `NODE_FAIL` and the dependent report job was cancelled.
+On November 10, 2026, job `11802771` resumed warmup + plateau from its full checkpoint at 79,062 updates and completed all 220,500 updates. CPU report job `11807152` finished the validation comparison and froze the confirmation plan. See the [completed screening results](../../results/round3/11802771/) and the [original screening snapshot](../../results/round3/11716516/).
 
-Recovery procedure:
+Recovery procedure used for this run:
 
 1. Inspect `squeue -u he.zit` and `sacct -j 11716516,11716517`. Do not submit if any original plateau task or continuation is pending/running. Inspect the latest history, complete.json and last.pt; do not assume the November 9 snapshot is still current.
 2. Upload this recovery folder into the original campaign's `experiments/round3_recovery/`. Do not edit the frozen round-three training sources: they are part of the checkpoint's resume signature.

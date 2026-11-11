@@ -32,6 +32,12 @@ args[index] = str(root / 'tools/palace/build-gcc13-clean-app')
 headers = str(root / 'tools/system-zlib-headers')
 args = [arg for arg in args if not arg.startswith('-DCMAKE_CXX_FLAGS=')]
 args.extend(['-DCMAKE_CXX_FLAGS=-isystem ' + headers, '-DZLIB_INCLUDE_DIR=' + headers])
+# The original static ARPACK library contains non-PIE relocations. Match that
+# build at executable link time; no solver or training source changes are needed.
+args = [arg for arg in args if not arg.startswith('-DCMAKE_EXE_LINKER_FLAGS=')]
+# ARPACK's Fortran link interface adds GCC 11's library directory. Put the new
+# C++ runtime first so GCC 13 objects do not link against the older libstdc++.
+args.append('-DCMAKE_EXE_LINKER_FLAGS=-no-pie -L' + str(root / 'tools/compiler-gcc13/lib'))
 config['argv'] = args
 catch2 = root / 'tools/palace/build-gcc13-app/_deps/catch2-src'
 head = subprocess.check_output(['git', '-C', str(catch2), 'rev-parse', 'HEAD'], text=True).strip()

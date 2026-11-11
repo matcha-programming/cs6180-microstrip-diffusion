@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-11-11T19:31:25.138846+00:00",
+  "observed_at_utc": "2026-11-11T19:38:27.849150+00:00",
   "attempts": [
     {
       "job_id": 11811825,
@@ -38,8 +38,18 @@
     },
     {
       "job_id": 11819023,
+      "state": "FAILED",
+      "detail": "All application sources compiled; final link failed on non-PIE relocations in static ARPACK"
+    },
+    {
+      "job_id": 11819090,
+      "state": "FAILED",
+      "detail": "PIE issue resolved; Fortran link search path selected old GCC11 libstdc++"
+    },
+    {
+      "job_id": 11819135,
       "state": "RUNNING",
-      "detail": "Uses cached pinned Catch2 and exact system zlib headers"
+      "detail": "Palace compiled, linked, installed and --version passed; Python runtime setup in progress"
     }
   ],
   "current_script": "experiments/feedback_round4/build_palace_clean.sbatch",

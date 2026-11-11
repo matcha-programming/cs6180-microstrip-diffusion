@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-11T19:31:25.138846+00:00",
+  "updated_at_utc": "2026-11-11T19:38:27.848780+00:00",
   "remote_root": "/scratch/he.zit/cs6180-microstrip-experiments/feedback-20261111",
   "branch": "codex/palace-feedback-20261110",
   "jobs": {
@@ -19,7 +19,9 @@
     "palace_gcc13_recovery": 11818592,
     "palace_clean_recovery": 11818707,
     "palace_cached_recovery": 11818988,
-    "palace_zlib_recovery": 11819023
+    "palace_zlib_recovery": 11819023,
+    "palace_link_recovery": 11819090,
+    "palace_cxx_runtime_recovery": 11819135
   },
   "verified_completed": [
     "palace_input_preparation",
@@ -32,7 +34,7 @@
   ],
   "initial_build_failure": "MFEM example omitted static HYPRE BLAS/LAPACK dependency; recovery enables MFEM_USE_LAPACK",
   "training_status": "All seven 100-epoch variants and report completed; 47 evidence files hash-verified and per-design averages recomputed locally.",
-  "palace_status": "Clean build11818707 stopped on a Catch2 download timeout.11818988 reused verified Catch2 v3.8.1, then failed because the Conda compiler sysroot could not find system zlib headers. Current11819023 uses only the matching zlib.h/zconf.h headers and is compiling. No simulated fields verified.",
+  "palace_status": "Job11819135 successfully compiled, linked, and installed Palace; palace --version completed and reports pinned dependencies. The same job is creating the Python runtime; build-complete marker not yet present. Do not resubmit the build. No generation submitted.",
   "publication": {
     "user_approved": true,
     "pull_request": "https://github.com/matcha-programming/cs6180-microstrip-diffusion/pull/4",

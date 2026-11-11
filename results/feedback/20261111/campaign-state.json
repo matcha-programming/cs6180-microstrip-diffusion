@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-11T18:54:51.175419+00:00",
+  "updated_at_utc": "2026-11-11T18:56:33.315420+00:00",
   "remote_root": "/scratch/he.zit/cs6180-microstrip-experiments/feedback-20261111",
   "branch": "codex/palace-feedback-20261110",
   "jobs": {
@@ -28,8 +28,12 @@
   ],
   "initial_build_failure": "MFEM example omitted static HYPRE BLAS/LAPACK dependency; recovery enables MFEM_USE_LAPACK",
   "training_status": "All seven 100-epoch variants and report completed; 47 evidence files hash-verified and per-design averages recomputed locally.",
-  "palace_status": "ParMETIS repair job 11818544 submitted. ARPACK repair 11818445 failed on missing ParMETIS; original pilot 11812063 cancelled without running. No generated fields verified.",
-  "publication": "User approved public code and course-derived metrics. Branch published at 3d4c5be; verified full screen results prepared for next commit/PR.",
+  "palace_status": "ParMETIS installed and Palace compilation advancing in CPU job 11818544. No generated fields verified.",
+  "publication": {
+    "user_approved": true,
+    "pull_request": "https://github.com/matcha-programming/cs6180-microstrip-diffusion/pull/4",
+    "status": "Draft PR published with completed validation screen; Palace simulation results pending."
+  },
   "recurring_monitor": {
     "id": "finish-palace-and-feedback-experiments",
     "status": "ACTIVE",

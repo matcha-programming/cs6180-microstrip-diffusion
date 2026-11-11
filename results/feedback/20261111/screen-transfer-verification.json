@@ -1,0 +1,21 @@
+{
+  "archive_sha256": "e7d9f80320fcb6309ecda15a39a2f0b8aa64c6e317e4b20e713f54950898f8ea",
+  "files_verified": 47,
+  "runs_verified": [
+    "diffusion-batch32",
+    "diffusion-control",
+    "diffusion-l1",
+    "diffusion-small",
+    "flow-matching",
+    "regression-l1",
+    "regression-l2"
+  ],
+  "per_design_averages_recomputed": true,
+  "checkpoint_hashes_verified_on_hpc": true,
+  "prediction_recomputation": false,
+  "mapping": {
+    "runs/screen": "screen",
+    "report": "screen-report",
+    "slurm": "logs"
+  }
+}

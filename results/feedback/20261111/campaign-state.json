@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-11T07:01:00.993200+00:00",
+  "updated_at_utc": "2026-11-11T18:54:51.175419+00:00",
   "remote_root": "/scratch/he.zit/cs6180-microstrip-experiments/feedback-20261111",
   "branch": "codex/palace-feedback-20261110",
   "jobs": {
@@ -13,25 +13,34 @@
     "gpu_batch32_capacity": 11811929,
     "validation_audit": 11811898,
     "training_array": 11811956,
-    "training_report": 11811957
+    "training_report": 11811957,
+    "palace_arpack_recovery": 11818445,
+    "palace_parmetis_recovery": 11818544
   },
   "verified_completed": [
     "palace_input_preparation",
     "palace_gl_runtime",
     "gpu_preflight",
     "gpu_batch32_capacity",
-    "validation_audit"
+    "validation_audit",
+    "training_array",
+    "training_report"
   ],
   "initial_build_failure": "MFEM example omitted static HYPRE BLAS/LAPACK dependency; recovery enables MFEM_USE_LAPACK",
-  "training_status": "tasks0 and1 advancing; remaining tasks queued; no completion claim",
-  "palace_status": "building; first shard waits on runtime verification; no simulated-field completion claim",
-  "publication": "blocked by automatic approval review pending explicit approval to publish code and course-derived per-design metrics to public repo",
-  "recurring_monitor": "not created; automatic approval review requires explicit user approval",
+  "training_status": "All seven 100-epoch variants and report completed; 47 evidence files hash-verified and per-design averages recomputed locally.",
+  "palace_status": "ParMETIS repair job 11818544 submitted. ARPACK repair 11818445 failed on missing ParMETIS; original pilot 11812063 cancelled without running. No generated fields verified.",
+  "publication": "User approved public code and course-derived metrics. Branch published at 3d4c5be; verified full screen results prepared for next commit/PR.",
+  "recurring_monitor": {
+    "id": "finish-palace-and-feedback-experiments",
+    "status": "ACTIVE",
+    "interval_minutes": 20,
+    "user_approved": true
+  },
   "remaining": [
-    "verify Palace runtime and first shard",
-    "submit remaining shards1-15 only after successful pilot inspection",
-    "pack all256new+24reference+8refinement cases and evaluate quality gate",
-    "collect and verify all7training variants and report",
-    "publish only after approval; feature branch/PR; no merge"
+    "Verify Palace build/runtime and first generation shard",
+    "Submit remaining shards1-15 only after successful pilot inspection",
+    "Pack all256new+24reference+8refinement cases and evaluate quality gate",
+    "Publish verified simulation summaries and gate outcome through feature branch/PR",
+    "Review confirmation protocol before new training or held-out scoring"
   ]
 }

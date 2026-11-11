@@ -1,0 +1,54 @@
+{
+  "runs": [
+    {
+      "run": "diffusion-batch32",
+      "checkpoint_sha256": "81f053f11c3207b22181d7aa2644212ee43ba3c5c98c9dc14e464a745f4ad96e",
+      "history_rows": 100,
+      "updates": 22100,
+      "checkpoint_hash_verified_on_hpc": true
+    },
+    {
+      "run": "diffusion-control",
+      "checkpoint_sha256": "99a037e67eb1d851995fced83cf337c984a162bac4521dcda82e9d921aab50ad",
+      "history_rows": 100,
+      "updates": 44100,
+      "checkpoint_hash_verified_on_hpc": true
+    },
+    {
+      "run": "diffusion-l1",
+      "checkpoint_sha256": "e03b568e210cb6007bd03353cbcd4d4f684016fe5aff32a2c917e9d2e18e462a",
+      "history_rows": 100,
+      "updates": 44100,
+      "checkpoint_hash_verified_on_hpc": true
+    },
+    {
+      "run": "diffusion-small",
+      "checkpoint_sha256": "d3d019e12692702657581a3fae2246ce8d2ff1394c9c801bcce05c5f8f9711dc",
+      "history_rows": 100,
+      "updates": 44100,
+      "checkpoint_hash_verified_on_hpc": true
+    },
+    {
+      "run": "flow-matching",
+      "checkpoint_sha256": "7ee1db774f395e6992d4fd736630f537a0fe053f4246caae4c0a6de008dc7f00",
+      "history_rows": 100,
+      "updates": 44100,
+      "checkpoint_hash_verified_on_hpc": true
+    },
+    {
+      "run": "regression-l1",
+      "checkpoint_sha256": "77a8a23010207ee0cc6b780f3f1a53b192775f3f065d3f687f3ba5e8434d791c",
+      "history_rows": 100,
+      "updates": 44100,
+      "checkpoint_hash_verified_on_hpc": true
+    },
+    {
+      "run": "regression-l2",
+      "checkpoint_sha256": "03d13d59d377da8ff87ca4bba232d90c798fa1bd79b8c2a0fcfd44033a32ba05",
+      "history_rows": 100,
+      "updates": 44100,
+      "checkpoint_hash_verified_on_hpc": true
+    }
+  ],
+  "checkpoint_bytes": "remain on HPC; hashed there"
+}

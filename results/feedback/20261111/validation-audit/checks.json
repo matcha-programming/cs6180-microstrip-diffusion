@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "checkpoint_sha256": "20cf28fcba91cec7626793139e2342c92326523ec491d992393af53cf4ad2430",
+  "target_independence": true,
+  "batch_max_abs_difference": 4.76837158203125e-07,
+  "row_order_invariance": true,
+  "independent_global_mse": 5.7439651003130686e-05,
+  "legacy_global_mse": 5.743965162184014e-05,
+  "zero_prediction_relative_l2": 1.0,
+  "shuffled_prediction_relative_l2": 0.40400096820667386,
+  "matched_prediction_relative_l2": 0.04513446273631416,
+  "rows": [
+    41,
+    44,
+    47,
+    51,
+    82,
+    100,
+    126,
+    140,
+    151,
+    157,
+    166,
+    167,
+    185,
+    188,
+    199,
+    201
+  ],
+  "noise_validation_note": "Legacy noise loss uses a fixed seed and EMA; smoothness alone is not evidence of leakage. Its RNG stream depends on batching, so do not compare that diagnostic across batch sizes.",
+  "scope": "Checks concern the executed sampler, masks and metric aggregation; not a proof of every possible validation error."
+}

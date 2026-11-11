@@ -1,6 +1,6 @@
 # Feedback campaign: validation audit and new experiments
 
-All seven 100-epoch training runs, the validation audit, and the sampler comparison are complete. Regression leads this validation screen; flow matching outperforms the diffusion control at the same 20 network evaluations. Palace and its Python runtime are ready; the first 18-case simulation shard is running. The [experiment protocol](../../../experiments/feedback_round4/) maps each meeting suggestion to a controlled test.
+All seven 100-epoch training runs, the validation audit, and the sampler comparison are complete. Regression leads this validation screen; flow matching outperforms the diffusion control at the same 20 network evaluations. The 18-case Palace pilot passed verification, and the remaining 270 simulations are running or queued. The [experiment protocol](../../../experiments/feedback_round4/) maps each meeting suggestion to a controlled test.
 
 ## Training screen
 
@@ -56,7 +56,15 @@ See [checks](validation-audit/checks.json), [metrics](validation-audit/validatio
 
 GPU preflight **11811854** passed six numerical tests and all seven end-to-end smoke runs. These smoke scores are not performance results. Capacity job **11811929** completed a base-36, batch-32 forward/backward/optimizer step with peak allocated GPU memory of 2,762,168,320 bytes.
 
-Palace metadata preparation **11811896** matched the proposed mask rule on all 7,048 training designs, with zero mismatches. It prepared 256 new Latin-hypercube parameter combinations, 24 training-only reference simulations, and eight refined reference simulations. The [case manifest](palace/cases.json) and [mask audit](palace/mask-audit.json) are available; these records describe prepared inputs, not completed simulation outputs. Palace compiled, linked, and installed successfully, and its version check passed. Offline setup job **11819182** verified the staged wheel checksums and passed imports for gmsh 4.15.0, VTK 9.5.2, SciPy, and h5py. The first 18-case shard is running as **11819206_0**. Seven runtime evidence files matched their HPC checksums locally. The [public runtime summary](palace/runtime/summary.json) records versions, source commits, and verification checks; raw environment records remain private. Earlier build attempts and their failures are recorded in [build status](palace/build-status.json). The earlier pilot job **11812063** was cancelled without running; no new simulated fields are claimed. The first 18-case shard must pass checksum, shape, finite-field, normalization, and provenance checks before the other shards run. The separate compatibility gate controls whether the completed data can be used for augmentation.
+Palace metadata preparation **11811896** matched the proposed mask rule on all 7,048 training designs, with zero mismatches. The [case manifest](palace/cases.json) contains 256 new Latin-hypercube designs, 24 training references, and eight refined reference simulations.
+
+Pilot shard **11819206_0** completed all 18 cases in 6 minutes 13 seconds: 16 new designs and two references. Every case passed checksum, shape, finite-field, mask-zero, E/s normalization, coordinate, input-identity, and solver-artifact checks. All 18 PCG solves converged. See [pilot verification](palace/pilot-verification.json), [solver diagnostics](palace/pilot-solver-diagnostics.json), and [download verification](palace/pilot-transfer-verification.json).
+
+The two pilot references have raw relative L2 errors of **1.255%** and **2.168%**. These are only two of 24 references; they do not establish compatibility. The logs contain an early boundary warning for attributes 4–5. Each actual electrostatic solve then confirms Dirichlet conditions on ground 3 and trace 4, with one terminal excitation. Outer boundary 5 retains the reconstruction's intended natural boundary condition.
+
+After the pilot passed, the remaining 15 shards were submitted as array **11819558**, capped at four concurrent tasks. They cover 270 cases. Dataset packing and the full reference/refinement gate remain pending; synthetic data is not yet approved for augmentation.
+
+The solver and Python runtime passed their checks. The [runtime summary](palace/runtime/summary.json) records public versions, source commits, and verification outcomes; raw environment records remain private. Earlier build attempts are recorded in [build status](palace/build-status.json).
 
 All heavy output stays under `/scratch/he.zit/cs6180-microstrip-experiments/feedback-20261111`. Synthetic data will not be mixed into course training unless its prespecified raw-error and mesh-refinement checks pass. The course train/validation/test splits remain intact.
 

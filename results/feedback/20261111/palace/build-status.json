@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-11-11T19:45:17.217285+00:00",
+  "observed_at_utc": "2026-11-11T20:13:44.410015+00:00",
   "attempts": [
     {
       "job_id": 11811825,
@@ -58,7 +58,7 @@
     }
   ],
   "current_script": "experiments/feedback_round4/build_palace_clean.sbatch",
-  "generation_status": "Pilot shard0 job11819206 running; other shards withheld until structural verification passes",
+  "generation_status": "Pilot11819206 completed and passed18case verification; remaining shards11819558 (1-15%4) submitted.",
   "source_changes": "No Palace physics source changes; dependency/compiler configuration repairs only.",
   "pilot_verifier": "experiments/feedback_round4/verify_palace_pilot.py"
 }

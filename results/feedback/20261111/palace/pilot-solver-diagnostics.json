@@ -1,0 +1,279 @@
+{
+  "cases": [
+    {
+      "case_id": "new-0000",
+      "kind": "new",
+      "pcg_convergence": [
+        "PCG solver converged in 20 iterations (avg. reduction factor: 2.458e-01)"
+      ],
+      "solver_seconds": 16.914350986480713,
+      "triangles": 211020,
+      "raw_reference_relative_l2": null,
+      "dirichlet_attributes": [
+        3,
+        4
+      ]
+    },
+    {
+      "case_id": "new-0016",
+      "kind": "new",
+      "pcg_convergence": [
+        "PCG solver converged in 22 iterations (avg. reduction factor: 2.839e-01)"
+      ],
+      "solver_seconds": 23.87382674217224,
+      "triangles": 264206,
+      "raw_reference_relative_l2": null,
+      "dirichlet_attributes": [
+        3,
+        4
+      ]
+    },
+    {
+      "case_id": "new-0032",
+      "kind": "new",
+      "pcg_convergence": [
+        "PCG solver converged in 21 iterations (avg. reduction factor: 2.591e-01)"
+      ],
+      "solver_seconds": 36.31324481964111,
+      "triangles": 357774,
+      "raw_reference_relative_l2": null,
+      "dirichlet_attributes": [
+        3,
+        4
+      ]
+    },
+    {
+      "case_id": "new-0048",
+      "kind": "new",
+      "pcg_convergence": [
+        "PCG solver converged in 21 iterations (avg. reduction factor: 2.545e-01)"
+      ],
+      "solver_seconds": 16.69109559059143,
+      "triangles": 204076,
+      "raw_reference_relative_l2": null,
+      "dirichlet_attributes": [
+        3,
+        4
+      ]
+    },
+    {
+      "case_id": "new-0064",
+      "kind": "new",
+      "pcg_convergence": [
+        "PCG solver converged in 22 iterations (avg. reduction factor: 2.767e-01)"
+      ],
+      "solver_seconds": 19.068052291870117,
+      "triangles": 221300,
+      "raw_reference_relative_l2": null,
+      "dirichlet_attributes": [
+        3,
+        4
+      ]
+    },
+    {
+      "case_id": "new-0080",
+      "kind": "new",
+      "pcg_convergence": [
+        "PCG solver converged in 19 iterations (avg. reduction factor: 2.200e-01)"
+      ],
+      "solver_seconds": 1.4922430515289307,
+      "triangles": 6740,
+      "raw_reference_relative_l2": null,
+      "dirichlet_attributes": [
+        3,
+        4
+      ]
+    },
+    {
+      "case_id": "new-0096",
+      "kind": "new",
+      "pcg_convergence": [
+        "PCG solver converged in 20 iterations (avg. reduction factor: 2.418e-01)"
+      ],
+      "solver_seconds": 7.788495779037476,
+      "triangles": 90638,
+      "raw_reference_relative_l2": null,
+      "dirichlet_attributes": [
+        3,
+        4
+      ]
+    },
+    {
+      "case_id": "new-0112",
+      "kind": "new",
+      "pcg_convergence": [
+        "PCG solver converged in 19 iterations (avg. reduction factor: 2.279e-01)"
+      ],
+      "solver_seconds": 1.3078656196594238,
+      "triangles": 3942,
+      "raw_reference_relative_l2": null,
+      "dirichlet_attributes": [
+        3,
+        4
+      ]
+    },
+    {
+      "case_id": "new-0128",
+      "kind": "new",
+      "pcg_convergence": [
+        "PCG solver converged in 20 iterations (avg. reduction factor: 2.384e-01)"
+      ],
+      "solver_seconds": 5.002789497375488,
+      "triangles": 36472,
+      "raw_reference_relative_l2": null,
+      "dirichlet_attributes": [
+        3,
+        4
+      ]
+    },
+    {
+      "case_id": "new-0144",
+      "kind": "new",
+      "pcg_convergence": [
+        "PCG solver converged in 21 iterations (avg. reduction factor: 2.573e-01)"
+      ],
+      "solver_seconds": 8.05477523803711,
+      "triangles": 84278,
+      "raw_reference_relative_l2": null,
+      "dirichlet_attributes": [
+        3,
+        4
+      ]
+    },
+    {
+      "case_id": "new-0160",
+      "kind": "new",
+      "pcg_convergence": [
+        "PCG solver converged in 21 iterations (avg. reduction factor: 2.594e-01)"
+      ],
+      "solver_seconds": 80.0773651599884,
+      "triangles": 629604,
+      "raw_reference_relative_l2": null,
+      "dirichlet_attributes": [
+        3,
+        4
+      ]
+    },
+    {
+      "case_id": "new-0176",
+      "kind": "new",
+      "pcg_convergence": [
+        "PCG solver converged in 19 iterations (avg. reduction factor: 2.316e-01)"
+      ],
+      "solver_seconds": 2.705735683441162,
+      "triangles": 19534,
+      "raw_reference_relative_l2": null,
+      "dirichlet_attributes": [
+        3,
+        4
+      ]
+    },
+    {
+      "case_id": "new-0192",
+      "kind": "new",
+      "pcg_convergence": [
+        "PCG solver converged in 21 iterations (avg. reduction factor: 2.591e-01)"
+      ],
+      "solver_seconds": 5.526130437850952,
+      "triangles": 60648,
+      "raw_reference_relative_l2": null,
+      "dirichlet_attributes": [
+        3,
+        4
+      ]
+    },
+    {
+      "case_id": "new-0208",
+      "kind": "new",
+      "pcg_convergence": [
+        "PCG solver converged in 21 iterations (avg. reduction factor: 2.577e-01)"
+      ],
+      "solver_seconds": 13.747777223587036,
+      "triangles": 139554,
+      "raw_reference_relative_l2": null,
+      "dirichlet_attributes": [
+        3,
+        4
+      ]
+    },
+    {
+      "case_id": "new-0224",
+      "kind": "new",
+      "pcg_convergence": [
+        "PCG solver converged in 22 iterations (avg. reduction factor: 2.751e-01)"
+      ],
+      "solver_seconds": 8.16679048538208,
+      "triangles": 83534,
+      "raw_reference_relative_l2": null,
+      "dirichlet_attributes": [
+        3,
+        4
+      ]
+    },
+    {
+      "case_id": "new-0240",
+      "kind": "new",
+      "pcg_convergence": [
+        "PCG solver converged in 20 iterations (avg. reduction factor: 2.446e-01)"
+      ],
+      "solver_seconds": 2.07845401763916,
+      "triangles": 9996,
+      "raw_reference_relative_l2": null,
+      "dirichlet_attributes": [
+        3,
+        4
+      ]
+    },
+    {
+      "case_id": "ref-09186",
+      "kind": "reference",
+      "pcg_convergence": [
+        "PCG solver converged in 22 iterations (avg. reduction factor: 2.809e-01)"
+      ],
+      "solver_seconds": 27.051360845565796,
+      "triangles": 333104,
+      "raw_reference_relative_l2": 0.012548193260231438,
+      "dirichlet_attributes": [
+        3,
+        4
+      ]
+    },
+    {
+      "case_id": "ref-07866",
+      "kind": "reference",
+      "pcg_convergence": [
+        "PCG solver converged in 21 iterations (avg. reduction factor: 2.551e-01)"
+      ],
+      "solver_seconds": 9.658488273620605,
+      "triangles": 110662,
+      "raw_reference_relative_l2": 0.02168474587374446,
+      "dirichlet_attributes": [
+        3,
+        4
+      ]
+    }
+  ],
+  "warning_contexts": [
+    "--> Warning!\nOne or more external boundary attributes has no associated boundary condition!\n\"PMC\"/\"ZeroCharge\" condition is assumed!\n\nBoundary attribute list: 4-5\n\nAdded 140 boundary elements for material interfaces to the mesh",
+    "--> Warning!\nOne or more external boundary attributes has no associated boundary condition!\n\"PMC\"/\"ZeroCharge\" condition is assumed!\n\nBoundary attribute list: 4-5\n\nAdded 184 boundary elements for material interfaces to the mesh",
+    "--> Warning!\nOne or more external boundary attributes has no associated boundary condition!\n\"PMC\"/\"ZeroCharge\" condition is assumed!\n\nBoundary attribute list: 4-5\n\nAdded 224 boundary elements for material interfaces to the mesh",
+    "--> Warning!\nOne or more external boundary attributes has no associated boundary condition!\n\"PMC\"/\"ZeroCharge\" condition is assumed!\n\nBoundary attribute list: 4-5\n\nAdded 226 boundary elements for material interfaces to the mesh",
+    "--> Warning!\nOne or more external boundary attributes has no associated boundary condition!\n\"PMC\"/\"ZeroCharge\" condition is assumed!\n\nBoundary attribute list: 4-5\n\nAdded 236 boundary elements for material interfaces to the mesh",
+    "--> Warning!\nOne or more external boundary attributes has no associated boundary condition!\n\"PMC\"/\"ZeroCharge\" condition is assumed!\n\nBoundary attribute list: 4-5\n\nAdded 250 boundary elements for material interfaces to the mesh",
+    "--> Warning!\nOne or more external boundary attributes has no associated boundary condition!\n\"PMC\"/\"ZeroCharge\" condition is assumed!\n\nBoundary attribute list: 4-5\n\nAdded 284 boundary elements for material interfaces to the mesh",
+    "--> Warning!\nOne or more external boundary attributes has no associated boundary condition!\n\"PMC\"/\"ZeroCharge\" condition is assumed!\n\nBoundary attribute list: 4-5\n\nAdded 334 boundary elements for material interfaces to the mesh",
+    "--> Warning!\nOne or more external boundary attributes has no associated boundary condition!\n\"PMC\"/\"ZeroCharge\" condition is assumed!\n\nBoundary attribute list: 4-5\n\nAdded 344 boundary elements for material interfaces to the mesh",
+    "--> Warning!\nOne or more external boundary attributes has no associated boundary condition!\n\"PMC\"/\"ZeroCharge\" condition is assumed!\n\nBoundary attribute list: 4-5\n\nAdded 360 boundary elements for material interfaces to the mesh",
+    "--> Warning!\nOne or more external boundary attributes has no associated boundary condition!\n\"PMC\"/\"ZeroCharge\" condition is assumed!\n\nBoundary attribute list: 4-5\n\nAdded 404 boundary elements for material interfaces to the mesh",
+    "--> Warning!\nOne or more external boundary attributes has no associated boundary condition!\n\"PMC\"/\"ZeroCharge\" condition is assumed!\n\nBoundary attribute list: 4-5\n\nAdded 442 boundary elements for material interfaces to the mesh",
+    "--> Warning!\nOne or more external boundary attributes has no associated boundary condition!\n\"PMC\"/\"ZeroCharge\" condition is assumed!\n\nBoundary attribute list: 4-5\n\nAdded 452 boundary elements for material interfaces to the mesh",
+    "--> Warning!\nOne or more external boundary attributes has no associated boundary condition!\n\"PMC\"/\"ZeroCharge\" condition is assumed!\n\nBoundary attribute list: 4-5\n\nAdded 48 boundary elements for material interfaces to the mesh",
+    "--> Warning!\nOne or more external boundary attributes has no associated boundary condition!\n\"PMC\"/\"ZeroCharge\" condition is assumed!\n\nBoundary attribute list: 4-5\n\nAdded 574 boundary elements for material interfaces to the mesh",
+    "--> Warning!\nOne or more external boundary attributes has no associated boundary condition!\n\"PMC\"/\"ZeroCharge\" condition is assumed!\n\nBoundary attribute list: 4-5\n\nAdded 62 boundary elements for material interfaces to the mesh",
+    "--> Warning!\nOne or more external boundary attributes has no associated boundary condition!\n\"PMC\"/\"ZeroCharge\" condition is assumed!\n\nBoundary attribute list: 4-5\n\nAdded 76 boundary elements for material interfaces to the mesh",
+    "--> Warning!\nOne or more external boundary attributes has no associated boundary condition!\n\"PMC\"/\"ZeroCharge\" condition is assumed!\n\nBoundary attribute list: 5, 4\n\nAdded 106 boundary elements for material interfaces to the mesh"
+  ],
+  "all_pcg_converged": true,
+  "warning_interpretation": "Early geometry warning lists attributes4-5. Every actual electrostatic solve then explicitly configures Dirichlet conditions on ground3 and terminal4, with one terminal excitation. Outer5 uses the intended natural zero-normal-displacement boundary from the unchanged reconstruction.",
+  "all_ground_terminal_conditions_verified": true
+}

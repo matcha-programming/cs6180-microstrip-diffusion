@@ -110,11 +110,12 @@
   "limits": [
     "Predictions and per-design aggregation were not recomputed.",
     "Checkpoint hashes were computed on HPC; checkpoint and optimizer files remain there.",
-    "Plateau is incomplete; confirmation and held-out round-three results are unavailable."
+    "Plateau is incomplete; confirmation and held-out round-three results are unavailable.",
+    "Plateau artifact-reported training time exceeds archived scheduler wall time; cause unresolved. CSV timing_status flags this discrepancy; neither duration is verified active GPU time."
   ],
   "recovery": {
     "ssh_access": "Restored and verified on 2026-11-10",
     "state": "Not submitted; existing plateau run still incomplete"
   },
-  "report_generation": "python3 experiments-round-3/report.py --root results/round3/11716516 --output results/round3/11716516; run columns normalized to relative directory names"
+  "report_generation": "python3 experiments-round-3/report.py --root results/round3/11716516 --output results/round3/11716516; portable run paths, artifact stop reasons, archived scheduler status and timing discrepancy flags"
 }

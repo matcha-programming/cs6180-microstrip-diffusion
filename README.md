@@ -25,7 +25,7 @@ These are single-training-seed, budgeted results. The paired diffusion model rea
 
 ## Reports and artifacts
 
-- [Feedback experiments: seven completed training variants, validation audit, and Palace pilot](results/feedback/20261111/)
+- [Feedback experiments: seven training variants and 256 Palace designs (augmentation gate failed)](results/feedback/20261111/)
 
 - [Round 3: completed schedule comparison and frozen confirmation plan](results/round3/11802771/)
 - [Original Fourier, direct diffusion, DDIM, and residual experiments](results/remaining/11603443/)

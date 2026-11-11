@@ -1,0 +1,12 @@
+{
+  "reference_mean": 0.04188154089993614,
+  "reference_p95": 0.11097340725325006,
+  "refinement_max": 0.042943306267261505,
+  "thresholds": {
+    "reference_mean": 0.05,
+    "reference_p95": 0.1,
+    "refinement_max": 0.02
+  },
+  "passed": false,
+  "note": "No fitted scale, no removed spikes. Passing allows a separate augmentation experiment; it does not prove staff-source equivalence."
+}

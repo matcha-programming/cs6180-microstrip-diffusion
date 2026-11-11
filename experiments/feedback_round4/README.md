@@ -58,3 +58,7 @@ Campaign root: `/scratch/he.zit/cs6180-microstrip-experiments/feedback-20261111`
 5. Review the compatibility gate before any augmentation. Review the training screen before expensive confirmation or held-out scoring.
 
 Jobs have distinct output directories. Never resubmit an uncertain submission without checking Slurm and the recorded job IDs. Completed cases are checksum-verified during packing; failed cases retain their diagnostic logs. Training saves model, EMA, optimizer, scheduler and RNG state at epoch boundaries. Automatic resume is not implemented for this new trainer; inspect a stopped run before adding recovery. A timeout is reported as incomplete.
+
+## Completed campaign
+
+The [results report](../../results/feedback/20261111/) contains the completed seven-variant screen and 256 generated Palace designs. All 288 simulation cases passed structural and solver checks, but the reference p95 and mesh-refinement limits failed; the generated dataset remains separate from course training. `finish_palace.sbatch` verifies every case, calls the packer, and checks all packed rows and the gate calculation. `report_palace.py` produces the fixed-row field previews and compatibility diagnostics. The build scripts record the recovery sequence used on HPC; they are not a tested single-command installation recipe for a fresh machine.

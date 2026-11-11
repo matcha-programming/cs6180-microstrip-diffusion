@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-11T20:13:44.409586+00:00",
+  "updated_at_utc": "2026-11-11T20:40:21.907063+00:00",
   "remote_root": "/scratch/he.zit/cs6180-microstrip-experiments/feedback-20261111",
   "branch": "codex/palace-feedback-20261110",
   "jobs": {
@@ -24,7 +24,10 @@
     "palace_cxx_runtime_recovery": 11819135,
     "palace_offline_runtime": 11819182,
     "palace_verified_pilot": 11819206,
-    "palace_remaining_shards": 11819558
+    "palace_remaining_shards": 11819558,
+    "palace_finish": 11819947,
+    "palace_report": 11819993,
+    "palace_report_figure_revision": 11820019
   },
   "verified_completed": [
     "palace_input_preparation",
@@ -35,26 +38,29 @@
     "training_array",
     "training_report",
     "palace_offline_runtime",
-    "palace_verified_pilot"
+    "palace_verified_pilot",
+    "palace_remaining_shards",
+    "palace_finish",
+    "palace_report",
+    "palace_report_figure_revision"
   ],
   "initial_build_failure": "MFEM example omitted static HYPRE BLAS/LAPACK dependency; recovery enables MFEM_USE_LAPACK",
   "training_status": "All seven 100-epoch variants and report completed; 47 evidence files hash-verified and per-design averages recomputed locally.",
-  "palace_status": "Pilot11819206 COMPLETED in6m13s; all18cases passed structural verification. All18PCG solves converged and logs confirm ground3/terminal4 Dirichlet conditions. Remaining shards1-15 submitted as11819558 with max4concurrent. Full288case compatibility/refinement gate pending.",
+  "palace_status": "All288simulations completed and passed structural/solver checks. Packed256newdesigns; all rows and HDF5 hash verified. Compatibility gate FAILED: mean4.188%,p9511.097%,maxrefinement4.294%. Keep separate; no augmentation performed.",
   "publication": {
     "user_approved": true,
     "pull_request": "https://github.com/matcha-programming/cs6180-microstrip-diffusion/pull/4",
-    "status": "Draft PR published with completed validation screen; Palace simulation results pending."
+    "status": "Final report prepared; feature branch/PR only. No merge authorized."
   },
   "recurring_monitor": {
     "id": "finish-palace-and-feedback-experiments",
-    "status": "ACTIVE",
+    "status": "ACTIVE until final publication verified",
     "interval_minutes": 20,
     "user_approved": true
   },
   "remaining": [
-    "Complete remaining15Palace shards11819558; verify all288case artifacts",
-    "Pack256new+24reference+8refinement cases and evaluate quality gate",
-    "Publish verified simulation summaries and gate outcome through feature branch/PR",
-    "Review confirmation protocol before new training or held-out scoring"
-  ]
+    "Publish and verify final report, artifacts, source hashes and root overview",
+    "Remove follow-up after verified publication"
+  ],
+  "campaign_status": "complete; final publication verification pending"
 }

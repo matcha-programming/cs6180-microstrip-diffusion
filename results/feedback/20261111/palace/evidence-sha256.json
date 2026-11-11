@@ -1,0 +1,22 @@
+{
+  "artifacts": {
+    "all-case-verification.json": "84bd5253501f4e207da1bd16e7f835e980373579d827d49b8abd3045dd2bdbd0",
+    "quality-gate.json": "ea959a02d3b8b92221e2c4148f076693ce88a51cf808b814025cd8d9cbb179d1",
+    "complete.json": "c248c33e1051ff94467263e193f9c3c90ddc8bd957c83c9efd33bc3fe97cab23",
+    "dataset-verification.json": "ca612b105f4e71eb9cb52900ee6d5ee39e4d2475c055b5af15684a728823b571",
+    "sample-fields.png": "54fac11e47ebd278f14a875e5b53f5e79bd41792072bda2ac70723aeb67891cb",
+    "compatibility-diagnostics.png": "138a6d5d14c1788089d69a7b1675b02473760dc282815208011d2fcd580365f0",
+    "cases.json": "3fbb6097e1ac1287a3f95aaa5b32fac00bf465dcbde25fbad0d531507a9ba0b8"
+  },
+  "source_files": {
+    "experiments/feedback_round4/palace_data.py": "1dd50e38b70b97948b651e942ad75291e980bc802cd460c2649a458fced3c372",
+    "experiments/feedback_round4/verify_palace_pilot.py": "b829beff7f3ad46711a711074c992fb88ca45dcca9160de1052082635d78bb75",
+    "experiments/feedback_round4/verify_palace_dataset.py": "766e033b32dd7d70449499a7dd21475c00f629900c8b231046e16fca9182fbea",
+    "experiments/feedback_round4/finish_palace.sbatch": "e1c49fe03a6139ce46eccead32551b56af9186037a25cf6a127c25a93d1a7b69",
+    "experiments/feedback_round4/report_palace.py": "dc6fdec979dbc22948a05369871687d053bb64e0078930d44e3b36443b1887ee",
+    "experiments/feedback_round4/report_palace.sbatch": "dcef98722f485f907ae2c7764b65cc5ca17527920212b751aebff186c08e648c",
+    "palace_regen/regen.py": "bb919f44e9d481687a91d96714d9f4ca5c6cce705635232011a6ded6a4b0ac06",
+    "palace_regen/staffpipe.py": "76e1ed7735bc3310a7513fdb1cfaecf378c8eaff08e8292827923a960f63cdcf",
+    "palace_regen/resample.py": "cc7e44e148b852b7085e4feb652826c34fa6defe43cc0ee455c308e2bd774508"
+  }
+}
